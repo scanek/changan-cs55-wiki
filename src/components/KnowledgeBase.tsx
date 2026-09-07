@@ -140,15 +140,15 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
 
   // ATLAS CATEGORIES
   const atlasCategories = [
-    { id: 'all', title: 'Все схемы', count: SCHEMES_CATALOG.length },
-    { id: 'engine_transmission', title: '⚙️ ДВС и 7DCT', count: SCHEMES_CATALOG.filter((s) => s.category === 'engine_transmission').length },
-    { id: 'lighting_body', title: '💡 Освещение и кузов', count: SCHEMES_CATALOG.filter((s) => s.category === 'lighting_body').length },
-    { id: 'climate_comfort', title: '❄️ Климат и обогревы', count: SCHEMES_CATALOG.filter((s) => s.category === 'climate_comfort').length },
-    { id: 'safety_chassis', title: '🛡️ Шасси, Тормоза и ADAS', count: SCHEMES_CATALOG.filter((s) => s.category === 'safety_chassis').length },
-    { id: 'multimedia_network', title: '🎵 Мультимедиа и CAN', count: SCHEMES_CATALOG.filter((s) => s.category === 'multimedia_network').length },
-    { id: 'connectors', title: '🔌 Распиновки разъемов', count: SCHEMES_CATALOG.filter((s) => s.category === 'connectors').length },
-    { id: 'grounding', title: '📍 Точки массы (GND)', count: SCHEMES_CATALOG.filter((s) => s.category === 'grounding').length },
-    { id: 'harnesses', title: '🗺️ Трассировка жгутов', count: SCHEMES_CATALOG.filter((s) => s.category === 'harnesses').length },
+    { id: 'all', title: 'Все схемы и системы', emoji: '📚', count: SCHEMES_CATALOG.length },
+    { id: 'engine_transmission', title: 'ДВС и трансмиссия 7DCT', emoji: '⚙️', count: SCHEMES_CATALOG.filter((s) => s.category === 'engine_transmission').length },
+    { id: 'lighting_body', title: 'Освещение и кузов', emoji: '💡', count: SCHEMES_CATALOG.filter((s) => s.category === 'lighting_body').length },
+    { id: 'climate_comfort', title: 'Климат-контроль и обогревы', emoji: '❄️', count: SCHEMES_CATALOG.filter((s) => s.category === 'climate_comfort').length },
+    { id: 'safety_chassis', title: 'Шасси, тормоза и ADAS', emoji: '🛡️', count: SCHEMES_CATALOG.filter((s) => s.category === 'safety_chassis').length },
+    { id: 'multimedia_network', title: 'Мультимедиа, экран и CAN', emoji: '🎵', count: SCHEMES_CATALOG.filter((s) => s.category === 'multimedia_network').length },
+    { id: 'connectors', title: 'Распиновки разъемов', emoji: '🔌', count: SCHEMES_CATALOG.filter((s) => s.category === 'connectors').length },
+    { id: 'grounding', title: 'Точки массы кузова (GND)', emoji: '📍', count: SCHEMES_CATALOG.filter((s) => s.category === 'grounding').length },
+    { id: 'harnesses', title: 'Трассировка жгутов', emoji: '🗺️', count: SCHEMES_CATALOG.filter((s) => s.category === 'harnesses').length },
   ];
 
   // Filtered Atlas Schemes
@@ -301,32 +301,32 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
     <div className="space-y-6">
       {/* Top Knowledge Sub-navigation Bar */}
       <div className="flex items-center justify-between flex-wrap gap-3 pb-2 border-b border-slate-200 dark:border-dark-750">
-        <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 py-1 w-full">
+        <div className="flex lg:grid lg:grid-cols-7 items-center lg:items-stretch gap-1.5 sm:gap-2 py-1 w-full overflow-x-auto lg:overflow-visible scrollbar-none">
           <button
             type="button"
             onClick={() => setSubTab('fuses')}
-            className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap border ${
+            className={`flex-shrink-0 lg:flex-shrink flex items-center justify-center space-x-1.5 px-2.5 lg:px-1 xl:px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-all whitespace-nowrap border ${
               subTab === 'fuses'
                 ? 'bg-brand-600 text-white shadow-md shadow-brand-600/20 border-brand-600'
                 : 'bg-white dark:bg-dark-850 border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 hover:border-slate-300 dark:hover:border-dark-700 shadow-sm'
             }`}
           >
-            <Zap className="w-4 h-4 text-amber-500" />
+            <Zap className="w-4 h-4 text-amber-500 flex-shrink-0" />
             <span>Предохранители</span>
           </button>
 
           <button
             type="button"
             onClick={() => setSubTab('atlas')}
-            className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap border ${
+            className={`flex-shrink-0 lg:flex-shrink flex items-center justify-center space-x-1.5 px-2.5 lg:px-1 xl:px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-all whitespace-nowrap border ${
               subTab === 'atlas'
                 ? 'bg-brand-600 text-white shadow-md shadow-brand-600/20 border-brand-600'
                 : 'bg-white dark:bg-dark-850 border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 hover:border-slate-300 dark:hover:border-dark-700 shadow-sm'
             }`}
           >
-            <Layers className="w-4 h-4 text-indigo-500" />
+            <Layers className="w-4 h-4 text-indigo-500 flex-shrink-0" />
             <span>Атлас схем</span>
-            <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono ${subTab === 'atlas' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
+            <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'atlas' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
               674
             </span>
           </button>
@@ -334,15 +334,15 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
           <button
             type="button"
             onClick={() => setSubTab('procedures')}
-            className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap border ${
+            className={`flex-shrink-0 lg:flex-shrink flex items-center justify-center space-x-1.5 px-2.5 lg:px-1 xl:px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-all whitespace-nowrap border ${
               subTab === 'procedures'
                 ? 'bg-brand-600 text-white shadow-md shadow-brand-600/20 border-brand-600'
                 : 'bg-white dark:bg-dark-850 border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 hover:border-slate-300 dark:hover:border-dark-700 shadow-sm'
             }`}
           >
-            <Cpu className="w-4 h-4 text-emerald-500" />
-            <span>Калибровки и сбросы</span>
-            <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono ${subTab === 'procedures' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
+            <Cpu className="w-4 h-4 text-emerald-500 flex-shrink-0" />
+            <span>Калибровки<span className="hidden xl:inline"> и сбросы</span></span>
+            <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'procedures' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
               7
             </span>
           </button>
@@ -350,31 +350,31 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
           <button
             type="button"
             onClick={() => setSubTab('manual')}
-            className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap border ${
+            className={`flex-shrink-0 lg:flex-shrink flex items-center justify-center space-x-1.5 px-2.5 lg:px-1 xl:px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-all whitespace-nowrap border ${
               subTab === 'manual'
                 ? 'bg-brand-600 text-white shadow-md shadow-brand-600/20 border-brand-600'
                 : 'bg-white dark:bg-dark-850 border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 hover:border-slate-300 dark:hover:border-dark-700 shadow-sm'
             }`}
           >
-            <FileText className="w-4 h-4 text-sky-500" />
+            <FileText className="w-4 h-4 text-sky-500 flex-shrink-0" />
             <span>Мануал ТО</span>
-            <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono ${subTab === 'manual' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
-              1719 стр
+            <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'manual' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
+              1719
             </span>
           </button>
 
           <button
             type="button"
             onClick={() => setSubTab('dtc')}
-            className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap border ${
+            className={`flex-shrink-0 lg:flex-shrink flex items-center justify-center space-x-1.5 px-2.5 lg:px-1 xl:px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-all whitespace-nowrap border ${
               subTab === 'dtc'
                 ? 'bg-brand-600 text-white shadow-md shadow-brand-600/20 border-brand-600'
                 : 'bg-white dark:bg-dark-850 border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 hover:border-slate-300 dark:hover:border-dark-700 shadow-sm'
             }`}
           >
-            <AlertTriangle className="w-4 h-4 text-amber-500" />
+            <AlertTriangle className="w-4 h-4 text-amber-500 flex-shrink-0" />
             <span>Сканер DTC</span>
-            <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono ${subTab === 'dtc' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
+            <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'dtc' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
               1391
             </span>
           </button>
@@ -382,28 +382,28 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
           <button
             type="button"
             onClick={() => setSubTab('specs')}
-            className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap border ${
+            className={`flex-shrink-0 lg:flex-shrink flex items-center justify-center space-x-1.5 px-2.5 lg:px-1 xl:px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-all whitespace-nowrap border ${
               subTab === 'specs'
                 ? 'bg-brand-600 text-white shadow-md shadow-brand-600/20 border-brand-600'
                 : 'bg-white dark:bg-dark-850 border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 hover:border-slate-300 dark:hover:border-dark-700 shadow-sm'
             }`}
           >
-            <Droplets className="w-4 h-4 text-cyan-500" />
+            <Droplets className="w-4 h-4 text-cyan-500 flex-shrink-0" />
             <span>Объемы и ТО</span>
           </button>
 
           <button
             type="button"
             onClick={() => setSubTab('glossary')}
-            className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap border ${
+            className={`flex-shrink-0 lg:flex-shrink flex items-center justify-center space-x-1.5 px-2.5 lg:px-1 xl:px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-all whitespace-nowrap border ${
               subTab === 'glossary'
                 ? 'bg-brand-600 text-white shadow-md shadow-brand-600/20 border-brand-600'
                 : 'bg-white dark:bg-dark-850 border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 hover:border-slate-300 dark:hover:border-dark-700 shadow-sm'
             }`}
           >
-            <BookOpen className="w-4 h-4 text-purple-500" />
+            <BookOpen className="w-4 h-4 text-purple-500 flex-shrink-0" />
             <span>Словарь</span>
-            <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono ${subTab === 'glossary' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
+            <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'glossary' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
               63
             </span>
           </button>
@@ -826,77 +826,62 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                   )}
                 </div>
 
-                {/* Категории атласа в 2 строки без горизонтальной прокрутки */}
-                <div className="space-y-2 text-xs">
-                  {/* Строка 1: Основные агрегаты и системы */}
-                  <div className="flex flex-wrap items-center gap-1.5">
-                    {atlasCategories.slice(0, 5).map((cat) => {
-                      const isActive = selectedAtlasCat === cat.id;
-                      return (
-                        <button
-                          key={cat.id}
-                          type="button"
-                          onClick={() => {
-                            setSelectedAtlasCat(cat.id);
-                            setAtlasLimit(36);
-                          }}
-                          className={`px-3 py-1.5 rounded-xl font-bold transition flex items-center space-x-1.5 ${
+                {/* Категории атласа: аккуратная адаптивная сетка 3x3 */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 text-xs">
+                  {atlasCategories.map((cat) => {
+                    const isActive = selectedAtlasCat === cat.id;
+                    return (
+                      <button
+                        key={cat.id}
+                        type="button"
+                        onClick={() => {
+                          setSelectedAtlasCat(cat.id);
+                          setAtlasLimit(36);
+                        }}
+                        className={`flex items-center justify-between px-3.5 py-2.5 rounded-xl font-bold transition-all border text-left ${
+                          isActive
+                            ? 'bg-brand-600 text-white border-brand-600 shadow-md shadow-brand-600/20'
+                            : 'bg-white dark:bg-dark-850 border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 hover:border-brand-500/30 shadow-sm'
+                        }`}
+                      >
+                        <div className="flex items-center space-x-2.5 min-w-0">
+                          <span className="text-base flex-shrink-0">{cat.emoji}</span>
+                          <span className="truncate">{cat.title}</span>
+                        </div>
+                        <span
+                          className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded-md flex-shrink-0 ml-2 ${
                             isActive
-                              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20'
-                              : 'bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:border-indigo-300 dark:hover:border-dark-700 hover:bg-slate-50 dark:hover:bg-dark-800 shadow-sm'
+                              ? 'bg-white/20 text-white'
+                              : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'
                           }`}
                         >
-                          <span>{cat.title}</span>
-                          <span
-                            className={`text-[10px] px-1.5 py-0.5 rounded-full ${
-                              isActive ? 'bg-white/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'
-                            }`}
-                          >
-                            {cat.count}
-                          </span>
-                        </button>
-                      );
-                    })}
-                  </div>
-
-                  {/* Строка 2: Мультимедиа, разъемы, масса и жгуты */}
-                  <div className="flex flex-wrap items-center gap-1.5">
-                    {atlasCategories.slice(5).map((cat) => {
-                      const isActive = selectedAtlasCat === cat.id;
-                      return (
-                        <button
-                          key={cat.id}
-                          type="button"
-                          onClick={() => {
-                            setSelectedAtlasCat(cat.id);
-                            setAtlasLimit(36);
-                          }}
-                          className={`px-3 py-1.5 rounded-xl font-bold transition flex items-center space-x-1.5 ${
-                            isActive
-                              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20'
-                              : 'bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:border-indigo-300 dark:hover:border-dark-700 hover:bg-slate-50 dark:hover:bg-dark-800 shadow-sm'
-                          }`}
-                        >
-                          <span>{cat.title}</span>
-                          <span
-                            className={`text-[10px] px-1.5 py-0.5 rounded-full ${
-                              isActive ? 'bg-white/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'
-                            }`}
-                          >
-                            {cat.count}
-                          </span>
-                        </button>
-                      );
-                    })}
-                  </div>
+                          {cat.count}
+                        </span>
+                      </button>
+                    );
+                  })}
                 </div>
               </div>
 
               <div className="space-y-3">
                 <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 px-1">
-                  <span>
-                    Найдено: <strong className="text-slate-900 dark:text-white">{filteredSchemes.length}</strong> схем
-                  </span>
+                  <div className="flex items-center space-x-2">
+                    <span>
+                      Найдено: <strong className="text-slate-900 dark:text-white">{filteredSchemes.length}</strong> схем
+                    </span>
+                    {selectedAtlasCat !== 'all' && (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setSelectedAtlasCat('all');
+                          setAtlasLimit(36);
+                        }}
+                        className="text-brand-500 hover:underline font-bold"
+                      >
+                        (сбросить фильтр)
+                      </button>
+                    )}
+                  </div>
                   <span>
                     Показано: {Math.min(atlasLimit, filteredSchemes.length)} из {filteredSchemes.length}
                   </span>
