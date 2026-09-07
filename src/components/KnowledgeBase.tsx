@@ -773,7 +773,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
 
                   <div className="flex flex-wrap items-center gap-2">
                     <a
-                      href="/downloads/CS55_Plus_Service_Manual.pdf"
+                      href={getAssetUrl('downloads/CS55_Plus_Service_Manual.pdf')}
                       download="CS55_Plus_Руководство_по_ТО_и_ремонту.pdf"
                       className="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl bg-white text-indigo-900 hover:bg-indigo-50 dark:bg-indigo-500 dark:hover:bg-indigo-600 dark:text-white text-xs font-bold transition shadow-md shadow-indigo-950/20"
                     >
@@ -781,7 +781,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                       <span>Мануал ТО (PDF 32 MB)</span>
                     </a>
                     <a
-                      href="/downloads/Changan_CS55_Plus_Wiring_Schemes.zip"
+                      href={getAssetUrl('downloads/Changan_CS55_Plus_Wiring_Schemes.zip')}
                       download="Changan_CS55_Plus_Электросхемы.zip"
                       className="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl bg-white/15 hover:bg-white/25 text-white text-xs font-bold transition border border-white/20"
                     >
@@ -789,7 +789,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                       <span>Архив схем (ZIP 50 MB)</span>
                     </a>
                     <a
-                      href="/downloads/Changan_UNI-S_DTC_Codes.pdf"
+                      href={getAssetUrl('downloads/Changan_UNI-S_DTC_Codes.pdf')}
                       download="Коды_ошибок_UNI-S_DTC.pdf"
                       className="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl bg-white/15 hover:bg-white/25 text-white text-xs font-bold transition border border-white/20"
                     >
@@ -1124,7 +1124,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                     </p>
                   </div>
                   <a
-                    href="/downloads/CS55_Plus_Service_Manual.pdf"
+                    href={getAssetUrl('downloads/CS55_Plus_Service_Manual.pdf')}
                     download="CS55_Plus_Руководство_по_ТО_и_ремонту.pdf"
                     className="inline-flex items-center space-x-1.5 px-4 py-2.5 rounded-xl bg-white text-sky-900 hover:bg-sky-50 dark:bg-sky-500 dark:hover:bg-sky-600 dark:text-white text-xs font-bold transition shadow-md shadow-sky-950/20 flex-shrink-0"
                   >
@@ -1164,7 +1164,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                           ГЛАВА {sec.chapterNumber}
                         </span>
                         <a
-                          href={`/downloads/CS55_Plus_Service_Manual.pdf#page=${sec.page}`}
+                          href={`${getAssetUrl('downloads/CS55_Plus_Service_Manual.pdf')}#page=${sec.page}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-xs font-mono font-bold text-slate-500 hover:text-sky-600 dark:hover:text-sky-400 flex items-center space-x-1"
@@ -1191,7 +1191,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                         {sec.subsections.map((sub, idx) => (
                           <a
                             key={idx}
-                            href={`/downloads/CS55_Plus_Service_Manual.pdf#page=${sub.page}`}
+                            href={`${getAssetUrl('downloads/CS55_Plus_Service_Manual.pdf')}#page=${sub.page}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-xs text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 py-1 px-2 rounded-lg hover:bg-slate-50 dark:hover:bg-dark-750 flex items-center justify-between transition"
