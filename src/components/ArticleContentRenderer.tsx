@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Check, Copy, ExternalLink, Camera, AlertCircle, ChevronRight } from 'lucide-react';
+import { Check, Copy, ExternalLink, Camera, AlertCircle, ChevronRight, ZoomIn, ZoomOut, X, Maximize2 } from 'lucide-react';
+import { getAssetUrl } from '../utils/assets';
 
 interface ArticleContentRendererProps {
   content: string;
@@ -7,6 +8,8 @@ interface ArticleContentRendererProps {
 
 export const ArticleContentRenderer: React.FC<ArticleContentRendererProps> = ({ content }) => {
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
+  const [activeModalImage, setActiveModalImage] = useState<{ url: string; caption: string } | null>(null);
+  const [zoomLevel, setZoomLevel] = useState<number>(1);
 
   const handleCopy = (code: string) => {
     navigator.clipboard.writeText(code);
@@ -115,7 +118,46 @@ export const ArticleContentRenderer: React.FC<ArticleContentRendererProps> = ({ 
           );
         }
 
-        // 2. Callouts
+        // 2. Markdown Images: ![Caption](url)
+        const imgMatch = trimmed.match(/^!\[(.*?)\]\((.*?)\)$/);
+        if (imgMatch) {
+          const caption = imgMatch[1];
+          const rawSrc = imgMatch[2];
+          const resolvedSrc = getAssetUrl(rawSrc);
+
+          return (
+            <figure key={idx} className="my-5 space-y-2 group">
+              <div
+                onClick={() => {
+                  setActiveModalImage({ url: resolvedSrc, caption });
+                  setZoomLevel(1);
+                }}
+                className="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-dark-750 bg-slate-100 dark:bg-dark-900/60 cursor-pointer shadow-sm hover:shadow-md hover:border-brand-500/50 transition-all flex items-center justify-center p-1 sm:p-2"
+              >
+                <img
+                  src={resolvedSrc}
+                  alt={caption}
+                  loading="lazy"
+                  className="w-auto h-auto max-h-[520px] max-w-full object-contain rounded-xl group-hover:scale-[1.01] transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center pointer-events-none rounded-xl">
+                  <span className="opacity-0 group-hover:opacity-100 transition-opacity bg-black/75 backdrop-blur-md text-white text-xs font-bold px-3 py-1.5 rounded-xl flex items-center space-x-1.5 shadow-lg">
+                    <Maximize2 className="w-3.5 h-3.5" />
+                    <span>Увеличить фото</span>
+                  </span>
+                </div>
+              </div>
+              {caption && (
+                <figcaption className="text-center text-xs text-slate-500 dark:text-slate-400 font-medium flex items-center justify-center space-x-1.5 pt-0.5">
+                  <Camera className="w-3.5 h-3.5 text-brand-500 flex-shrink-0" />
+                  <span>{caption}</span>
+                </figcaption>
+              )}
+            </figure>
+          );
+        }
+
+        // 3. Callouts
         if (trimmed.startsWith('> [!NOTE]') || trimmed.startsWith('>')) {
           const calloutBody = trimmed
             .replace(/^>\s*\[!NOTE\]\s*/, '')
@@ -132,7 +174,7 @@ export const ArticleContentRenderer: React.FC<ArticleContentRendererProps> = ({ 
           );
         }
 
-        // 3. Photo references
+        // 4. Legacy photo references fallback
         if (trimmed.startsWith('*📷 Фото:') || trimmed.startsWith('📷 Фото:')) {
           const photoCaption = trimmed.replace(/^\*?📷\s*Фото:\s*/, '').replace(/\*$/, '');
           return (
@@ -146,7 +188,7 @@ export const ArticleContentRenderer: React.FC<ArticleContentRendererProps> = ({ 
           );
         }
 
-        // 4. Code block
+        // 5. Code block
         if (trimmed.startsWith('```')) {
           const codeLines = trimmed.replace(/^```[a-z]*\n?/, '').replace(/\n?```$/, '');
           return (
@@ -178,7 +220,7 @@ export const ArticleContentRenderer: React.FC<ArticleContentRendererProps> = ({ 
           );
         }
 
-        // 5. Unordered List
+        // 6. Unordered List
         if (trimmed.startsWith('* ') || trimmed.startsWith('- ')) {
           const items = trimmed.split(/\n/).filter((l) => l.trim().startsWith('* ') || l.trim().startsWith('- '));
           return (
@@ -196,13 +238,92 @@ export const ArticleContentRenderer: React.FC<ArticleContentRendererProps> = ({ 
           );
         }
 
-        // 6. Regular Paragraph
+        // 7. Regular Paragraph
         return (
           <p key={idx} className="text-xs sm:text-sm leading-relaxed text-slate-700 dark:text-slate-300">
             {renderInline(trimmed)}
           </p>
         );
       })}
+
+      {/* Lightbox Zoom Modal */}
+      {activeModalImage && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/90 backdrop-blur-md animate-fadeIn">
+          <div className="bg-white dark:bg-dark-850 rounded-3xl border border-slate-200 dark:border-dark-700 shadow-2xl w-full max-w-5xl h-[90vh] flex flex-col overflow-hidden">
+            {/* Header bar */}
+            <div className="flex items-center justify-between px-5 py-3 border-b border-slate-200 dark:border-dark-750">
+              <div className="flex items-center space-x-2">
+                <Camera className="w-4 h-4 text-brand-500 flex-shrink-0" />
+                <h3 className="font-bold text-xs sm:text-sm text-slate-900 dark:text-white line-clamp-1 max-w-md">
+                  {activeModalImage.caption || 'Иллюстрация к статье'}
+                </h3>
+              </div>
+
+              <div className="flex items-center space-x-1.5 sm:space-x-2">
+                <button
+                  type="button"
+                  onClick={() => setZoomLevel((z) => Math.max(0.5, z - 0.25))}
+                  className="p-1.5 rounded-xl bg-slate-100 dark:bg-dark-750 hover:bg-slate-200 dark:hover:bg-dark-700 text-slate-700 dark:text-slate-300 transition"
+                  title="Уменьшить"
+                >
+                  <ZoomOut className="w-4 h-4" />
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setZoomLevel(1)}
+                  className="px-2.5 py-1 text-xs font-mono font-bold rounded-xl bg-slate-100 dark:bg-dark-750 hover:bg-slate-200 dark:hover:bg-dark-700 text-slate-700 dark:text-slate-300 transition"
+                  title="Сбросить масштаб"
+                >
+                  {Math.round(zoomLevel * 100)}%
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setZoomLevel((z) => Math.min(3, z + 0.25))}
+                  className="p-1.5 rounded-xl bg-slate-100 dark:bg-dark-750 hover:bg-slate-200 dark:hover:bg-dark-700 text-slate-700 dark:text-slate-300 transition"
+                  title="Увеличить"
+                >
+                  <ZoomIn className="w-4 h-4" />
+                </button>
+
+                <div className="h-5 w-px bg-slate-200 dark:bg-dark-700 mx-1" />
+
+                <a
+                  href={activeModalImage.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-brand-50 dark:bg-brand-950/50 hover:bg-brand-100 dark:hover:bg-brand-900/50 text-brand-600 dark:text-brand-400 text-xs font-bold transition"
+                  title="Открыть оригинал в новой вкладке"
+                >
+                  <ExternalLink className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">Оригинал</span>
+                </a>
+
+                <button
+                  type="button"
+                  onClick={() => setActiveModalImage(null)}
+                  className="p-1.5 rounded-xl text-slate-400 hover:text-slate-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-dark-750 transition ml-1"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+            </div>
+
+            {/* Image viewport */}
+            <div className="flex-1 overflow-auto p-4 bg-slate-100 dark:bg-dark-900 flex items-center justify-center">
+              <div
+                style={{ transform: `scale(${zoomLevel})`, transformOrigin: 'center center' }}
+                className="transition-transform duration-200 max-w-full"
+              >
+                <img
+                  src={activeModalImage.url}
+                  alt={activeModalImage.caption}
+                  className="rounded-xl shadow-2xl border border-slate-200 dark:border-dark-800 object-contain max-h-[75vh]"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

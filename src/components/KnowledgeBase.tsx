@@ -38,7 +38,8 @@ import {
   Sliders,
   HelpCircle,
   Monitor,
-  ArrowLeft
+  ArrowLeft,
+  Camera
 } from 'lucide-react';
 import { FuseBox, FuseItem, SchemeItem } from '../types';
 import { getAssetUrl } from '../utils/assets';
@@ -1700,6 +1701,12 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                       {activeArticle.date}
                     </span>
                   )}
+                  {activeArticle.imagesCount && activeArticle.imagesCount > 0 && (
+                    <span className="text-xs font-mono text-amber-600 dark:text-amber-400 px-2 py-0.5 rounded-lg bg-amber-500/10 border border-amber-500/20 flex items-center space-x-1">
+                      <Camera className="w-3 h-3" />
+                      <span>{activeArticle.imagesCount} фото и схем</span>
+                    </span>
+                  )}
                 </div>
 
                 <h1 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white leading-tight">
@@ -1834,6 +1841,23 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                       className="group cursor-pointer bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 hover:border-brand-500/50 rounded-2xl p-5 shadow-sm hover:shadow-md transition flex flex-col justify-between"
                     >
                       <div className="space-y-3">
+                        {art.heroImage && (
+                          <div className="w-full h-44 rounded-xl overflow-hidden bg-slate-100 dark:bg-dark-900 relative">
+                            <img
+                              src={getAssetUrl(art.heroImage)}
+                              alt={art.title}
+                              loading="lazy"
+                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            />
+                            {art.imagesCount && art.imagesCount > 0 ? (
+                              <span className="absolute bottom-2 right-2 px-2 py-0.5 rounded-lg bg-black/75 backdrop-blur-sm text-[10px] font-mono text-white flex items-center space-x-1 shadow">
+                                <Camera className="w-3 h-3 text-amber-400" />
+                                <span>{art.imagesCount} фото</span>
+                              </span>
+                            ) : null}
+                          </div>
+                        )}
+
                         <div className="flex items-center justify-between gap-2">
                           <span className="text-[11px] font-bold px-2 py-0.5 rounded-md bg-brand-50 dark:bg-brand-950/40 text-brand-600 dark:text-brand-400 border border-brand-200 dark:border-brand-800">
                             {art.categoryTitle}
