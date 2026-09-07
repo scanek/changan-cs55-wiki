@@ -34,6 +34,7 @@ import {
   Gauge
 } from 'lucide-react';
 import { FuseBox, FuseItem, SchemeItem } from '../types';
+import { getAssetUrl } from '../utils/assets';
 import { CHANGAN_CS55_PLUS_FUSE_BOXES } from '../data/fuseBoxesData';
 import { DTC_CODES_DATABASE, SYSTEM_GLOSSARY } from '../data/dtcCodesData';
 import { CHANGAN_CS55_PLUS_SPECS } from '../data/vehicleSpecsData';
@@ -487,11 +488,14 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                   {currentBox.image && (
                     <button
                       type="button"
-                      onClick={() => setViewingSchemeImage(currentBox.image || null)}
+                      onClick={() => {
+                        setViewingSchemeImage(currentBox.image || null);
+                        setZoomLevel(1);
+                      }}
                       className="inline-flex items-center justify-center space-x-1.5 px-3 py-1.5 rounded-xl bg-brand-500 hover:bg-brand-600 text-white text-xs font-bold transition shadow-sm flex-shrink-0"
                     >
                       <Maximize2 className="w-3.5 h-3.5" />
-                      <span>Схема блока (Чертеж)</span>
+                      <span>Схема во весь экран</span>
                     </button>
                   )}
                 </div>
@@ -507,6 +511,52 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                   </div>
                 )}
               </div>
+
+              {/* VISUAL DIAGRAM CARD (Always visible for fast reference) */}
+              {currentBox.image && (
+                <div className="bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 rounded-2xl overflow-hidden shadow-sm transition hover:border-brand-500/50">
+                  <div className="flex items-center justify-between px-4 py-2.5 border-b border-slate-100 dark:border-dark-750 bg-slate-50/75 dark:bg-dark-800/60">
+                    <div className="flex items-center space-x-2">
+                      <div className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
+                      <span className="text-xs font-bold text-slate-800 dark:text-slate-200">
+                        Оригинальная схема и распиновка блока: {currentBox.title}
+                      </span>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setViewingSchemeImage(currentBox.image || null);
+                        setZoomLevel(1);
+                      }}
+                      className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-xl bg-brand-50 dark:bg-brand-950/40 hover:bg-brand-100 dark:hover:bg-brand-900/40 text-brand-600 dark:text-brand-400 text-xs font-bold transition"
+                    >
+                      <Maximize2 className="w-3.5 h-3.5" />
+                      <span>Открыть со зумом</span>
+                    </button>
+                  </div>
+
+                  <div
+                    onClick={() => {
+                      setViewingSchemeImage(currentBox.image || null);
+                      setZoomLevel(1);
+                    }}
+                    className="relative group cursor-pointer bg-slate-900/5 dark:bg-dark-900 flex items-center justify-center p-3 sm:p-5 overflow-hidden max-h-80 select-none"
+                    title="Нажмите для увеличения схемы со зумом"
+                  >
+                    <img
+                      src={getAssetUrl(currentBox.image)}
+                      alt={`Схема ${currentBox.title}`}
+                      className="max-h-72 w-auto object-contain rounded-lg transition-transform duration-300 group-hover:scale-[1.02] shadow-sm"
+                    />
+                    <div className="absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                      <div className="px-4 py-2 rounded-xl bg-slate-900/90 text-white text-xs font-bold flex items-center space-x-2 shadow-xl backdrop-blur-sm border border-white/10">
+                        <Maximize2 className="w-4 h-4 text-brand-400" />
+                        <span>Нажмите для полноэкранного просмотра со зумом</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               <div className="space-y-3">
                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5">
@@ -835,7 +885,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                       >
                         <div className="aspect-[4/3] bg-slate-100 dark:bg-dark-900 overflow-hidden relative">
                           <img
-                            src={scheme.image}
+                            src={getAssetUrl(scheme.image)}
                             alt={scheme.title}
                             loading="lazy"
                             className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
@@ -1522,32 +1572,72 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
       )}
 
       {/* ========================================================================= */}
-      {/* SCHEMATIC IMAGE VIEWER MODAL (FUSES) */}
+      {/* SCHEMATIC IMAGE VIEWER MODAL (FUSES) WITH ZOOM */}
       {/* ========================================================================= */}
       {viewingSchemeImage && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/80 backdrop-blur-sm animate-fadeIn">
-          <div className="bg-white dark:bg-dark-850 rounded-3xl border border-slate-200 dark:border-dark-700 shadow-2xl w-full max-w-5xl max-h-[90vh] flex flex-col overflow-hidden">
-            <div className="flex items-center justify-between px-5 py-3.5 border-b border-slate-200 dark:border-dark-750">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/90 backdrop-blur-md animate-fadeIn">
+          <div className="bg-white dark:bg-dark-850 rounded-3xl border border-slate-200 dark:border-dark-700 shadow-2xl w-full max-w-6xl h-[92vh] flex flex-col overflow-hidden">
+            <div className="flex items-center justify-between px-5 py-3 border-b border-slate-200 dark:border-dark-750">
               <div className="flex items-center space-x-2">
                 <Layers className="w-4 h-4 text-brand-500" />
-                <h3 className="font-bold text-sm text-slate-900 dark:text-white">
+                <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white line-clamp-1">
                   Заводская схема: {currentBox.title}
                 </h3>
               </div>
-              <div className="flex items-center space-x-2">
+
+              <div className="flex items-center space-x-1.5 sm:space-x-2">
+                <button
+                  type="button"
+                  onClick={() => setZoomLevel((z) => Math.max(0.5, z - 0.25))}
+                  className="p-1.5 rounded-xl bg-slate-100 dark:bg-dark-750 hover:bg-slate-200 dark:hover:bg-dark-700 text-slate-700 dark:text-slate-300 transition"
+                  title="Уменьшить"
+                >
+                  <ZoomOut className="w-4 h-4" />
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setZoomLevel(1)}
+                  className="px-2.5 py-1 text-xs font-mono font-bold rounded-xl bg-slate-100 dark:bg-dark-750 hover:bg-slate-200 dark:hover:bg-dark-700 text-slate-700 dark:text-slate-300 transition"
+                  title="Сбросить масштаб"
+                >
+                  {Math.round(zoomLevel * 100)}%
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setZoomLevel((z) => Math.min(3, z + 0.25))}
+                  className="p-1.5 rounded-xl bg-slate-100 dark:bg-dark-750 hover:bg-slate-200 dark:hover:bg-dark-700 text-slate-700 dark:text-slate-300 transition"
+                  title="Увеличить"
+                >
+                  <ZoomIn className="w-4 h-4" />
+                </button>
+
+                <div className="h-5 w-px bg-slate-200 dark:bg-dark-700 mx-1" />
+
                 <a
-                  href={viewingSchemeImage}
+                  href={getAssetUrl(viewingSchemeImage)}
+                  download={`${currentBox.id}_scheme.jpg`}
+                  className="inline-flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-dark-750 hover:bg-slate-200 dark:hover:bg-dark-700 text-slate-700 dark:text-slate-300 text-xs font-bold transition"
+                  title="Скачать схему блока"
+                >
+                  <Download className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">Скачать</span>
+                </a>
+
+                <a
+                  href={getAssetUrl(viewingSchemeImage)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-dark-750 hover:bg-slate-200 dark:hover:bg-dark-700 text-xs font-bold text-slate-700 dark:text-slate-300 transition"
+                  className="inline-flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-brand-50 dark:bg-brand-950/50 hover:bg-brand-100 dark:hover:bg-brand-900/50 text-brand-600 dark:text-brand-400 text-xs font-bold transition"
+                  title="Открыть в новой вкладке"
                 >
                   <ExternalLink className="w-3.5 h-3.5" />
-                  <span>Открыть оригинал</span>
+                  <span className="hidden sm:inline">Оригинал</span>
                 </a>
+
                 <button
                   type="button"
                   onClick={() => setViewingSchemeImage(null)}
-                  className="p-1.5 rounded-xl text-slate-400 hover:text-slate-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-dark-750 transition"
+                  className="p-1.5 rounded-xl text-slate-400 hover:text-slate-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-dark-750 transition ml-1"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -1555,11 +1645,16 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             </div>
 
             <div className="flex-1 overflow-auto p-4 bg-slate-100 dark:bg-dark-900 flex items-center justify-center">
-              <img
-                src={viewingSchemeImage}
-                alt="Схема расположения предохранителей"
-                className="max-w-full max-h-[75vh] object-contain rounded-xl shadow-lg border border-slate-200 dark:border-dark-800"
-              />
+              <div
+                style={{ transform: `scale(${zoomLevel})`, transformOrigin: 'center center' }}
+                className="transition-transform duration-200 max-w-full"
+              >
+                <img
+                  src={getAssetUrl(viewingSchemeImage)}
+                  alt={`Схема ${currentBox.title}`}
+                  className="rounded-xl shadow-2xl border border-slate-200 dark:border-dark-800 object-contain max-h-[78vh]"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -1610,7 +1705,17 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                 <div className="h-5 w-px bg-slate-200 dark:bg-dark-700 mx-1" />
 
                 <a
-                  href={activeModalScheme.image}
+                  href={getAssetUrl(activeModalScheme.image)}
+                  download={`${activeModalScheme.originalFile || activeModalScheme.id}.webp`}
+                  className="inline-flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-dark-750 hover:bg-slate-200 dark:hover:bg-dark-700 text-slate-700 dark:text-slate-300 text-xs font-bold transition"
+                  title="Скачать схему"
+                >
+                  <Download className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">Скачать</span>
+                </a>
+
+                <a
+                  href={getAssetUrl(activeModalScheme.image)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-indigo-50 dark:bg-indigo-950/50 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 text-indigo-600 dark:text-indigo-400 text-xs font-bold transition"
@@ -1636,7 +1741,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                 className="transition-transform duration-200 max-w-full"
               >
                 <img
-                  src={activeModalScheme.image}
+                  src={getAssetUrl(activeModalScheme.image)}
                   alt={activeModalScheme.title}
                   className="rounded-xl shadow-2xl border border-slate-200 dark:border-dark-800 object-contain max-h-[78vh]"
                 />

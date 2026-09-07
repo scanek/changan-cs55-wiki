@@ -16,7 +16,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Блоки предохранителей",
-    "image": "/schemes_atlas/scheme_0001.webp",
+    "image": "./schemes_atlas/scheme_0001.webp",
     "originalFile": "6.5-1.jpg"
   },
   {
@@ -25,7 +25,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Блоки предохранителей",
-    "image": "/schemes_atlas/scheme_0002.webp",
+    "image": "./schemes_atlas/scheme_0002.webp",
     "originalFile": "6.5-10.jpg"
   },
   {
@@ -34,7 +34,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Блоки предохранителей",
-    "image": "/schemes_atlas/scheme_0003.webp",
+    "image": "./schemes_atlas/scheme_0003.webp",
     "originalFile": "6.5-11.jpg"
   },
   {
@@ -43,7 +43,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Блоки предохранителей",
-    "image": "/schemes_atlas/scheme_0004.webp",
+    "image": "./schemes_atlas/scheme_0004.webp",
     "originalFile": "6.5-2.jpg"
   },
   {
@@ -52,7 +52,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Блоки предохранителей",
-    "image": "/schemes_atlas/scheme_0005.webp",
+    "image": "./schemes_atlas/scheme_0005.webp",
     "originalFile": "6.5-3.jpg"
   },
   {
@@ -61,7 +61,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Блоки предохранителей",
-    "image": "/schemes_atlas/scheme_0006.webp",
+    "image": "./schemes_atlas/scheme_0006.webp",
     "originalFile": "6.5-4.jpg"
   },
   {
@@ -70,7 +70,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Блоки предохранителей",
-    "image": "/schemes_atlas/scheme_0007.webp",
+    "image": "./schemes_atlas/scheme_0007.webp",
     "originalFile": "6.5-5.jpg"
   },
   {
@@ -79,7 +79,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Блоки предохранителей",
-    "image": "/schemes_atlas/scheme_0008.webp",
+    "image": "./schemes_atlas/scheme_0008.webp",
     "originalFile": "6.5-6.jpg"
   },
   {
@@ -88,7 +88,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Блоки предохранителей",
-    "image": "/schemes_atlas/scheme_0009.webp",
+    "image": "./schemes_atlas/scheme_0009.webp",
     "originalFile": "6.5-7.jpg"
   },
   {
@@ -97,7 +97,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Блоки предохранителей",
-    "image": "/schemes_atlas/scheme_0010.webp",
+    "image": "./schemes_atlas/scheme_0010.webp",
     "originalFile": "6.5-8.jpg"
   },
   {
@@ -106,7 +106,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Блоки предохранителей",
-    "image": "/schemes_atlas/scheme_0011.webp",
+    "image": "./schemes_atlas/scheme_0011.webp",
     "originalFile": "6.5-9.jpg"
   },
   {
@@ -115,7 +115,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0012.webp",
+    "image": "./schemes_atlas/scheme_0012.webp",
     "originalFile": "6.11.7-188.jpg"
   },
   {
@@ -124,7 +124,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0013.webp",
+    "image": "./schemes_atlas/scheme_0013.webp",
     "originalFile": "6.11.7-189.jpg"
   },
   {
@@ -133,7 +133,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0014.webp",
+    "image": "./schemes_atlas/scheme_0014.webp",
     "originalFile": "6.11.7-190.jpg"
   },
   {
@@ -142,7 +142,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0015.webp",
+    "image": "./schemes_atlas/scheme_0015.webp",
     "originalFile": "6.11.7-191.jpg"
   },
   {
@@ -151,7 +151,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0016.webp",
+    "image": "./schemes_atlas/scheme_0016.webp",
     "originalFile": "6.11.7-192.jpg"
   },
   {
@@ -160,7 +160,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0017.webp",
+    "image": "./schemes_atlas/scheme_0017.webp",
     "originalFile": "6.11.7-193.jpg"
   },
   {
@@ -169,7 +169,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0018.webp",
+    "image": "./schemes_atlas/scheme_0018.webp",
     "originalFile": "6.11.7-194.jpg"
   },
   {
@@ -178,7 +178,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0019.webp",
+    "image": "./schemes_atlas/scheme_0019.webp",
     "originalFile": "6.11.7-195.jpg"
   },
   {
@@ -187,7 +187,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0020.webp",
+    "image": "./schemes_atlas/scheme_0020.webp",
     "originalFile": "6.11.7-196.jpg"
   },
   {
@@ -196,7 +196,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0021.webp",
+    "image": "./schemes_atlas/scheme_0021.webp",
     "originalFile": "6.11.7-197.jpg"
   },
   {
@@ -205,7 +205,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0022.webp",
+    "image": "./schemes_atlas/scheme_0022.webp",
     "originalFile": "6.11.7-198.jpg"
   },
   {
@@ -214,7 +214,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0023.webp",
+    "image": "./schemes_atlas/scheme_0023.webp",
     "originalFile": "6.11.7-199.jpg"
   },
   {
@@ -223,7 +223,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0024.webp",
+    "image": "./schemes_atlas/scheme_0024.webp",
     "originalFile": "6.11.7-200.jpg"
   },
   {
@@ -232,7 +232,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0025.webp",
+    "image": "./schemes_atlas/scheme_0025.webp",
     "originalFile": "6.11.7-201.jpg"
   },
   {
@@ -241,7 +241,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0026.webp",
+    "image": "./schemes_atlas/scheme_0026.webp",
     "originalFile": "6.11.7-202.jpg"
   },
   {
@@ -250,7 +250,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0027.webp",
+    "image": "./schemes_atlas/scheme_0027.webp",
     "originalFile": "6.11.7-203.jpg"
   },
   {
@@ -259,7 +259,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0028.webp",
+    "image": "./schemes_atlas/scheme_0028.webp",
     "originalFile": "6.11.7-204.jpg"
   },
   {
@@ -268,7 +268,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0029.webp",
+    "image": "./schemes_atlas/scheme_0029.webp",
     "originalFile": "6.11.7-205.jpg"
   },
   {
@@ -277,7 +277,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0030.webp",
+    "image": "./schemes_atlas/scheme_0030.webp",
     "originalFile": "6.11.7-206.jpg"
   },
   {
@@ -286,7 +286,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0031.webp",
+    "image": "./schemes_atlas/scheme_0031.webp",
     "originalFile": "6.11.7-207.jpg"
   },
   {
@@ -295,7 +295,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0032.webp",
+    "image": "./schemes_atlas/scheme_0032.webp",
     "originalFile": "6.11.7-208.jpg"
   },
   {
@@ -304,7 +304,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0033.webp",
+    "image": "./schemes_atlas/scheme_0033.webp",
     "originalFile": "6.11.7-209.jpg"
   },
   {
@@ -313,7 +313,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0034.webp",
+    "image": "./schemes_atlas/scheme_0034.webp",
     "originalFile": "6.11.7-210.jpg"
   },
   {
@@ -322,7 +322,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0035.webp",
+    "image": "./schemes_atlas/scheme_0035.webp",
     "originalFile": "6.11.7-211.jpg"
   },
   {
@@ -331,7 +331,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0036.webp",
+    "image": "./schemes_atlas/scheme_0036.webp",
     "originalFile": "6.11.7-212.jpg"
   },
   {
@@ -340,7 +340,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0037.webp",
+    "image": "./schemes_atlas/scheme_0037.webp",
     "originalFile": "6.11.7-213.jpg"
   },
   {
@@ -349,7 +349,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0038.webp",
+    "image": "./schemes_atlas/scheme_0038.webp",
     "originalFile": "6.11.7-214.jpg"
   },
   {
@@ -358,7 +358,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0039.webp",
+    "image": "./schemes_atlas/scheme_0039.webp",
     "originalFile": "6.11.7-215.jpg"
   },
   {
@@ -367,7 +367,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0040.webp",
+    "image": "./schemes_atlas/scheme_0040.webp",
     "originalFile": "6.11.7-216.jpg"
   },
   {
@@ -376,7 +376,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0041.webp",
+    "image": "./schemes_atlas/scheme_0041.webp",
     "originalFile": "6.11.7-217.jpg"
   },
   {
@@ -385,7 +385,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0042.webp",
+    "image": "./schemes_atlas/scheme_0042.webp",
     "originalFile": "6.11.7-218.jpg"
   },
   {
@@ -394,7 +394,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0043.webp",
+    "image": "./schemes_atlas/scheme_0043.webp",
     "originalFile": "6.11.7-219.jpg"
   },
   {
@@ -403,7 +403,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов дверей D--",
-    "image": "/schemes_atlas/scheme_0044.webp",
+    "image": "./schemes_atlas/scheme_0044.webp",
     "originalFile": "6.11.7-220.jpg"
   },
   {
@@ -412,7 +412,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0045.webp",
+    "image": "./schemes_atlas/scheme_0045.webp",
     "originalFile": "6.11.3-70.jpg"
   },
   {
@@ -421,7 +421,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0046.webp",
+    "image": "./schemes_atlas/scheme_0046.webp",
     "originalFile": "6.11.3-71.jpg"
   },
   {
@@ -430,7 +430,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0047.webp",
+    "image": "./schemes_atlas/scheme_0047.webp",
     "originalFile": "6.11.3-72.jpg"
   },
   {
@@ -439,7 +439,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0048.webp",
+    "image": "./schemes_atlas/scheme_0048.webp",
     "originalFile": "6.11.3-73.jpg"
   },
   {
@@ -448,7 +448,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0049.webp",
+    "image": "./schemes_atlas/scheme_0049.webp",
     "originalFile": "6.11.3-74.jpg"
   },
   {
@@ -457,7 +457,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0050.webp",
+    "image": "./schemes_atlas/scheme_0050.webp",
     "originalFile": "6.11.3-75.jpg"
   },
   {
@@ -466,7 +466,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0051.webp",
+    "image": "./schemes_atlas/scheme_0051.webp",
     "originalFile": "6.11.3-76.jpg"
   },
   {
@@ -475,7 +475,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0052.webp",
+    "image": "./schemes_atlas/scheme_0052.webp",
     "originalFile": "6.11.3-77.jpg"
   },
   {
@@ -484,7 +484,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0053.webp",
+    "image": "./schemes_atlas/scheme_0053.webp",
     "originalFile": "6.11.3-78.jpg"
   },
   {
@@ -493,7 +493,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0054.webp",
+    "image": "./schemes_atlas/scheme_0054.webp",
     "originalFile": "6.11.3-79.jpg"
   },
   {
@@ -502,7 +502,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0055.webp",
+    "image": "./schemes_atlas/scheme_0055.webp",
     "originalFile": "6.11.3-80.jpg"
   },
   {
@@ -511,7 +511,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0056.webp",
+    "image": "./schemes_atlas/scheme_0056.webp",
     "originalFile": "6.11.3-81.jpg"
   },
   {
@@ -520,7 +520,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0057.webp",
+    "image": "./schemes_atlas/scheme_0057.webp",
     "originalFile": "6.11.3-82.jpg"
   },
   {
@@ -529,7 +529,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0058.webp",
+    "image": "./schemes_atlas/scheme_0058.webp",
     "originalFile": "6.11.3-83.jpg"
   },
   {
@@ -538,7 +538,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0059.webp",
+    "image": "./schemes_atlas/scheme_0059.webp",
     "originalFile": "6.11.3-84.jpg"
   },
   {
@@ -547,7 +547,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0060.webp",
+    "image": "./schemes_atlas/scheme_0060.webp",
     "originalFile": "6.11.3-85.jpg"
   },
   {
@@ -556,7 +556,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0061.webp",
+    "image": "./schemes_atlas/scheme_0061.webp",
     "originalFile": "6.11.3-86.jpg"
   },
   {
@@ -565,7 +565,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0062.webp",
+    "image": "./schemes_atlas/scheme_0062.webp",
     "originalFile": "6.11.3-87.jpg"
   },
   {
@@ -574,7 +574,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0063.webp",
+    "image": "./schemes_atlas/scheme_0063.webp",
     "originalFile": "6.11.3-88.jpg"
   },
   {
@@ -583,7 +583,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0064.webp",
+    "image": "./schemes_atlas/scheme_0064.webp",
     "originalFile": "6.11.3-89.jpg"
   },
   {
@@ -592,7 +592,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0065.webp",
+    "image": "./schemes_atlas/scheme_0065.webp",
     "originalFile": "6.11.3-90.jpg"
   },
   {
@@ -601,7 +601,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0066.webp",
+    "image": "./schemes_atlas/scheme_0066.webp",
     "originalFile": "6.11.3-91.jpg"
   },
   {
@@ -610,7 +610,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов двигателя Е--",
-    "image": "/schemes_atlas/scheme_0067.webp",
+    "image": "./schemes_atlas/scheme_0067.webp",
     "originalFile": "6.11.3-92.jpg"
   },
   {
@@ -619,7 +619,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов зад.бампера  J--",
-    "image": "/schemes_atlas/scheme_0068.webp",
+    "image": "./schemes_atlas/scheme_0068.webp",
     "originalFile": "6.11.6-184.jpg"
   },
   {
@@ -628,7 +628,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов зад.бампера  J--",
-    "image": "/schemes_atlas/scheme_0069.webp",
+    "image": "./schemes_atlas/scheme_0069.webp",
     "originalFile": "6.11.6-185.jpg"
   },
   {
@@ -637,7 +637,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов зад.бампера  J--",
-    "image": "/schemes_atlas/scheme_0070.webp",
+    "image": "./schemes_atlas/scheme_0070.webp",
     "originalFile": "6.11.6-186.jpg"
   },
   {
@@ -646,7 +646,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов зад.бампера  J--",
-    "image": "/schemes_atlas/scheme_0071.webp",
+    "image": "./schemes_atlas/scheme_0071.webp",
     "originalFile": "6.11.6-187.jpg"
   },
   {
@@ -655,7 +655,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0072.webp",
+    "image": "./schemes_atlas/scheme_0072.webp",
     "originalFile": "6.11.8-221.jpg"
   },
   {
@@ -664,7 +664,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0073.webp",
+    "image": "./schemes_atlas/scheme_0073.webp",
     "originalFile": "6.11.8-222.jpg"
   },
   {
@@ -673,7 +673,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0074.webp",
+    "image": "./schemes_atlas/scheme_0074.webp",
     "originalFile": "6.11.8-223.jpg"
   },
   {
@@ -682,7 +682,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0075.webp",
+    "image": "./schemes_atlas/scheme_0075.webp",
     "originalFile": "6.11.8-224.jpg"
   },
   {
@@ -691,7 +691,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0076.webp",
+    "image": "./schemes_atlas/scheme_0076.webp",
     "originalFile": "6.11.8-225.jpg"
   },
   {
@@ -700,7 +700,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0077.webp",
+    "image": "./schemes_atlas/scheme_0077.webp",
     "originalFile": "6.11.8-226.jpg"
   },
   {
@@ -709,7 +709,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0078.webp",
+    "image": "./schemes_atlas/scheme_0078.webp",
     "originalFile": "6.11.8-227.jpg"
   },
   {
@@ -718,7 +718,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0079.webp",
+    "image": "./schemes_atlas/scheme_0079.webp",
     "originalFile": "6.11.8-228.jpg"
   },
   {
@@ -727,7 +727,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0080.webp",
+    "image": "./schemes_atlas/scheme_0080.webp",
     "originalFile": "6.11.8-229.jpg"
   },
   {
@@ -736,7 +736,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0081.webp",
+    "image": "./schemes_atlas/scheme_0081.webp",
     "originalFile": "6.11.8-230.jpg"
   },
   {
@@ -745,7 +745,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0082.webp",
+    "image": "./schemes_atlas/scheme_0082.webp",
     "originalFile": "6.11.8-231.jpg"
   },
   {
@@ -754,7 +754,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0083.webp",
+    "image": "./schemes_atlas/scheme_0083.webp",
     "originalFile": "6.11.8-232.jpg"
   },
   {
@@ -763,7 +763,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов крыши L--",
-    "image": "/schemes_atlas/scheme_0084.webp",
+    "image": "./schemes_atlas/scheme_0084.webp",
     "originalFile": "6.11.8-233.jpg"
   },
   {
@@ -772,7 +772,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0085.webp",
+    "image": "./schemes_atlas/scheme_0085.webp",
     "originalFile": "6.11.2-42.jpg"
   },
   {
@@ -781,7 +781,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0086.webp",
+    "image": "./schemes_atlas/scheme_0086.webp",
     "originalFile": "6.11.2-43.jpg"
   },
   {
@@ -790,7 +790,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0087.webp",
+    "image": "./schemes_atlas/scheme_0087.webp",
     "originalFile": "6.11.2-44.jpg"
   },
   {
@@ -799,7 +799,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0088.webp",
+    "image": "./schemes_atlas/scheme_0088.webp",
     "originalFile": "6.11.2-45.jpg"
   },
   {
@@ -808,7 +808,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0089.webp",
+    "image": "./schemes_atlas/scheme_0089.webp",
     "originalFile": "6.11.2-46.jpg"
   },
   {
@@ -817,7 +817,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0090.webp",
+    "image": "./schemes_atlas/scheme_0090.webp",
     "originalFile": "6.11.2-47.jpg"
   },
   {
@@ -826,7 +826,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0091.webp",
+    "image": "./schemes_atlas/scheme_0091.webp",
     "originalFile": "6.11.2-48.jpg"
   },
   {
@@ -835,7 +835,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0092.webp",
+    "image": "./schemes_atlas/scheme_0092.webp",
     "originalFile": "6.11.2-49.jpg"
   },
   {
@@ -844,7 +844,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0093.webp",
+    "image": "./schemes_atlas/scheme_0093.webp",
     "originalFile": "6.11.2-50.jpg"
   },
   {
@@ -853,7 +853,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0094.webp",
+    "image": "./schemes_atlas/scheme_0094.webp",
     "originalFile": "6.11.2-51.jpg"
   },
   {
@@ -862,7 +862,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0095.webp",
+    "image": "./schemes_atlas/scheme_0095.webp",
     "originalFile": "6.11.2-52.jpg"
   },
   {
@@ -871,7 +871,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0096.webp",
+    "image": "./schemes_atlas/scheme_0096.webp",
     "originalFile": "6.11.2-53.jpg"
   },
   {
@@ -880,7 +880,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0097.webp",
+    "image": "./schemes_atlas/scheme_0097.webp",
     "originalFile": "6.11.2-54.jpg"
   },
   {
@@ -889,7 +889,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0098.webp",
+    "image": "./schemes_atlas/scheme_0098.webp",
     "originalFile": "6.11.2-55.jpg"
   },
   {
@@ -898,7 +898,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0099.webp",
+    "image": "./schemes_atlas/scheme_0099.webp",
     "originalFile": "6.11.2-56.jpg"
   },
   {
@@ -907,7 +907,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0100.webp",
+    "image": "./schemes_atlas/scheme_0100.webp",
     "originalFile": "6.11.2-57.jpg"
   },
   {
@@ -916,7 +916,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0101.webp",
+    "image": "./schemes_atlas/scheme_0101.webp",
     "originalFile": "6.11.2-58.jpg"
   },
   {
@@ -925,7 +925,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0102.webp",
+    "image": "./schemes_atlas/scheme_0102.webp",
     "originalFile": "6.11.2-59.jpg"
   },
   {
@@ -934,7 +934,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0103.webp",
+    "image": "./schemes_atlas/scheme_0103.webp",
     "originalFile": "6.11.2-60.jpg"
   },
   {
@@ -943,7 +943,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0104.webp",
+    "image": "./schemes_atlas/scheme_0104.webp",
     "originalFile": "6.11.2-61.jpg"
   },
   {
@@ -952,7 +952,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0105.webp",
+    "image": "./schemes_atlas/scheme_0105.webp",
     "originalFile": "6.11.2-62.jpg"
   },
   {
@@ -961,7 +961,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0106.webp",
+    "image": "./schemes_atlas/scheme_0106.webp",
     "originalFile": "6.11.2-63.jpg"
   },
   {
@@ -970,7 +970,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0107.webp",
+    "image": "./schemes_atlas/scheme_0107.webp",
     "originalFile": "6.11.2-64.jpg"
   },
   {
@@ -979,7 +979,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0108.webp",
+    "image": "./schemes_atlas/scheme_0108.webp",
     "originalFile": "6.11.2-65.jpg"
   },
   {
@@ -988,7 +988,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0109.webp",
+    "image": "./schemes_atlas/scheme_0109.webp",
     "originalFile": "6.11.2-66.jpg"
   },
   {
@@ -997,7 +997,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0110.webp",
+    "image": "./schemes_atlas/scheme_0110.webp",
     "originalFile": "6.11.2-67.jpg"
   },
   {
@@ -1006,7 +1006,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0111.webp",
+    "image": "./schemes_atlas/scheme_0111.webp",
     "originalFile": "6.11.2-68.jpg"
   },
   {
@@ -1015,7 +1015,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов моторного отсека  С--",
-    "image": "/schemes_atlas/scheme_0112.webp",
+    "image": "./schemes_atlas/scheme_0112.webp",
     "originalFile": "6.11.2-69.jpg"
   },
   {
@@ -1024,7 +1024,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0113.webp",
+    "image": "./schemes_atlas/scheme_0113.webp",
     "originalFile": "6.11.4-100.jpg"
   },
   {
@@ -1033,7 +1033,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0114.webp",
+    "image": "./schemes_atlas/scheme_0114.webp",
     "originalFile": "6.11.4-101.jpg"
   },
   {
@@ -1042,7 +1042,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0115.webp",
+    "image": "./schemes_atlas/scheme_0115.webp",
     "originalFile": "6.11.4-102.jpg"
   },
   {
@@ -1051,7 +1051,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0116.webp",
+    "image": "./schemes_atlas/scheme_0116.webp",
     "originalFile": "6.11.4-103.jpg"
   },
   {
@@ -1060,7 +1060,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0117.webp",
+    "image": "./schemes_atlas/scheme_0117.webp",
     "originalFile": "6.11.4-104.jpg"
   },
   {
@@ -1069,7 +1069,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0118.webp",
+    "image": "./schemes_atlas/scheme_0118.webp",
     "originalFile": "6.11.4-105.jpg"
   },
   {
@@ -1078,7 +1078,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0119.webp",
+    "image": "./schemes_atlas/scheme_0119.webp",
     "originalFile": "6.11.4-106.jpg"
   },
   {
@@ -1087,7 +1087,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0120.webp",
+    "image": "./schemes_atlas/scheme_0120.webp",
     "originalFile": "6.11.4-107.jpg"
   },
   {
@@ -1096,7 +1096,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0121.webp",
+    "image": "./schemes_atlas/scheme_0121.webp",
     "originalFile": "6.11.4-108.jpg"
   },
   {
@@ -1105,7 +1105,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0122.webp",
+    "image": "./schemes_atlas/scheme_0122.webp",
     "originalFile": "6.11.4-109.jpg"
   },
   {
@@ -1114,7 +1114,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0123.webp",
+    "image": "./schemes_atlas/scheme_0123.webp",
     "originalFile": "6.11.4-110.jpg"
   },
   {
@@ -1123,7 +1123,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0124.webp",
+    "image": "./schemes_atlas/scheme_0124.webp",
     "originalFile": "6.11.4-111.jpg"
   },
   {
@@ -1132,7 +1132,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0125.webp",
+    "image": "./schemes_atlas/scheme_0125.webp",
     "originalFile": "6.11.4-112.jpg"
   },
   {
@@ -1141,7 +1141,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0126.webp",
+    "image": "./schemes_atlas/scheme_0126.webp",
     "originalFile": "6.11.4-113.jpg"
   },
   {
@@ -1150,7 +1150,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0127.webp",
+    "image": "./schemes_atlas/scheme_0127.webp",
     "originalFile": "6.11.4-114.jpg"
   },
   {
@@ -1159,7 +1159,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0128.webp",
+    "image": "./schemes_atlas/scheme_0128.webp",
     "originalFile": "6.11.4-115.jpg"
   },
   {
@@ -1168,7 +1168,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0129.webp",
+    "image": "./schemes_atlas/scheme_0129.webp",
     "originalFile": "6.11.4-116.jpg"
   },
   {
@@ -1177,7 +1177,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0130.webp",
+    "image": "./schemes_atlas/scheme_0130.webp",
     "originalFile": "6.11.4-117.jpg"
   },
   {
@@ -1186,7 +1186,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0131.webp",
+    "image": "./schemes_atlas/scheme_0131.webp",
     "originalFile": "6.11.4-118.jpg"
   },
   {
@@ -1195,7 +1195,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0132.webp",
+    "image": "./schemes_atlas/scheme_0132.webp",
     "originalFile": "6.11.4-119.jpg"
   },
   {
@@ -1204,7 +1204,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0133.webp",
+    "image": "./schemes_atlas/scheme_0133.webp",
     "originalFile": "6.11.4-120.jpg"
   },
   {
@@ -1213,7 +1213,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0134.webp",
+    "image": "./schemes_atlas/scheme_0134.webp",
     "originalFile": "6.11.4-121.jpg"
   },
   {
@@ -1222,7 +1222,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0135.webp",
+    "image": "./schemes_atlas/scheme_0135.webp",
     "originalFile": "6.11.4-122.jpg"
   },
   {
@@ -1231,7 +1231,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0136.webp",
+    "image": "./schemes_atlas/scheme_0136.webp",
     "originalFile": "6.11.4-123.jpg"
   },
   {
@@ -1240,7 +1240,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0137.webp",
+    "image": "./schemes_atlas/scheme_0137.webp",
     "originalFile": "6.11.4-124.jpg"
   },
   {
@@ -1249,7 +1249,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0138.webp",
+    "image": "./schemes_atlas/scheme_0138.webp",
     "originalFile": "6.11.4-125.jpg"
   },
   {
@@ -1258,7 +1258,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0139.webp",
+    "image": "./schemes_atlas/scheme_0139.webp",
     "originalFile": "6.11.4-126.jpg"
   },
   {
@@ -1267,7 +1267,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0140.webp",
+    "image": "./schemes_atlas/scheme_0140.webp",
     "originalFile": "6.11.4-127.jpg"
   },
   {
@@ -1276,7 +1276,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0141.webp",
+    "image": "./schemes_atlas/scheme_0141.webp",
     "originalFile": "6.11.4-128.jpg"
   },
   {
@@ -1285,7 +1285,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0142.webp",
+    "image": "./schemes_atlas/scheme_0142.webp",
     "originalFile": "6.11.4-129.jpg"
   },
   {
@@ -1294,7 +1294,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0143.webp",
+    "image": "./schemes_atlas/scheme_0143.webp",
     "originalFile": "6.11.4-130.jpg"
   },
   {
@@ -1303,7 +1303,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0144.webp",
+    "image": "./schemes_atlas/scheme_0144.webp",
     "originalFile": "6.11.4-131.jpg"
   },
   {
@@ -1312,7 +1312,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0145.webp",
+    "image": "./schemes_atlas/scheme_0145.webp",
     "originalFile": "6.11.4-93.jpg"
   },
   {
@@ -1321,7 +1321,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0146.webp",
+    "image": "./schemes_atlas/scheme_0146.webp",
     "originalFile": "6.11.4-94.jpg"
   },
   {
@@ -1330,7 +1330,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0147.webp",
+    "image": "./schemes_atlas/scheme_0147.webp",
     "originalFile": "6.11.4-95.jpg"
   },
   {
@@ -1339,7 +1339,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0148.webp",
+    "image": "./schemes_atlas/scheme_0148.webp",
     "originalFile": "6.11.4-96.jpg"
   },
   {
@@ -1348,7 +1348,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0149.webp",
+    "image": "./schemes_atlas/scheme_0149.webp",
     "originalFile": "6.11.4-97.jpg"
   },
   {
@@ -1357,7 +1357,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0150.webp",
+    "image": "./schemes_atlas/scheme_0150.webp",
     "originalFile": "6.11.4-98.jpg"
   },
   {
@@ -1366,7 +1366,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (напольная) S--",
-    "image": "/schemes_atlas/scheme_0151.webp",
+    "image": "./schemes_atlas/scheme_0151.webp",
     "originalFile": "6.11.4-99.jpg"
   },
   {
@@ -1375,7 +1375,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0152.webp",
+    "image": "./schemes_atlas/scheme_0152.webp",
     "originalFile": "6.11.5-132.jpg"
   },
   {
@@ -1384,7 +1384,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0153.webp",
+    "image": "./schemes_atlas/scheme_0153.webp",
     "originalFile": "6.11.5-133.jpg"
   },
   {
@@ -1393,7 +1393,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0154.webp",
+    "image": "./schemes_atlas/scheme_0154.webp",
     "originalFile": "6.11.5-134.jpg"
   },
   {
@@ -1402,7 +1402,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0155.webp",
+    "image": "./schemes_atlas/scheme_0155.webp",
     "originalFile": "6.11.5-135.jpg"
   },
   {
@@ -1411,7 +1411,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0156.webp",
+    "image": "./schemes_atlas/scheme_0156.webp",
     "originalFile": "6.11.5-136.jpg"
   },
   {
@@ -1420,7 +1420,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0157.webp",
+    "image": "./schemes_atlas/scheme_0157.webp",
     "originalFile": "6.11.5-137.jpg"
   },
   {
@@ -1429,7 +1429,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0158.webp",
+    "image": "./schemes_atlas/scheme_0158.webp",
     "originalFile": "6.11.5-138.jpg"
   },
   {
@@ -1438,7 +1438,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0159.webp",
+    "image": "./schemes_atlas/scheme_0159.webp",
     "originalFile": "6.11.5-139.jpg"
   },
   {
@@ -1447,7 +1447,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0160.webp",
+    "image": "./schemes_atlas/scheme_0160.webp",
     "originalFile": "6.11.5-140.jpg"
   },
   {
@@ -1456,7 +1456,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0161.webp",
+    "image": "./schemes_atlas/scheme_0161.webp",
     "originalFile": "6.11.5-141.jpg"
   },
   {
@@ -1465,7 +1465,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0162.webp",
+    "image": "./schemes_atlas/scheme_0162.webp",
     "originalFile": "6.11.5-142.jpg"
   },
   {
@@ -1474,7 +1474,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0163.webp",
+    "image": "./schemes_atlas/scheme_0163.webp",
     "originalFile": "6.11.5-143.jpg"
   },
   {
@@ -1483,7 +1483,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0164.webp",
+    "image": "./schemes_atlas/scheme_0164.webp",
     "originalFile": "6.11.5-144.jpg"
   },
   {
@@ -1492,7 +1492,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0165.webp",
+    "image": "./schemes_atlas/scheme_0165.webp",
     "originalFile": "6.11.5-145.jpg"
   },
   {
@@ -1501,7 +1501,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0166.webp",
+    "image": "./schemes_atlas/scheme_0166.webp",
     "originalFile": "6.11.5-146.jpg"
   },
   {
@@ -1510,7 +1510,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0167.webp",
+    "image": "./schemes_atlas/scheme_0167.webp",
     "originalFile": "6.11.5-147.jpg"
   },
   {
@@ -1519,7 +1519,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0168.webp",
+    "image": "./schemes_atlas/scheme_0168.webp",
     "originalFile": "6.11.5-148.jpg"
   },
   {
@@ -1528,7 +1528,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0169.webp",
+    "image": "./schemes_atlas/scheme_0169.webp",
     "originalFile": "6.11.5-149.jpg"
   },
   {
@@ -1537,7 +1537,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0170.webp",
+    "image": "./schemes_atlas/scheme_0170.webp",
     "originalFile": "6.11.5-150.jpg"
   },
   {
@@ -1546,7 +1546,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0171.webp",
+    "image": "./schemes_atlas/scheme_0171.webp",
     "originalFile": "6.11.5-151.jpg"
   },
   {
@@ -1555,7 +1555,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0172.webp",
+    "image": "./schemes_atlas/scheme_0172.webp",
     "originalFile": "6.11.5-152.jpg"
   },
   {
@@ -1564,7 +1564,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0173.webp",
+    "image": "./schemes_atlas/scheme_0173.webp",
     "originalFile": "6.11.5-153.jpg"
   },
   {
@@ -1573,7 +1573,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0174.webp",
+    "image": "./schemes_atlas/scheme_0174.webp",
     "originalFile": "6.11.5-154.jpg"
   },
   {
@@ -1582,7 +1582,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0175.webp",
+    "image": "./schemes_atlas/scheme_0175.webp",
     "originalFile": "6.11.5-155.jpg"
   },
   {
@@ -1591,7 +1591,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0176.webp",
+    "image": "./schemes_atlas/scheme_0176.webp",
     "originalFile": "6.11.5-156.jpg"
   },
   {
@@ -1600,7 +1600,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0177.webp",
+    "image": "./schemes_atlas/scheme_0177.webp",
     "originalFile": "6.11.5-157.jpg"
   },
   {
@@ -1609,7 +1609,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0178.webp",
+    "image": "./schemes_atlas/scheme_0178.webp",
     "originalFile": "6.11.5-158.jpg"
   },
   {
@@ -1618,7 +1618,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0179.webp",
+    "image": "./schemes_atlas/scheme_0179.webp",
     "originalFile": "6.11.5-159.jpg"
   },
   {
@@ -1627,7 +1627,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0180.webp",
+    "image": "./schemes_atlas/scheme_0180.webp",
     "originalFile": "6.11.5-160.jpg"
   },
   {
@@ -1636,7 +1636,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0181.webp",
+    "image": "./schemes_atlas/scheme_0181.webp",
     "originalFile": "6.11.5-161.jpg"
   },
   {
@@ -1645,7 +1645,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0182.webp",
+    "image": "./schemes_atlas/scheme_0182.webp",
     "originalFile": "6.11.5-162.jpg"
   },
   {
@@ -1654,7 +1654,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0183.webp",
+    "image": "./schemes_atlas/scheme_0183.webp",
     "originalFile": "6.11.5-163.jpg"
   },
   {
@@ -1663,7 +1663,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0184.webp",
+    "image": "./schemes_atlas/scheme_0184.webp",
     "originalFile": "6.11.5-164.jpg"
   },
   {
@@ -1672,7 +1672,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0185.webp",
+    "image": "./schemes_atlas/scheme_0185.webp",
     "originalFile": "6.11.5-165.jpg"
   },
   {
@@ -1681,7 +1681,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0186.webp",
+    "image": "./schemes_atlas/scheme_0186.webp",
     "originalFile": "6.11.5-166.jpg"
   },
   {
@@ -1690,7 +1690,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0187.webp",
+    "image": "./schemes_atlas/scheme_0187.webp",
     "originalFile": "6.11.5-167.jpg"
   },
   {
@@ -1699,7 +1699,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0188.webp",
+    "image": "./schemes_atlas/scheme_0188.webp",
     "originalFile": "6.11.5-168.jpg"
   },
   {
@@ -1708,7 +1708,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0189.webp",
+    "image": "./schemes_atlas/scheme_0189.webp",
     "originalFile": "6.11.5-169.jpg"
   },
   {
@@ -1717,7 +1717,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0190.webp",
+    "image": "./schemes_atlas/scheme_0190.webp",
     "originalFile": "6.11.5-170.jpg"
   },
   {
@@ -1726,7 +1726,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0191.webp",
+    "image": "./schemes_atlas/scheme_0191.webp",
     "originalFile": "6.11.5-171.jpg"
   },
   {
@@ -1735,7 +1735,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0192.webp",
+    "image": "./schemes_atlas/scheme_0192.webp",
     "originalFile": "6.11.5-172.jpg"
   },
   {
@@ -1744,7 +1744,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0193.webp",
+    "image": "./schemes_atlas/scheme_0193.webp",
     "originalFile": "6.11.5-173.jpg"
   },
   {
@@ -1753,7 +1753,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0194.webp",
+    "image": "./schemes_atlas/scheme_0194.webp",
     "originalFile": "6.11.5-174.jpg"
   },
   {
@@ -1762,7 +1762,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0195.webp",
+    "image": "./schemes_atlas/scheme_0195.webp",
     "originalFile": "6.11.5-175.jpg"
   },
   {
@@ -1771,7 +1771,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0196.webp",
+    "image": "./schemes_atlas/scheme_0196.webp",
     "originalFile": "6.11.5-176.jpg"
   },
   {
@@ -1780,7 +1780,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0197.webp",
+    "image": "./schemes_atlas/scheme_0197.webp",
     "originalFile": "6.11.5-177.jpg"
   },
   {
@@ -1789,7 +1789,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0198.webp",
+    "image": "./schemes_atlas/scheme_0198.webp",
     "originalFile": "6.11.5-178.jpg"
   },
   {
@@ -1798,7 +1798,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0199.webp",
+    "image": "./schemes_atlas/scheme_0199.webp",
     "originalFile": "6.11.5-179.jpg"
   },
   {
@@ -1807,7 +1807,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0200.webp",
+    "image": "./schemes_atlas/scheme_0200.webp",
     "originalFile": "6.11.5-180.jpg"
   },
   {
@@ -1816,7 +1816,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0201.webp",
+    "image": "./schemes_atlas/scheme_0201.webp",
     "originalFile": "6.11.5-181.jpg"
   },
   {
@@ -1825,7 +1825,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0202.webp",
+    "image": "./schemes_atlas/scheme_0202.webp",
     "originalFile": "6.11.5-182.jpg"
   },
   {
@@ -1834,7 +1834,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы проводов салона (прибор. панели) P--",
-    "image": "/schemes_atlas/scheme_0203.webp",
+    "image": "./schemes_atlas/scheme_0203.webp",
     "originalFile": "6.11.5-183.jpg"
   },
   {
@@ -1843,7 +1843,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0204.webp",
+    "image": "./schemes_atlas/scheme_0204.webp",
     "originalFile": "6.11.1-1.jpg"
   },
   {
@@ -1852,7 +1852,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0205.webp",
+    "image": "./schemes_atlas/scheme_0205.webp",
     "originalFile": "6.11.1-10.jpg"
   },
   {
@@ -1861,7 +1861,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0206.webp",
+    "image": "./schemes_atlas/scheme_0206.webp",
     "originalFile": "6.11.1-11.jpg"
   },
   {
@@ -1870,7 +1870,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0207.webp",
+    "image": "./schemes_atlas/scheme_0207.webp",
     "originalFile": "6.11.1-12.jpg"
   },
   {
@@ -1879,7 +1879,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0208.webp",
+    "image": "./schemes_atlas/scheme_0208.webp",
     "originalFile": "6.11.1-13.jpg"
   },
   {
@@ -1888,7 +1888,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0209.webp",
+    "image": "./schemes_atlas/scheme_0209.webp",
     "originalFile": "6.11.1-14.jpg"
   },
   {
@@ -1897,7 +1897,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0210.webp",
+    "image": "./schemes_atlas/scheme_0210.webp",
     "originalFile": "6.11.1-15.jpg"
   },
   {
@@ -1906,7 +1906,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0211.webp",
+    "image": "./schemes_atlas/scheme_0211.webp",
     "originalFile": "6.11.1-16.jpg"
   },
   {
@@ -1915,7 +1915,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0212.webp",
+    "image": "./schemes_atlas/scheme_0212.webp",
     "originalFile": "6.11.1-17.jpg"
   },
   {
@@ -1924,7 +1924,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0213.webp",
+    "image": "./schemes_atlas/scheme_0213.webp",
     "originalFile": "6.11.1-18.jpg"
   },
   {
@@ -1933,7 +1933,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0214.webp",
+    "image": "./schemes_atlas/scheme_0214.webp",
     "originalFile": "6.11.1-19.jpg"
   },
   {
@@ -1942,7 +1942,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0215.webp",
+    "image": "./schemes_atlas/scheme_0215.webp",
     "originalFile": "6.11.1-2.jpg"
   },
   {
@@ -1951,7 +1951,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0216.webp",
+    "image": "./schemes_atlas/scheme_0216.webp",
     "originalFile": "6.11.1-20.jpg"
   },
   {
@@ -1960,7 +1960,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0217.webp",
+    "image": "./schemes_atlas/scheme_0217.webp",
     "originalFile": "6.11.1-21.jpg"
   },
   {
@@ -1969,7 +1969,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0218.webp",
+    "image": "./schemes_atlas/scheme_0218.webp",
     "originalFile": "6.11.1-22.jpg"
   },
   {
@@ -1978,7 +1978,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0219.webp",
+    "image": "./schemes_atlas/scheme_0219.webp",
     "originalFile": "6.11.1-23.jpg"
   },
   {
@@ -1987,7 +1987,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0220.webp",
+    "image": "./schemes_atlas/scheme_0220.webp",
     "originalFile": "6.11.1-24.jpg"
   },
   {
@@ -1996,7 +1996,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0221.webp",
+    "image": "./schemes_atlas/scheme_0221.webp",
     "originalFile": "6.11.1-25.jpg"
   },
   {
@@ -2005,7 +2005,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0222.webp",
+    "image": "./schemes_atlas/scheme_0222.webp",
     "originalFile": "6.11.1-26.jpg"
   },
   {
@@ -2014,7 +2014,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0223.webp",
+    "image": "./schemes_atlas/scheme_0223.webp",
     "originalFile": "6.11.1-27.jpg"
   },
   {
@@ -2023,7 +2023,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0224.webp",
+    "image": "./schemes_atlas/scheme_0224.webp",
     "originalFile": "6.11.1-28.jpg"
   },
   {
@@ -2032,7 +2032,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0225.webp",
+    "image": "./schemes_atlas/scheme_0225.webp",
     "originalFile": "6.11.1-29.jpg"
   },
   {
@@ -2041,7 +2041,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0226.webp",
+    "image": "./schemes_atlas/scheme_0226.webp",
     "originalFile": "6.11.1-3.jpg"
   },
   {
@@ -2050,7 +2050,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0227.webp",
+    "image": "./schemes_atlas/scheme_0227.webp",
     "originalFile": "6.11.1-30.jpg"
   },
   {
@@ -2059,7 +2059,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0228.webp",
+    "image": "./schemes_atlas/scheme_0228.webp",
     "originalFile": "6.11.1-31.jpg"
   },
   {
@@ -2068,7 +2068,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0229.webp",
+    "image": "./schemes_atlas/scheme_0229.webp",
     "originalFile": "6.11.1-32.jpg"
   },
   {
@@ -2077,7 +2077,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0230.webp",
+    "image": "./schemes_atlas/scheme_0230.webp",
     "originalFile": "6.11.1-33.jpg"
   },
   {
@@ -2086,7 +2086,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0231.webp",
+    "image": "./schemes_atlas/scheme_0231.webp",
     "originalFile": "6.11.1-34.jpg"
   },
   {
@@ -2095,7 +2095,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0232.webp",
+    "image": "./schemes_atlas/scheme_0232.webp",
     "originalFile": "6.11.1-35.jpg"
   },
   {
@@ -2104,7 +2104,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0233.webp",
+    "image": "./schemes_atlas/scheme_0233.webp",
     "originalFile": "6.11.1-36.jpg"
   },
   {
@@ -2113,7 +2113,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0234.webp",
+    "image": "./schemes_atlas/scheme_0234.webp",
     "originalFile": "6.11.1-37.jpg"
   },
   {
@@ -2122,7 +2122,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0235.webp",
+    "image": "./schemes_atlas/scheme_0235.webp",
     "originalFile": "6.11.1-38.jpg"
   },
   {
@@ -2131,7 +2131,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0236.webp",
+    "image": "./schemes_atlas/scheme_0236.webp",
     "originalFile": "6.11.1-39.jpg"
   },
   {
@@ -2140,7 +2140,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0237.webp",
+    "image": "./schemes_atlas/scheme_0237.webp",
     "originalFile": "6.11.1-4.jpg"
   },
   {
@@ -2149,7 +2149,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0238.webp",
+    "image": "./schemes_atlas/scheme_0238.webp",
     "originalFile": "6.11.1-40.jpg"
   },
   {
@@ -2158,7 +2158,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0239.webp",
+    "image": "./schemes_atlas/scheme_0239.webp",
     "originalFile": "6.11.1-41.jpg"
   },
   {
@@ -2167,7 +2167,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0240.webp",
+    "image": "./schemes_atlas/scheme_0240.webp",
     "originalFile": "6.11.1-5.jpg"
   },
   {
@@ -2176,7 +2176,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0241.webp",
+    "image": "./schemes_atlas/scheme_0241.webp",
     "originalFile": "6.11.1-6.jpg"
   },
   {
@@ -2185,7 +2185,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0242.webp",
+    "image": "./schemes_atlas/scheme_0242.webp",
     "originalFile": "6.11.1-7.jpg"
   },
   {
@@ -2194,7 +2194,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0243.webp",
+    "image": "./schemes_atlas/scheme_0243.webp",
     "originalFile": "6.11.1-8.jpg"
   },
   {
@@ -2203,7 +2203,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "connectors",
     "categoryTitle": "Виды и распиновки разъемов",
     "section": "Разъемы соединительных жгутов X--",
-    "image": "/schemes_atlas/scheme_0244.webp",
+    "image": "./schemes_atlas/scheme_0244.webp",
     "originalFile": "6.11.1-9.jpg"
   },
   {
@@ -2212,7 +2212,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "diagnostics",
     "categoryTitle": "Диагностика цепей",
     "section": "Диагностика неисправностей цепи",
-    "image": "/schemes_atlas/scheme_0245.webp",
+    "image": "./schemes_atlas/scheme_0245.webp",
     "originalFile": "6.3-1.jpg"
   },
   {
@@ -2221,7 +2221,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "diagnostics",
     "categoryTitle": "Диагностика цепей",
     "section": "Диагностика неисправностей цепи",
-    "image": "/schemes_atlas/scheme_0246.webp",
+    "image": "./schemes_atlas/scheme_0246.webp",
     "originalFile": "6.3-10.jpg"
   },
   {
@@ -2230,7 +2230,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "diagnostics",
     "categoryTitle": "Диагностика цепей",
     "section": "Диагностика неисправностей цепи",
-    "image": "/schemes_atlas/scheme_0247.webp",
+    "image": "./schemes_atlas/scheme_0247.webp",
     "originalFile": "6.3-2.jpg"
   },
   {
@@ -2239,7 +2239,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "diagnostics",
     "categoryTitle": "Диагностика цепей",
     "section": "Диагностика неисправностей цепи",
-    "image": "/schemes_atlas/scheme_0248.webp",
+    "image": "./schemes_atlas/scheme_0248.webp",
     "originalFile": "6.3-3.jpg"
   },
   {
@@ -2248,7 +2248,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "diagnostics",
     "categoryTitle": "Диагностика цепей",
     "section": "Диагностика неисправностей цепи",
-    "image": "/schemes_atlas/scheme_0249.webp",
+    "image": "./schemes_atlas/scheme_0249.webp",
     "originalFile": "6.3-4.jpg"
   },
   {
@@ -2257,7 +2257,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "diagnostics",
     "categoryTitle": "Диагностика цепей",
     "section": "Диагностика неисправностей цепи",
-    "image": "/schemes_atlas/scheme_0250.webp",
+    "image": "./schemes_atlas/scheme_0250.webp",
     "originalFile": "6.3-5.jpg"
   },
   {
@@ -2266,7 +2266,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "diagnostics",
     "categoryTitle": "Диагностика цепей",
     "section": "Диагностика неисправностей цепи",
-    "image": "/schemes_atlas/scheme_0251.webp",
+    "image": "./schemes_atlas/scheme_0251.webp",
     "originalFile": "6.3-6.jpg"
   },
   {
@@ -2275,7 +2275,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "diagnostics",
     "categoryTitle": "Диагностика цепей",
     "section": "Диагностика неисправностей цепи",
-    "image": "/schemes_atlas/scheme_0252.webp",
+    "image": "./schemes_atlas/scheme_0252.webp",
     "originalFile": "6.3-7.jpg"
   },
   {
@@ -2284,7 +2284,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "diagnostics",
     "categoryTitle": "Диагностика цепей",
     "section": "Диагностика неисправностей цепи",
-    "image": "/schemes_atlas/scheme_0253.webp",
+    "image": "./schemes_atlas/scheme_0253.webp",
     "originalFile": "6.3-8.jpg"
   },
   {
@@ -2293,7 +2293,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "diagnostics",
     "categoryTitle": "Диагностика цепей",
     "section": "Диагностика неисправностей цепи",
-    "image": "/schemes_atlas/scheme_0254.webp",
+    "image": "./schemes_atlas/scheme_0254.webp",
     "originalFile": "6.3-9.jpg"
   },
   {
@@ -2302,7 +2302,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "D - жгут проводов дверей",
-    "image": "/schemes_atlas/scheme_0255.webp",
+    "image": "./schemes_atlas/scheme_0255.webp",
     "originalFile": "6.9-39.jpg"
   },
   {
@@ -2311,7 +2311,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "D - жгут проводов дверей",
-    "image": "/schemes_atlas/scheme_0256.webp",
+    "image": "./schemes_atlas/scheme_0256.webp",
     "originalFile": "6.9-40.jpg"
   },
   {
@@ -2320,7 +2320,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "D - жгут проводов дверей",
-    "image": "/schemes_atlas/scheme_0257.webp",
+    "image": "./schemes_atlas/scheme_0257.webp",
     "originalFile": "6.9-41.jpg"
   },
   {
@@ -2329,7 +2329,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "D - жгут проводов дверей",
-    "image": "/schemes_atlas/scheme_0258.webp",
+    "image": "./schemes_atlas/scheme_0258.webp",
     "originalFile": "6.9-42.jpg"
   },
   {
@@ -2338,7 +2338,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "D - жгут проводов дверей",
-    "image": "/schemes_atlas/scheme_0259.webp",
+    "image": "./schemes_atlas/scheme_0259.webp",
     "originalFile": "6.9-43.jpg"
   },
   {
@@ -2347,7 +2347,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "D - жгут проводов дверей",
-    "image": "/schemes_atlas/scheme_0260.webp",
+    "image": "./schemes_atlas/scheme_0260.webp",
     "originalFile": "6.9-44.jpg"
   },
   {
@@ -2356,7 +2356,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "D - жгут проводов дверей",
-    "image": "/schemes_atlas/scheme_0261.webp",
+    "image": "./schemes_atlas/scheme_0261.webp",
     "originalFile": "6.9-45.jpg"
   },
   {
@@ -2365,7 +2365,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "D - жгут проводов дверей",
-    "image": "/schemes_atlas/scheme_0262.webp",
+    "image": "./schemes_atlas/scheme_0262.webp",
     "originalFile": "6.9-46.jpg"
   },
   {
@@ -2374,7 +2374,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "GD - соединение с массой",
-    "image": "/schemes_atlas/scheme_0263.webp",
+    "image": "./schemes_atlas/scheme_0263.webp",
     "originalFile": "6.10-1.jpg"
   },
   {
@@ -2383,7 +2383,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "GD - соединение с массой",
-    "image": "/schemes_atlas/scheme_0264.webp",
+    "image": "./schemes_atlas/scheme_0264.webp",
     "originalFile": "6.10-2.jpg"
   },
   {
@@ -2392,7 +2392,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "GD - соединение с массой",
-    "image": "/schemes_atlas/scheme_0265.webp",
+    "image": "./schemes_atlas/scheme_0265.webp",
     "originalFile": "6.10-3.jpg"
   },
   {
@@ -2401,7 +2401,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "GD - соединение с массой",
-    "image": "/schemes_atlas/scheme_0266.webp",
+    "image": "./schemes_atlas/scheme_0266.webp",
     "originalFile": "6.10-4.jpg"
   },
   {
@@ -2410,7 +2410,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "GD - соединение с массой",
-    "image": "/schemes_atlas/scheme_0267.webp",
+    "image": "./schemes_atlas/scheme_0267.webp",
     "originalFile": "6.10-5.jpg"
   },
   {
@@ -2419,7 +2419,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "J - проводка заднего бампера",
-    "image": "/schemes_atlas/scheme_0268.webp",
+    "image": "./schemes_atlas/scheme_0268.webp",
     "originalFile": "6.9-28.jpg"
   },
   {
@@ -2428,7 +2428,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "J - проводка заднего бампера",
-    "image": "/schemes_atlas/scheme_0269.webp",
+    "image": "./schemes_atlas/scheme_0269.webp",
     "originalFile": "6.9-29.jpg"
   },
   {
@@ -2437,7 +2437,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "L - жгут проводов крыши",
-    "image": "/schemes_atlas/scheme_0270.webp",
+    "image": "./schemes_atlas/scheme_0270.webp",
     "originalFile": "6.9-26.jpg"
   },
   {
@@ -2446,7 +2446,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "L - жгут проводов крыши",
-    "image": "/schemes_atlas/scheme_0271.webp",
+    "image": "./schemes_atlas/scheme_0271.webp",
     "originalFile": "6.9-27.jpg"
   },
   {
@@ -2455,7 +2455,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "P - проводка салона (приб.панель)",
-    "image": "/schemes_atlas/scheme_0272.webp",
+    "image": "./schemes_atlas/scheme_0272.webp",
     "originalFile": "6.9-47.jpg"
   },
   {
@@ -2464,7 +2464,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "P - проводка салона (приб.панель)",
-    "image": "/schemes_atlas/scheme_0273.webp",
+    "image": "./schemes_atlas/scheme_0273.webp",
     "originalFile": "6.9-48.jpg"
   },
   {
@@ -2473,7 +2473,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "P - проводка салона (приб.панель)",
-    "image": "/schemes_atlas/scheme_0274.webp",
+    "image": "./schemes_atlas/scheme_0274.webp",
     "originalFile": "6.9-49.jpg"
   },
   {
@@ -2482,7 +2482,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "S - проводка салона (напольная)",
-    "image": "/schemes_atlas/scheme_0275.webp",
+    "image": "./schemes_atlas/scheme_0275.webp",
     "originalFile": "6.9-21.jpg"
   },
   {
@@ -2491,7 +2491,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "S - проводка салона (напольная)",
-    "image": "/schemes_atlas/scheme_0276.webp",
+    "image": "./schemes_atlas/scheme_0276.webp",
     "originalFile": "6.9-22.jpg"
   },
   {
@@ -2500,7 +2500,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "S - проводка салона (напольная)",
-    "image": "/schemes_atlas/scheme_0277.webp",
+    "image": "./schemes_atlas/scheme_0277.webp",
     "originalFile": "6.9-23.jpg"
   },
   {
@@ -2509,7 +2509,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "S - проводка салона (напольная)",
-    "image": "/schemes_atlas/scheme_0278.webp",
+    "image": "./schemes_atlas/scheme_0278.webp",
     "originalFile": "6.9-24.jpg"
   },
   {
@@ -2518,7 +2518,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "S - проводка салона (напольная)",
-    "image": "/schemes_atlas/scheme_0279.webp",
+    "image": "./schemes_atlas/scheme_0279.webp",
     "originalFile": "6.9-25.jpg"
   },
   {
@@ -2527,7 +2527,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0280.webp",
+    "image": "./schemes_atlas/scheme_0280.webp",
     "originalFile": "6.9-1.jpg"
   },
   {
@@ -2536,7 +2536,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0281.webp",
+    "image": "./schemes_atlas/scheme_0281.webp",
     "originalFile": "6.9-10.jpg"
   },
   {
@@ -2545,7 +2545,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0282.webp",
+    "image": "./schemes_atlas/scheme_0282.webp",
     "originalFile": "6.9-11.jpg"
   },
   {
@@ -2554,7 +2554,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0283.webp",
+    "image": "./schemes_atlas/scheme_0283.webp",
     "originalFile": "6.9-12.jpg"
   },
   {
@@ -2563,7 +2563,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0284.webp",
+    "image": "./schemes_atlas/scheme_0284.webp",
     "originalFile": "6.9-13.jpg"
   },
   {
@@ -2572,7 +2572,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0285.webp",
+    "image": "./schemes_atlas/scheme_0285.webp",
     "originalFile": "6.9-14.jpg"
   },
   {
@@ -2581,7 +2581,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0286.webp",
+    "image": "./schemes_atlas/scheme_0286.webp",
     "originalFile": "6.9-15.jpg"
   },
   {
@@ -2590,7 +2590,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0287.webp",
+    "image": "./schemes_atlas/scheme_0287.webp",
     "originalFile": "6.9-16.jpg"
   },
   {
@@ -2599,7 +2599,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0288.webp",
+    "image": "./schemes_atlas/scheme_0288.webp",
     "originalFile": "6.9-17.jpg"
   },
   {
@@ -2608,7 +2608,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0289.webp",
+    "image": "./schemes_atlas/scheme_0289.webp",
     "originalFile": "6.9-18.jpg"
   },
   {
@@ -2617,7 +2617,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0290.webp",
+    "image": "./schemes_atlas/scheme_0290.webp",
     "originalFile": "6.9-19.jpg"
   },
   {
@@ -2626,7 +2626,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0291.webp",
+    "image": "./schemes_atlas/scheme_0291.webp",
     "originalFile": "6.9-2.jpg"
   },
   {
@@ -2635,7 +2635,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0292.webp",
+    "image": "./schemes_atlas/scheme_0292.webp",
     "originalFile": "6.9-20.jpg"
   },
   {
@@ -2644,7 +2644,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0293.webp",
+    "image": "./schemes_atlas/scheme_0293.webp",
     "originalFile": "6.9-3.jpg"
   },
   {
@@ -2653,7 +2653,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0294.webp",
+    "image": "./schemes_atlas/scheme_0294.webp",
     "originalFile": "6.9-4.jpg"
   },
   {
@@ -2662,7 +2662,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0295.webp",
+    "image": "./schemes_atlas/scheme_0295.webp",
     "originalFile": "6.9-5.jpg"
   },
   {
@@ -2671,7 +2671,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0296.webp",
+    "image": "./schemes_atlas/scheme_0296.webp",
     "originalFile": "6.9-6.jpg"
   },
   {
@@ -2680,7 +2680,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0297.webp",
+    "image": "./schemes_atlas/scheme_0297.webp",
     "originalFile": "6.9-7.jpg"
   },
   {
@@ -2689,7 +2689,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0298.webp",
+    "image": "./schemes_atlas/scheme_0298.webp",
     "originalFile": "6.9-8.jpg"
   },
   {
@@ -2698,7 +2698,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "X - соединительные жгуты проводов",
-    "image": "/schemes_atlas/scheme_0299.webp",
+    "image": "./schemes_atlas/scheme_0299.webp",
     "originalFile": "6.9-9.jpg"
   },
   {
@@ -2707,7 +2707,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "Е - проводка двигателя",
-    "image": "/schemes_atlas/scheme_0300.webp",
+    "image": "./schemes_atlas/scheme_0300.webp",
     "originalFile": "6.9-30.jpg"
   },
   {
@@ -2716,7 +2716,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "Е - проводка двигателя",
-    "image": "/schemes_atlas/scheme_0301.webp",
+    "image": "./schemes_atlas/scheme_0301.webp",
     "originalFile": "6.9-31.jpg"
   },
   {
@@ -2725,7 +2725,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "Е - проводка двигателя",
-    "image": "/schemes_atlas/scheme_0302.webp",
+    "image": "./schemes_atlas/scheme_0302.webp",
     "originalFile": "6.9-32.jpg"
   },
   {
@@ -2734,7 +2734,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "Е - проводка двигателя",
-    "image": "/schemes_atlas/scheme_0303.webp",
+    "image": "./schemes_atlas/scheme_0303.webp",
     "originalFile": "6.9-33.jpg"
   },
   {
@@ -2743,7 +2743,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "С - проводка моторного отсека",
-    "image": "/schemes_atlas/scheme_0304.webp",
+    "image": "./schemes_atlas/scheme_0304.webp",
     "originalFile": "6.9-34.jpg"
   },
   {
@@ -2752,7 +2752,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "С - проводка моторного отсека",
-    "image": "/schemes_atlas/scheme_0305.webp",
+    "image": "./schemes_atlas/scheme_0305.webp",
     "originalFile": "6.9-35.jpg"
   },
   {
@@ -2761,7 +2761,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "С - проводка моторного отсека",
-    "image": "/schemes_atlas/scheme_0306.webp",
+    "image": "./schemes_atlas/scheme_0306.webp",
     "originalFile": "6.9-36.jpg"
   },
   {
@@ -2770,7 +2770,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "С - проводка моторного отсека",
-    "image": "/schemes_atlas/scheme_0307.webp",
+    "image": "./schemes_atlas/scheme_0307.webp",
     "originalFile": "6.9-37.jpg"
   },
   {
@@ -2779,7 +2779,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "harnesses",
     "categoryTitle": "Трассировка жгутов проводов",
     "section": "С - проводка моторного отсека",
-    "image": "/schemes_atlas/scheme_0308.webp",
+    "image": "./schemes_atlas/scheme_0308.webp",
     "originalFile": "6.9-38.jpg"
   },
   {
@@ -2788,7 +2788,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "Распределение заземления",
-    "image": "/schemes_atlas/scheme_0309.webp",
+    "image": "./schemes_atlas/scheme_0309.webp",
     "originalFile": "6.8-1.jpg"
   },
   {
@@ -2797,7 +2797,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "Распределение заземления",
-    "image": "/schemes_atlas/scheme_0310.webp",
+    "image": "./schemes_atlas/scheme_0310.webp",
     "originalFile": "6.8-2.jpg"
   },
   {
@@ -2806,7 +2806,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "Распределение заземления",
-    "image": "/schemes_atlas/scheme_0311.webp",
+    "image": "./schemes_atlas/scheme_0311.webp",
     "originalFile": "6.8-3.jpg"
   },
   {
@@ -2815,7 +2815,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "Распределение заземления",
-    "image": "/schemes_atlas/scheme_0312.webp",
+    "image": "./schemes_atlas/scheme_0312.webp",
     "originalFile": "6.8-4.jpg"
   },
   {
@@ -2824,7 +2824,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "Распределение заземления",
-    "image": "/schemes_atlas/scheme_0313.webp",
+    "image": "./schemes_atlas/scheme_0313.webp",
     "originalFile": "6.8-5.jpg"
   },
   {
@@ -2833,7 +2833,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "Распределение заземления",
-    "image": "/schemes_atlas/scheme_0314.webp",
+    "image": "./schemes_atlas/scheme_0314.webp",
     "originalFile": "6.8-6.jpg"
   },
   {
@@ -2842,7 +2842,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "Распределение заземления",
-    "image": "/schemes_atlas/scheme_0315.webp",
+    "image": "./schemes_atlas/scheme_0315.webp",
     "originalFile": "6.8-7.jpg"
   },
   {
@@ -2851,7 +2851,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "Распределение заземления",
-    "image": "/schemes_atlas/scheme_0316.webp",
+    "image": "./schemes_atlas/scheme_0316.webp",
     "originalFile": "6.8-8.jpg"
   },
   {
@@ -2860,7 +2860,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "grounding",
     "categoryTitle": "Точки массы и заземления",
     "section": "Распределение заземления",
-    "image": "/schemes_atlas/scheme_0317.webp",
+    "image": "./schemes_atlas/scheme_0317.webp",
     "originalFile": "6.8-9.jpg"
   },
   {
@@ -2869,7 +2869,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Распределение электропитания",
-    "image": "/schemes_atlas/scheme_0318.webp",
+    "image": "./schemes_atlas/scheme_0318.webp",
     "originalFile": "6.6-1.jpg"
   },
   {
@@ -2878,7 +2878,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Распределение электропитания",
-    "image": "/schemes_atlas/scheme_0319.webp",
+    "image": "./schemes_atlas/scheme_0319.webp",
     "originalFile": "6.6-2.jpg"
   },
   {
@@ -2887,7 +2887,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Распределение электропитания",
-    "image": "/schemes_atlas/scheme_0320.webp",
+    "image": "./schemes_atlas/scheme_0320.webp",
     "originalFile": "6.6-3.jpg"
   },
   {
@@ -2896,7 +2896,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Распределение электропитания",
-    "image": "/schemes_atlas/scheme_0321.webp",
+    "image": "./schemes_atlas/scheme_0321.webp",
     "originalFile": "6.6-4.jpg"
   },
   {
@@ -2905,7 +2905,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Распределение электропитания",
-    "image": "/schemes_atlas/scheme_0322.webp",
+    "image": "./schemes_atlas/scheme_0322.webp",
     "originalFile": "6.6-5.jpg"
   },
   {
@@ -2914,7 +2914,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Распределение электропитания",
-    "image": "/schemes_atlas/scheme_0323.webp",
+    "image": "./schemes_atlas/scheme_0323.webp",
     "originalFile": "6.6-6.jpg"
   },
   {
@@ -2923,7 +2923,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Распределение электропитания",
-    "image": "/schemes_atlas/scheme_0324.webp",
+    "image": "./schemes_atlas/scheme_0324.webp",
     "originalFile": "6.6-7.jpg"
   },
   {
@@ -2932,7 +2932,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Распределение электропитания",
-    "image": "/schemes_atlas/scheme_0325.webp",
+    "image": "./schemes_atlas/scheme_0325.webp",
     "originalFile": "6.6-8.jpg"
   },
   {
@@ -2941,7 +2941,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Распределение электропитания",
-    "image": "/schemes_atlas/scheme_0326.webp",
+    "image": "./schemes_atlas/scheme_0326.webp",
     "originalFile": "6.6-9.jpg"
   },
   {
@@ -2950,7 +2950,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0327.webp",
+    "image": "./schemes_atlas/scheme_0327.webp",
     "originalFile": "6.7-1.jpg"
   },
   {
@@ -2959,7 +2959,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0328.webp",
+    "image": "./schemes_atlas/scheme_0328.webp",
     "originalFile": "6.7-10.jpg"
   },
   {
@@ -2968,7 +2968,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0329.webp",
+    "image": "./schemes_atlas/scheme_0329.webp",
     "originalFile": "6.7-11.jpg"
   },
   {
@@ -2977,7 +2977,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0330.webp",
+    "image": "./schemes_atlas/scheme_0330.webp",
     "originalFile": "6.7-12.jpg"
   },
   {
@@ -2986,7 +2986,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0331.webp",
+    "image": "./schemes_atlas/scheme_0331.webp",
     "originalFile": "6.7-13.jpg"
   },
   {
@@ -2995,7 +2995,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0332.webp",
+    "image": "./schemes_atlas/scheme_0332.webp",
     "originalFile": "6.7-14.jpg"
   },
   {
@@ -3004,7 +3004,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0333.webp",
+    "image": "./schemes_atlas/scheme_0333.webp",
     "originalFile": "6.7-2.jpg"
   },
   {
@@ -3013,7 +3013,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0334.webp",
+    "image": "./schemes_atlas/scheme_0334.webp",
     "originalFile": "6.7-3.jpg"
   },
   {
@@ -3022,7 +3022,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0335.webp",
+    "image": "./schemes_atlas/scheme_0335.webp",
     "originalFile": "6.7-4.jpg"
   },
   {
@@ -3031,7 +3031,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0336.webp",
+    "image": "./schemes_atlas/scheme_0336.webp",
     "originalFile": "6.7-5.jpg"
   },
   {
@@ -3040,7 +3040,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0337.webp",
+    "image": "./schemes_atlas/scheme_0337.webp",
     "originalFile": "6.7-6.jpg"
   },
   {
@@ -3049,7 +3049,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0338.webp",
+    "image": "./schemes_atlas/scheme_0338.webp",
     "originalFile": "6.7-7.jpg"
   },
   {
@@ -3058,7 +3058,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0339.webp",
+    "image": "./schemes_atlas/scheme_0339.webp",
     "originalFile": "6.7-8.jpg"
   },
   {
@@ -3067,7 +3067,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "power_fuses",
     "categoryTitle": "Питание и предохранители",
     "section": "Цепи предохранителей",
-    "image": "/schemes_atlas/scheme_0340.webp",
+    "image": "./schemes_atlas/scheme_0340.webp",
     "originalFile": "6.7-9.jpg"
   },
   {
@@ -3076,7 +3076,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "systems",
     "categoryTitle": "Электрические системы",
     "section": "Электрические схемы",
-    "image": "/schemes_atlas/scheme_0341.webp",
+    "image": "./schemes_atlas/scheme_0341.webp",
     "originalFile": "Мульти-предохранители.jpg"
   },
   {
@@ -3085,7 +3085,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "systems",
     "categoryTitle": "Электрические системы",
     "section": "Электрические схемы",
-    "image": "/schemes_atlas/scheme_0342.webp",
+    "image": "./schemes_atlas/scheme_0342.webp",
     "originalFile": "Предохранители .bmp"
   },
   {
@@ -3094,7 +3094,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0343.webp",
+    "image": "./schemes_atlas/scheme_0343.webp",
     "originalFile": "6.4.1-1.jpg"
   },
   {
@@ -3103,7 +3103,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0344.webp",
+    "image": "./schemes_atlas/scheme_0344.webp",
     "originalFile": "6.4.1-10.jpg"
   },
   {
@@ -3112,7 +3112,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0345.webp",
+    "image": "./schemes_atlas/scheme_0345.webp",
     "originalFile": "6.4.1-11.jpg"
   },
   {
@@ -3121,7 +3121,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0346.webp",
+    "image": "./schemes_atlas/scheme_0346.webp",
     "originalFile": "6.4.1-12.jpg"
   },
   {
@@ -3130,7 +3130,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0347.webp",
+    "image": "./schemes_atlas/scheme_0347.webp",
     "originalFile": "6.4.1-13.jpg"
   },
   {
@@ -3139,7 +3139,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0348.webp",
+    "image": "./schemes_atlas/scheme_0348.webp",
     "originalFile": "6.4.1-14.jpg"
   },
   {
@@ -3148,7 +3148,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0349.webp",
+    "image": "./schemes_atlas/scheme_0349.webp",
     "originalFile": "6.4.1-2.jpg"
   },
   {
@@ -3157,7 +3157,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0350.webp",
+    "image": "./schemes_atlas/scheme_0350.webp",
     "originalFile": "6.4.1-3.jpg"
   },
   {
@@ -3166,7 +3166,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0351.webp",
+    "image": "./schemes_atlas/scheme_0351.webp",
     "originalFile": "6.4.1-4.jpg"
   },
   {
@@ -3175,7 +3175,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0352.webp",
+    "image": "./schemes_atlas/scheme_0352.webp",
     "originalFile": "6.4.1-5.jpg"
   },
   {
@@ -3184,7 +3184,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0353.webp",
+    "image": "./schemes_atlas/scheme_0353.webp",
     "originalFile": "6.4.1-6.jpg"
   },
   {
@@ -3193,7 +3193,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0354.webp",
+    "image": "./schemes_atlas/scheme_0354.webp",
     "originalFile": "6.4.1-7.jpg"
   },
   {
@@ -3202,7 +3202,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0355.webp",
+    "image": "./schemes_atlas/scheme_0355.webp",
     "originalFile": "6.4.1-8.jpg"
   },
   {
@@ -3211,7 +3211,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.1 Тормозная система",
-    "image": "/schemes_atlas/scheme_0356.webp",
+    "image": "./schemes_atlas/scheme_0356.webp",
     "originalFile": "6.4.1-9.jpg"
   },
   {
@@ -3220,7 +3220,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0357.webp",
+    "image": "./schemes_atlas/scheme_0357.webp",
     "originalFile": "6.4.10-1.jpg"
   },
   {
@@ -3229,7 +3229,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0358.webp",
+    "image": "./schemes_atlas/scheme_0358.webp",
     "originalFile": "6.4.10-10.jpg"
   },
   {
@@ -3238,7 +3238,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0359.webp",
+    "image": "./schemes_atlas/scheme_0359.webp",
     "originalFile": "6.4.10-11.jpg"
   },
   {
@@ -3247,7 +3247,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0360.webp",
+    "image": "./schemes_atlas/scheme_0360.webp",
     "originalFile": "6.4.10-12.jpg"
   },
   {
@@ -3256,7 +3256,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0361.webp",
+    "image": "./schemes_atlas/scheme_0361.webp",
     "originalFile": "6.4.10-13.jpg"
   },
   {
@@ -3265,7 +3265,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0362.webp",
+    "image": "./schemes_atlas/scheme_0362.webp",
     "originalFile": "6.4.10-14.jpg"
   },
   {
@@ -3274,7 +3274,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0363.webp",
+    "image": "./schemes_atlas/scheme_0363.webp",
     "originalFile": "6.4.10-15.jpg"
   },
   {
@@ -3283,7 +3283,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0364.webp",
+    "image": "./schemes_atlas/scheme_0364.webp",
     "originalFile": "6.4.10-16.jpg"
   },
   {
@@ -3292,7 +3292,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0365.webp",
+    "image": "./schemes_atlas/scheme_0365.webp",
     "originalFile": "6.4.10-2.jpg"
   },
   {
@@ -3301,7 +3301,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0366.webp",
+    "image": "./schemes_atlas/scheme_0366.webp",
     "originalFile": "6.4.10-3.jpg"
   },
   {
@@ -3310,7 +3310,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0367.webp",
+    "image": "./schemes_atlas/scheme_0367.webp",
     "originalFile": "6.4.10-4.jpg"
   },
   {
@@ -3319,7 +3319,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0368.webp",
+    "image": "./schemes_atlas/scheme_0368.webp",
     "originalFile": "6.4.10-5.jpg"
   },
   {
@@ -3328,7 +3328,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0369.webp",
+    "image": "./schemes_atlas/scheme_0369.webp",
     "originalFile": "6.4.10-6.jpg"
   },
   {
@@ -3337,7 +3337,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0370.webp",
+    "image": "./schemes_atlas/scheme_0370.webp",
     "originalFile": "6.4.10-7.jpg"
   },
   {
@@ -3346,7 +3346,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0371.webp",
+    "image": "./schemes_atlas/scheme_0371.webp",
     "originalFile": "6.4.10-8.jpg"
   },
   {
@@ -3355,7 +3355,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.10 Система отопления и кондиционирования",
-    "image": "/schemes_atlas/scheme_0372.webp",
+    "image": "./schemes_atlas/scheme_0372.webp",
     "originalFile": "6.4.10-9.jpg"
   },
   {
@@ -3364,7 +3364,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.11 Система безопасности (подушки)",
-    "image": "/schemes_atlas/scheme_0373.webp",
+    "image": "./schemes_atlas/scheme_0373.webp",
     "originalFile": "6.4.11-1.jpg"
   },
   {
@@ -3373,7 +3373,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.11 Система безопасности (подушки)",
-    "image": "/schemes_atlas/scheme_0374.webp",
+    "image": "./schemes_atlas/scheme_0374.webp",
     "originalFile": "6.4.11-10.jpg"
   },
   {
@@ -3382,7 +3382,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.11 Система безопасности (подушки)",
-    "image": "/schemes_atlas/scheme_0375.webp",
+    "image": "./schemes_atlas/scheme_0375.webp",
     "originalFile": "6.4.11-11.jpg"
   },
   {
@@ -3391,7 +3391,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.11 Система безопасности (подушки)",
-    "image": "/schemes_atlas/scheme_0376.webp",
+    "image": "./schemes_atlas/scheme_0376.webp",
     "originalFile": "6.4.11-2.jpg"
   },
   {
@@ -3400,7 +3400,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.11 Система безопасности (подушки)",
-    "image": "/schemes_atlas/scheme_0377.webp",
+    "image": "./schemes_atlas/scheme_0377.webp",
     "originalFile": "6.4.11-3.jpg"
   },
   {
@@ -3409,7 +3409,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.11 Система безопасности (подушки)",
-    "image": "/schemes_atlas/scheme_0378.webp",
+    "image": "./schemes_atlas/scheme_0378.webp",
     "originalFile": "6.4.11-4.jpg"
   },
   {
@@ -3418,7 +3418,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.11 Система безопасности (подушки)",
-    "image": "/schemes_atlas/scheme_0379.webp",
+    "image": "./schemes_atlas/scheme_0379.webp",
     "originalFile": "6.4.11-5.jpg"
   },
   {
@@ -3427,7 +3427,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.11 Система безопасности (подушки)",
-    "image": "/schemes_atlas/scheme_0380.webp",
+    "image": "./schemes_atlas/scheme_0380.webp",
     "originalFile": "6.4.11-6.jpg"
   },
   {
@@ -3436,7 +3436,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.11 Система безопасности (подушки)",
-    "image": "/schemes_atlas/scheme_0381.webp",
+    "image": "./schemes_atlas/scheme_0381.webp",
     "originalFile": "6.4.11-7.jpg"
   },
   {
@@ -3445,7 +3445,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.11 Система безопасности (подушки)",
-    "image": "/schemes_atlas/scheme_0382.webp",
+    "image": "./schemes_atlas/scheme_0382.webp",
     "originalFile": "6.4.11-8.jpg"
   },
   {
@@ -3454,7 +3454,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.11 Система безопасности (подушки)",
-    "image": "/schemes_atlas/scheme_0383.webp",
+    "image": "./schemes_atlas/scheme_0383.webp",
     "originalFile": "6.4.11-9.jpg"
   },
   {
@@ -3463,7 +3463,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.12 Комбинация приборов",
-    "image": "/schemes_atlas/scheme_0384.webp",
+    "image": "./schemes_atlas/scheme_0384.webp",
     "originalFile": "6.4.12-1.jpg"
   },
   {
@@ -3472,7 +3472,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.12 Комбинация приборов",
-    "image": "/schemes_atlas/scheme_0385.webp",
+    "image": "./schemes_atlas/scheme_0385.webp",
     "originalFile": "6.4.12-10.jpg"
   },
   {
@@ -3481,7 +3481,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.12 Комбинация приборов",
-    "image": "/schemes_atlas/scheme_0386.webp",
+    "image": "./schemes_atlas/scheme_0386.webp",
     "originalFile": "6.4.12-2.jpg"
   },
   {
@@ -3490,7 +3490,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.12 Комбинация приборов",
-    "image": "/schemes_atlas/scheme_0387.webp",
+    "image": "./schemes_atlas/scheme_0387.webp",
     "originalFile": "6.4.12-3.jpg"
   },
   {
@@ -3499,7 +3499,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.12 Комбинация приборов",
-    "image": "/schemes_atlas/scheme_0388.webp",
+    "image": "./schemes_atlas/scheme_0388.webp",
     "originalFile": "6.4.12-4.jpg"
   },
   {
@@ -3508,7 +3508,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.12 Комбинация приборов",
-    "image": "/schemes_atlas/scheme_0389.webp",
+    "image": "./schemes_atlas/scheme_0389.webp",
     "originalFile": "6.4.12-5.jpg"
   },
   {
@@ -3517,7 +3517,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.12 Комбинация приборов",
-    "image": "/schemes_atlas/scheme_0390.webp",
+    "image": "./schemes_atlas/scheme_0390.webp",
     "originalFile": "6.4.12-6.jpg"
   },
   {
@@ -3526,7 +3526,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.12 Комбинация приборов",
-    "image": "/schemes_atlas/scheme_0391.webp",
+    "image": "./schemes_atlas/scheme_0391.webp",
     "originalFile": "6.4.12-7.jpg"
   },
   {
@@ -3535,7 +3535,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.12 Комбинация приборов",
-    "image": "/schemes_atlas/scheme_0392.webp",
+    "image": "./schemes_atlas/scheme_0392.webp",
     "originalFile": "6.4.12-8.jpg"
   },
   {
@@ -3544,7 +3544,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.12 Комбинация приборов",
-    "image": "/schemes_atlas/scheme_0393.webp",
+    "image": "./schemes_atlas/scheme_0393.webp",
     "originalFile": "6.4.12-9.jpg"
   },
   {
@@ -3553,7 +3553,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.13 Звуковой сигнал",
-    "image": "/schemes_atlas/scheme_0394.webp",
+    "image": "./schemes_atlas/scheme_0394.webp",
     "originalFile": "6.4.13-1.jpg"
   },
   {
@@ -3562,7 +3562,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.13 Звуковой сигнал",
-    "image": "/schemes_atlas/scheme_0395.webp",
+    "image": "./schemes_atlas/scheme_0395.webp",
     "originalFile": "6.4.13-2.jpg"
   },
   {
@@ -3571,7 +3571,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.13 Звуковой сигнал",
-    "image": "/schemes_atlas/scheme_0396.webp",
+    "image": "./schemes_atlas/scheme_0396.webp",
     "originalFile": "6.4.13-3.jpg"
   },
   {
@@ -3580,7 +3580,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.13 Звуковой сигнал",
-    "image": "/schemes_atlas/scheme_0397.webp",
+    "image": "./schemes_atlas/scheme_0397.webp",
     "originalFile": "6.4.13-4.jpg"
   },
   {
@@ -3589,7 +3589,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.13 Звуковой сигнал",
-    "image": "/schemes_atlas/scheme_0398.webp",
+    "image": "./schemes_atlas/scheme_0398.webp",
     "originalFile": "6.4.13-5.jpg"
   },
   {
@@ -3598,7 +3598,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.14 USB,Розетка и беспров.зараядка",
-    "image": "/schemes_atlas/scheme_0399.webp",
+    "image": "./schemes_atlas/scheme_0399.webp",
     "originalFile": "6.4.14-1.jpg"
   },
   {
@@ -3607,7 +3607,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.14 USB,Розетка и беспров.зараядка",
-    "image": "/schemes_atlas/scheme_0400.webp",
+    "image": "./schemes_atlas/scheme_0400.webp",
     "originalFile": "6.4.14-2.jpg"
   },
   {
@@ -3616,7 +3616,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.14 USB,Розетка и беспров.зараядка",
-    "image": "/schemes_atlas/scheme_0401.webp",
+    "image": "./schemes_atlas/scheme_0401.webp",
     "originalFile": "6.4.14-3.jpg"
   },
   {
@@ -3625,7 +3625,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.14 USB,Розетка и беспров.зараядка",
-    "image": "/schemes_atlas/scheme_0402.webp",
+    "image": "./schemes_atlas/scheme_0402.webp",
     "originalFile": "6.4.14-4.jpg"
   },
   {
@@ -3634,7 +3634,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0403.webp",
+    "image": "./schemes_atlas/scheme_0403.webp",
     "originalFile": "6.4.15-1.jpg"
   },
   {
@@ -3643,7 +3643,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0404.webp",
+    "image": "./schemes_atlas/scheme_0404.webp",
     "originalFile": "6.4.15-10.jpg"
   },
   {
@@ -3652,7 +3652,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0405.webp",
+    "image": "./schemes_atlas/scheme_0405.webp",
     "originalFile": "6.4.15-11.jpg"
   },
   {
@@ -3661,7 +3661,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0406.webp",
+    "image": "./schemes_atlas/scheme_0406.webp",
     "originalFile": "6.4.15-12.jpg"
   },
   {
@@ -3670,7 +3670,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0407.webp",
+    "image": "./schemes_atlas/scheme_0407.webp",
     "originalFile": "6.4.15-13.jpg"
   },
   {
@@ -3679,7 +3679,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0408.webp",
+    "image": "./schemes_atlas/scheme_0408.webp",
     "originalFile": "6.4.15-14.jpg"
   },
   {
@@ -3688,7 +3688,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0409.webp",
+    "image": "./schemes_atlas/scheme_0409.webp",
     "originalFile": "6.4.15-15.jpg"
   },
   {
@@ -3697,7 +3697,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0410.webp",
+    "image": "./schemes_atlas/scheme_0410.webp",
     "originalFile": "6.4.15-16.jpg"
   },
   {
@@ -3706,7 +3706,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0411.webp",
+    "image": "./schemes_atlas/scheme_0411.webp",
     "originalFile": "6.4.15-17.jpg"
   },
   {
@@ -3715,7 +3715,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0412.webp",
+    "image": "./schemes_atlas/scheme_0412.webp",
     "originalFile": "6.4.15-18.jpg"
   },
   {
@@ -3724,7 +3724,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0413.webp",
+    "image": "./schemes_atlas/scheme_0413.webp",
     "originalFile": "6.4.15-19.jpg"
   },
   {
@@ -3733,7 +3733,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0414.webp",
+    "image": "./schemes_atlas/scheme_0414.webp",
     "originalFile": "6.4.15-2.jpg"
   },
   {
@@ -3742,7 +3742,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0415.webp",
+    "image": "./schemes_atlas/scheme_0415.webp",
     "originalFile": "6.4.15-20.jpg"
   },
   {
@@ -3751,7 +3751,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0416.webp",
+    "image": "./schemes_atlas/scheme_0416.webp",
     "originalFile": "6.4.15-21.jpg"
   },
   {
@@ -3760,7 +3760,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0417.webp",
+    "image": "./schemes_atlas/scheme_0417.webp",
     "originalFile": "6.4.15-22.jpg"
   },
   {
@@ -3769,7 +3769,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0418.webp",
+    "image": "./schemes_atlas/scheme_0418.webp",
     "originalFile": "6.4.15-23.jpg"
   },
   {
@@ -3778,7 +3778,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0419.webp",
+    "image": "./schemes_atlas/scheme_0419.webp",
     "originalFile": "6.4.15-24.jpg"
   },
   {
@@ -3787,7 +3787,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0420.webp",
+    "image": "./schemes_atlas/scheme_0420.webp",
     "originalFile": "6.4.15-25.jpg"
   },
   {
@@ -3796,7 +3796,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0421.webp",
+    "image": "./schemes_atlas/scheme_0421.webp",
     "originalFile": "6.4.15-26.jpg"
   },
   {
@@ -3805,7 +3805,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0422.webp",
+    "image": "./schemes_atlas/scheme_0422.webp",
     "originalFile": "6.4.15-3.jpg"
   },
   {
@@ -3814,7 +3814,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0423.webp",
+    "image": "./schemes_atlas/scheme_0423.webp",
     "originalFile": "6.4.15-4.jpg"
   },
   {
@@ -3823,7 +3823,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0424.webp",
+    "image": "./schemes_atlas/scheme_0424.webp",
     "originalFile": "6.4.15-5.jpg"
   },
   {
@@ -3832,7 +3832,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0425.webp",
+    "image": "./schemes_atlas/scheme_0425.webp",
     "originalFile": "6.4.15-6.jpg"
   },
   {
@@ -3841,7 +3841,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0426.webp",
+    "image": "./schemes_atlas/scheme_0426.webp",
     "originalFile": "6.4.15-7.jpg"
   },
   {
@@ -3850,7 +3850,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0427.webp",
+    "image": "./schemes_atlas/scheme_0427.webp",
     "originalFile": "6.4.15-8.jpg"
   },
   {
@@ -3859,7 +3859,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.15 Мультимедиа и камеры",
-    "image": "/schemes_atlas/scheme_0428.webp",
+    "image": "./schemes_atlas/scheme_0428.webp",
     "originalFile": "6.4.15-9.jpg"
   },
   {
@@ -3868,7 +3868,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0429.webp",
+    "image": "./schemes_atlas/scheme_0429.webp",
     "originalFile": "6.4.16-1.jpg"
   },
   {
@@ -3877,7 +3877,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0430.webp",
+    "image": "./schemes_atlas/scheme_0430.webp",
     "originalFile": "6.4.16-10.jpg"
   },
   {
@@ -3886,7 +3886,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0431.webp",
+    "image": "./schemes_atlas/scheme_0431.webp",
     "originalFile": "6.4.16-11.jpg"
   },
   {
@@ -3895,7 +3895,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0432.webp",
+    "image": "./schemes_atlas/scheme_0432.webp",
     "originalFile": "6.4.16-12.jpg"
   },
   {
@@ -3904,7 +3904,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0433.webp",
+    "image": "./schemes_atlas/scheme_0433.webp",
     "originalFile": "6.4.16-13.jpg"
   },
   {
@@ -3913,7 +3913,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0434.webp",
+    "image": "./schemes_atlas/scheme_0434.webp",
     "originalFile": "6.4.16-14.jpg"
   },
   {
@@ -3922,7 +3922,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0435.webp",
+    "image": "./schemes_atlas/scheme_0435.webp",
     "originalFile": "6.4.16-15.jpg"
   },
   {
@@ -3931,7 +3931,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0436.webp",
+    "image": "./schemes_atlas/scheme_0436.webp",
     "originalFile": "6.4.16-16.jpg"
   },
   {
@@ -3940,7 +3940,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0437.webp",
+    "image": "./schemes_atlas/scheme_0437.webp",
     "originalFile": "6.4.16-17.jpg"
   },
   {
@@ -3949,7 +3949,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0438.webp",
+    "image": "./schemes_atlas/scheme_0438.webp",
     "originalFile": "6.4.16-18.jpg"
   },
   {
@@ -3958,7 +3958,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0439.webp",
+    "image": "./schemes_atlas/scheme_0439.webp",
     "originalFile": "6.4.16-19.jpg"
   },
   {
@@ -3967,7 +3967,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0440.webp",
+    "image": "./schemes_atlas/scheme_0440.webp",
     "originalFile": "6.4.16-2.jpg"
   },
   {
@@ -3976,7 +3976,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0441.webp",
+    "image": "./schemes_atlas/scheme_0441.webp",
     "originalFile": "6.4.16-20.jpg"
   },
   {
@@ -3985,7 +3985,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0442.webp",
+    "image": "./schemes_atlas/scheme_0442.webp",
     "originalFile": "6.4.16-21.jpg"
   },
   {
@@ -3994,7 +3994,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0443.webp",
+    "image": "./schemes_atlas/scheme_0443.webp",
     "originalFile": "6.4.16-22.jpg"
   },
   {
@@ -4003,7 +4003,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0444.webp",
+    "image": "./schemes_atlas/scheme_0444.webp",
     "originalFile": "6.4.16-23.jpg"
   },
   {
@@ -4012,7 +4012,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0445.webp",
+    "image": "./schemes_atlas/scheme_0445.webp",
     "originalFile": "6.4.16-24.jpg"
   },
   {
@@ -4021,7 +4021,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0446.webp",
+    "image": "./schemes_atlas/scheme_0446.webp",
     "originalFile": "6.4.16-25.jpg"
   },
   {
@@ -4030,7 +4030,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0447.webp",
+    "image": "./schemes_atlas/scheme_0447.webp",
     "originalFile": "6.4.16-26.jpg"
   },
   {
@@ -4039,7 +4039,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0448.webp",
+    "image": "./schemes_atlas/scheme_0448.webp",
     "originalFile": "6.4.16-27.jpg"
   },
   {
@@ -4048,7 +4048,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0449.webp",
+    "image": "./schemes_atlas/scheme_0449.webp",
     "originalFile": "6.4.16-28.jpg"
   },
   {
@@ -4057,7 +4057,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0450.webp",
+    "image": "./schemes_atlas/scheme_0450.webp",
     "originalFile": "6.4.16-3.jpg"
   },
   {
@@ -4066,7 +4066,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0451.webp",
+    "image": "./schemes_atlas/scheme_0451.webp",
     "originalFile": "6.4.16-4.jpg"
   },
   {
@@ -4075,7 +4075,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0452.webp",
+    "image": "./schemes_atlas/scheme_0452.webp",
     "originalFile": "6.4.16-5.jpg"
   },
   {
@@ -4084,7 +4084,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0453.webp",
+    "image": "./schemes_atlas/scheme_0453.webp",
     "originalFile": "6.4.16-6.jpg"
   },
   {
@@ -4093,7 +4093,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0454.webp",
+    "image": "./schemes_atlas/scheme_0454.webp",
     "originalFile": "6.4.16-7.jpg"
   },
   {
@@ -4102,7 +4102,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0455.webp",
+    "image": "./schemes_atlas/scheme_0455.webp",
     "originalFile": "6.4.16-8.jpg"
   },
   {
@@ -4111,7 +4111,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.16 Система освещения",
-    "image": "/schemes_atlas/scheme_0456.webp",
+    "image": "./schemes_atlas/scheme_0456.webp",
     "originalFile": "6.4.16-9.jpg"
   },
   {
@@ -4120,7 +4120,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0457.webp",
+    "image": "./schemes_atlas/scheme_0457.webp",
     "originalFile": "6.4.17-1.jpg"
   },
   {
@@ -4129,7 +4129,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0458.webp",
+    "image": "./schemes_atlas/scheme_0458.webp",
     "originalFile": "6.4.17-10.jpg"
   },
   {
@@ -4138,7 +4138,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0459.webp",
+    "image": "./schemes_atlas/scheme_0459.webp",
     "originalFile": "6.4.17-11.jpg"
   },
   {
@@ -4147,7 +4147,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0460.webp",
+    "image": "./schemes_atlas/scheme_0460.webp",
     "originalFile": "6.4.17-12.jpg"
   },
   {
@@ -4156,7 +4156,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0461.webp",
+    "image": "./schemes_atlas/scheme_0461.webp",
     "originalFile": "6.4.17-13.jpg"
   },
   {
@@ -4165,7 +4165,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0462.webp",
+    "image": "./schemes_atlas/scheme_0462.webp",
     "originalFile": "6.4.17-14.jpg"
   },
   {
@@ -4174,7 +4174,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0463.webp",
+    "image": "./schemes_atlas/scheme_0463.webp",
     "originalFile": "6.4.17-15.jpg"
   },
   {
@@ -4183,7 +4183,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0464.webp",
+    "image": "./schemes_atlas/scheme_0464.webp",
     "originalFile": "6.4.17-2.jpg"
   },
   {
@@ -4192,7 +4192,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0465.webp",
+    "image": "./schemes_atlas/scheme_0465.webp",
     "originalFile": "6.4.17-3.jpg"
   },
   {
@@ -4201,7 +4201,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0466.webp",
+    "image": "./schemes_atlas/scheme_0466.webp",
     "originalFile": "6.4.17-4.jpg"
   },
   {
@@ -4210,7 +4210,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0467.webp",
+    "image": "./schemes_atlas/scheme_0467.webp",
     "originalFile": "6.4.17-5.jpg"
   },
   {
@@ -4219,7 +4219,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0468.webp",
+    "image": "./schemes_atlas/scheme_0468.webp",
     "originalFile": "6.4.17-6.jpg"
   },
   {
@@ -4228,7 +4228,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0469.webp",
+    "image": "./schemes_atlas/scheme_0469.webp",
     "originalFile": "6.4.17-7.jpg"
   },
   {
@@ -4237,7 +4237,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0470.webp",
+    "image": "./schemes_atlas/scheme_0470.webp",
     "originalFile": "6.4.17-8.jpg"
   },
   {
@@ -4246,7 +4246,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.17 Очиститель и омыватель стекол",
-    "image": "/schemes_atlas/scheme_0471.webp",
+    "image": "./schemes_atlas/scheme_0471.webp",
     "originalFile": "6.4.17-9.jpg"
   },
   {
@@ -4255,7 +4255,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.18 Наружние зеркала",
-    "image": "/schemes_atlas/scheme_0472.webp",
+    "image": "./schemes_atlas/scheme_0472.webp",
     "originalFile": "6.4.18-1.jpg"
   },
   {
@@ -4264,7 +4264,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.18 Наружние зеркала",
-    "image": "/schemes_atlas/scheme_0473.webp",
+    "image": "./schemes_atlas/scheme_0473.webp",
     "originalFile": "6.4.18-2.jpg"
   },
   {
@@ -4273,7 +4273,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.18 Наружние зеркала",
-    "image": "/schemes_atlas/scheme_0474.webp",
+    "image": "./schemes_atlas/scheme_0474.webp",
     "originalFile": "6.4.18-3.jpg"
   },
   {
@@ -4282,7 +4282,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.18 Наружние зеркала",
-    "image": "/schemes_atlas/scheme_0475.webp",
+    "image": "./schemes_atlas/scheme_0475.webp",
     "originalFile": "6.4.18-4.jpg"
   },
   {
@@ -4291,7 +4291,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.18 Наружние зеркала",
-    "image": "/schemes_atlas/scheme_0476.webp",
+    "image": "./schemes_atlas/scheme_0476.webp",
     "originalFile": "6.4.18-5.jpg"
   },
   {
@@ -4300,7 +4300,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.18 Наружние зеркала",
-    "image": "/schemes_atlas/scheme_0477.webp",
+    "image": "./schemes_atlas/scheme_0477.webp",
     "originalFile": "6.4.18-6.jpg"
   },
   {
@@ -4309,7 +4309,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.18 Наружние зеркала",
-    "image": "/schemes_atlas/scheme_0478.webp",
+    "image": "./schemes_atlas/scheme_0478.webp",
     "originalFile": "6.4.18-7.jpg"
   },
   {
@@ -4318,7 +4318,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.19 Центральный замок",
-    "image": "/schemes_atlas/scheme_0479.webp",
+    "image": "./schemes_atlas/scheme_0479.webp",
     "originalFile": "6.4.19-1.jpg"
   },
   {
@@ -4327,7 +4327,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.19 Центральный замок",
-    "image": "/schemes_atlas/scheme_0480.webp",
+    "image": "./schemes_atlas/scheme_0480.webp",
     "originalFile": "6.4.19-2.jpg"
   },
   {
@@ -4336,7 +4336,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.19 Центральный замок",
-    "image": "/schemes_atlas/scheme_0481.webp",
+    "image": "./schemes_atlas/scheme_0481.webp",
     "originalFile": "6.4.19-3.jpg"
   },
   {
@@ -4345,7 +4345,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.19 Центральный замок",
-    "image": "/schemes_atlas/scheme_0482.webp",
+    "image": "./schemes_atlas/scheme_0482.webp",
     "originalFile": "6.4.19-4.jpg"
   },
   {
@@ -4354,7 +4354,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.19 Центральный замок",
-    "image": "/schemes_atlas/scheme_0483.webp",
+    "image": "./schemes_atlas/scheme_0483.webp",
     "originalFile": "6.4.19-5.jpg"
   },
   {
@@ -4363,7 +4363,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.19 Центральный замок",
-    "image": "/schemes_atlas/scheme_0484.webp",
+    "image": "./schemes_atlas/scheme_0484.webp",
     "originalFile": "6.4.19-6.jpg"
   },
   {
@@ -4372,7 +4372,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.19 Центральный замок",
-    "image": "/schemes_atlas/scheme_0485.webp",
+    "image": "./schemes_atlas/scheme_0485.webp",
     "originalFile": "6.4.19-7.jpg"
   },
   {
@@ -4381,7 +4381,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.19 Центральный замок",
-    "image": "/schemes_atlas/scheme_0486.webp",
+    "image": "./schemes_atlas/scheme_0486.webp",
     "originalFile": "6.4.19-8.jpg"
   },
   {
@@ -4390,7 +4390,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.19 Центральный замок",
-    "image": "/schemes_atlas/scheme_0487.webp",
+    "image": "./schemes_atlas/scheme_0487.webp",
     "originalFile": "6.4.19-9.jpg"
   },
   {
@@ -4399,7 +4399,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.2 Электроусилитель руля",
-    "image": "/schemes_atlas/scheme_0488.webp",
+    "image": "./schemes_atlas/scheme_0488.webp",
     "originalFile": "6.4.2-1.jpg"
   },
   {
@@ -4408,7 +4408,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.2 Электроусилитель руля",
-    "image": "/schemes_atlas/scheme_0489.webp",
+    "image": "./schemes_atlas/scheme_0489.webp",
     "originalFile": "6.4.2-2.jpg"
   },
   {
@@ -4417,7 +4417,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.2 Электроусилитель руля",
-    "image": "/schemes_atlas/scheme_0490.webp",
+    "image": "./schemes_atlas/scheme_0490.webp",
     "originalFile": "6.4.2-3.jpg"
   },
   {
@@ -4426,7 +4426,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.2 Электроусилитель руля",
-    "image": "/schemes_atlas/scheme_0491.webp",
+    "image": "./schemes_atlas/scheme_0491.webp",
     "originalFile": "6.4.2-4.jpg"
   },
   {
@@ -4435,7 +4435,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0492.webp",
+    "image": "./schemes_atlas/scheme_0492.webp",
     "originalFile": "6.4.20-1.jpg"
   },
   {
@@ -4444,7 +4444,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0493.webp",
+    "image": "./schemes_atlas/scheme_0493.webp",
     "originalFile": "6.4.20-10.jpg"
   },
   {
@@ -4453,7 +4453,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0494.webp",
+    "image": "./schemes_atlas/scheme_0494.webp",
     "originalFile": "6.4.20-11.jpg"
   },
   {
@@ -4462,7 +4462,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0495.webp",
+    "image": "./schemes_atlas/scheme_0495.webp",
     "originalFile": "6.4.20-12.jpg"
   },
   {
@@ -4471,7 +4471,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0496.webp",
+    "image": "./schemes_atlas/scheme_0496.webp",
     "originalFile": "6.4.20-13.jpg"
   },
   {
@@ -4480,7 +4480,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0497.webp",
+    "image": "./schemes_atlas/scheme_0497.webp",
     "originalFile": "6.4.20-2.jpg"
   },
   {
@@ -4489,7 +4489,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0498.webp",
+    "image": "./schemes_atlas/scheme_0498.webp",
     "originalFile": "6.4.20-3.jpg"
   },
   {
@@ -4498,7 +4498,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0499.webp",
+    "image": "./schemes_atlas/scheme_0499.webp",
     "originalFile": "6.4.20-4.jpg"
   },
   {
@@ -4507,7 +4507,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0500.webp",
+    "image": "./schemes_atlas/scheme_0500.webp",
     "originalFile": "6.4.20-5.jpg"
   },
   {
@@ -4516,7 +4516,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0501.webp",
+    "image": "./schemes_atlas/scheme_0501.webp",
     "originalFile": "6.4.20-6.jpg"
   },
   {
@@ -4525,7 +4525,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0502.webp",
+    "image": "./schemes_atlas/scheme_0502.webp",
     "originalFile": "6.4.20-7-1.jpg"
   },
   {
@@ -4534,7 +4534,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0503.webp",
+    "image": "./schemes_atlas/scheme_0503.webp",
     "originalFile": "6.4.20-7.jpg"
   },
   {
@@ -4543,7 +4543,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0504.webp",
+    "image": "./schemes_atlas/scheme_0504.webp",
     "originalFile": "6.4.20-8.jpg"
   },
   {
@@ -4552,7 +4552,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.20 Стеклоподъемники",
-    "image": "/schemes_atlas/scheme_0505.webp",
+    "image": "./schemes_atlas/scheme_0505.webp",
     "originalFile": "6.4.20-9.jpg"
   },
   {
@@ -4561,7 +4561,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.21 Система обогрева стекол и зеркал",
-    "image": "/schemes_atlas/scheme_0506.webp",
+    "image": "./schemes_atlas/scheme_0506.webp",
     "originalFile": "6.4.21-1.jpg"
   },
   {
@@ -4570,7 +4570,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.21 Система обогрева стекол и зеркал",
-    "image": "/schemes_atlas/scheme_0507.webp",
+    "image": "./schemes_atlas/scheme_0507.webp",
     "originalFile": "6.4.21-10.jpg"
   },
   {
@@ -4579,7 +4579,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.21 Система обогрева стекол и зеркал",
-    "image": "/schemes_atlas/scheme_0508.webp",
+    "image": "./schemes_atlas/scheme_0508.webp",
     "originalFile": "6.4.21-11.jpg"
   },
   {
@@ -4588,7 +4588,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.21 Система обогрева стекол и зеркал",
-    "image": "/schemes_atlas/scheme_0509.webp",
+    "image": "./schemes_atlas/scheme_0509.webp",
     "originalFile": "6.4.21-2.jpg"
   },
   {
@@ -4597,7 +4597,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.21 Система обогрева стекол и зеркал",
-    "image": "/schemes_atlas/scheme_0510.webp",
+    "image": "./schemes_atlas/scheme_0510.webp",
     "originalFile": "6.4.21-3.jpg"
   },
   {
@@ -4606,7 +4606,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.21 Система обогрева стекол и зеркал",
-    "image": "/schemes_atlas/scheme_0511.webp",
+    "image": "./schemes_atlas/scheme_0511.webp",
     "originalFile": "6.4.21-4.jpg"
   },
   {
@@ -4615,7 +4615,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.21 Система обогрева стекол и зеркал",
-    "image": "/schemes_atlas/scheme_0512.webp",
+    "image": "./schemes_atlas/scheme_0512.webp",
     "originalFile": "6.4.21-5.jpg"
   },
   {
@@ -4624,7 +4624,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.21 Система обогрева стекол и зеркал",
-    "image": "/schemes_atlas/scheme_0513.webp",
+    "image": "./schemes_atlas/scheme_0513.webp",
     "originalFile": "6.4.21-6.jpg"
   },
   {
@@ -4633,7 +4633,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.21 Система обогрева стекол и зеркал",
-    "image": "/schemes_atlas/scheme_0514.webp",
+    "image": "./schemes_atlas/scheme_0514.webp",
     "originalFile": "6.4.21-7.jpg"
   },
   {
@@ -4642,7 +4642,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.21 Система обогрева стекол и зеркал",
-    "image": "/schemes_atlas/scheme_0515.webp",
+    "image": "./schemes_atlas/scheme_0515.webp",
     "originalFile": "6.4.21-8.jpg"
   },
   {
@@ -4651,7 +4651,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.21 Система обогрева стекол и зеркал",
-    "image": "/schemes_atlas/scheme_0516.webp",
+    "image": "./schemes_atlas/scheme_0516.webp",
     "originalFile": "6.4.21-9.jpg"
   },
   {
@@ -4660,7 +4660,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.22 Люк (Панорамная крыша)",
-    "image": "/schemes_atlas/scheme_0517.webp",
+    "image": "./schemes_atlas/scheme_0517.webp",
     "originalFile": "6.4.22-1.jpg"
   },
   {
@@ -4669,7 +4669,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.22 Люк (Панорамная крыша)",
-    "image": "/schemes_atlas/scheme_0518.webp",
+    "image": "./schemes_atlas/scheme_0518.webp",
     "originalFile": "6.4.22-2.jpg"
   },
   {
@@ -4678,7 +4678,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.22 Люк (Панорамная крыша)",
-    "image": "/schemes_atlas/scheme_0519.webp",
+    "image": "./schemes_atlas/scheme_0519.webp",
     "originalFile": "6.4.22-3.jpg"
   },
   {
@@ -4687,7 +4687,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.22 Люк (Панорамная крыша)",
-    "image": "/schemes_atlas/scheme_0520.webp",
+    "image": "./schemes_atlas/scheme_0520.webp",
     "originalFile": "6.4.22-4.jpg"
   },
   {
@@ -4696,7 +4696,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.22 Люк (Панорамная крыша)",
-    "image": "/schemes_atlas/scheme_0521.webp",
+    "image": "./schemes_atlas/scheme_0521.webp",
     "originalFile": "6.4.22-5.jpg"
   },
   {
@@ -4705,7 +4705,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.22 Люк (Панорамная крыша)",
-    "image": "/schemes_atlas/scheme_0522.webp",
+    "image": "./schemes_atlas/scheme_0522.webp",
     "originalFile": "6.4.22-6.jpg"
   },
   {
@@ -4714,7 +4714,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.22 Люк (Панорамная крыша)",
-    "image": "/schemes_atlas/scheme_0523.webp",
+    "image": "./schemes_atlas/scheme_0523.webp",
     "originalFile": "6.4.22-7.jpg"
   },
   {
@@ -4723,7 +4723,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.22 Люк (Панорамная крыша)",
-    "image": "/schemes_atlas/scheme_0524.webp",
+    "image": "./schemes_atlas/scheme_0524.webp",
     "originalFile": "6.4.22-8.jpg"
   },
   {
@@ -4732,7 +4732,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.22 Люк (Панорамная крыша)",
-    "image": "/schemes_atlas/scheme_0525.webp",
+    "image": "./schemes_atlas/scheme_0525.webp",
     "originalFile": "6.4.22-9.jpg"
   },
   {
@@ -4741,7 +4741,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.23 Система помощи парковки",
-    "image": "/schemes_atlas/scheme_0526.webp",
+    "image": "./schemes_atlas/scheme_0526.webp",
     "originalFile": "6.4.23-1.jpg"
   },
   {
@@ -4750,7 +4750,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.23 Система помощи парковки",
-    "image": "/schemes_atlas/scheme_0527.webp",
+    "image": "./schemes_atlas/scheme_0527.webp",
     "originalFile": "6.4.23-2.jpg"
   },
   {
@@ -4759,7 +4759,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.23 Система помощи парковки",
-    "image": "/schemes_atlas/scheme_0528.webp",
+    "image": "./schemes_atlas/scheme_0528.webp",
     "originalFile": "6.4.23-3.jpg"
   },
   {
@@ -4768,7 +4768,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.23 Система помощи парковки",
-    "image": "/schemes_atlas/scheme_0529.webp",
+    "image": "./schemes_atlas/scheme_0529.webp",
     "originalFile": "6.4.23-4.jpg"
   },
   {
@@ -4777,7 +4777,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.24 Блок упр.электр.кузова BDC",
-    "image": "/schemes_atlas/scheme_0530.webp",
+    "image": "./schemes_atlas/scheme_0530.webp",
     "originalFile": "6.4.24-1.jpg"
   },
   {
@@ -4786,7 +4786,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.24 Блок упр.электр.кузова BDC",
-    "image": "/schemes_atlas/scheme_0531.webp",
+    "image": "./schemes_atlas/scheme_0531.webp",
     "originalFile": "6.4.24-2.jpg"
   },
   {
@@ -4795,7 +4795,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.24 Блок упр.электр.кузова BDC",
-    "image": "/schemes_atlas/scheme_0532.webp",
+    "image": "./schemes_atlas/scheme_0532.webp",
     "originalFile": "6.4.24-3.jpg"
   },
   {
@@ -4804,7 +4804,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.24 Блок упр.электр.кузова BDC",
-    "image": "/schemes_atlas/scheme_0533.webp",
+    "image": "./schemes_atlas/scheme_0533.webp",
     "originalFile": "6.4.24-4.jpg"
   },
   {
@@ -4813,7 +4813,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.24 Блок упр.электр.кузова BDC",
-    "image": "/schemes_atlas/scheme_0534.webp",
+    "image": "./schemes_atlas/scheme_0534.webp",
     "originalFile": "6.4.24-5.jpg"
   },
   {
@@ -4822,7 +4822,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.24 Блок упр.электр.кузова BDC",
-    "image": "/schemes_atlas/scheme_0535.webp",
+    "image": "./schemes_atlas/scheme_0535.webp",
     "originalFile": "6.4.24-6.jpg"
   },
   {
@@ -4831,7 +4831,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.24 Блок упр.электр.кузова BDC",
-    "image": "/schemes_atlas/scheme_0536.webp",
+    "image": "./schemes_atlas/scheme_0536.webp",
     "originalFile": "6.4.24-7.jpg"
   },
   {
@@ -4840,7 +4840,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.24 Блок упр.электр.кузова BDC",
-    "image": "/schemes_atlas/scheme_0537.webp",
+    "image": "./schemes_atlas/scheme_0537.webp",
     "originalFile": "6.4.24-8.jpg"
   },
   {
@@ -4849,7 +4849,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.24 Блок упр.электр.кузова BDC",
-    "image": "/schemes_atlas/scheme_0538.webp",
+    "image": "./schemes_atlas/scheme_0538.webp",
     "originalFile": "6.4.24-9.jpg"
   },
   {
@@ -4858,7 +4858,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0539.webp",
+    "image": "./schemes_atlas/scheme_0539.webp",
     "originalFile": "6.4.25-1.jpg"
   },
   {
@@ -4867,7 +4867,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0540.webp",
+    "image": "./schemes_atlas/scheme_0540.webp",
     "originalFile": "6.4.25-10.jpg"
   },
   {
@@ -4876,7 +4876,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0541.webp",
+    "image": "./schemes_atlas/scheme_0541.webp",
     "originalFile": "6.4.25-11.jpg"
   },
   {
@@ -4885,7 +4885,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0542.webp",
+    "image": "./schemes_atlas/scheme_0542.webp",
     "originalFile": "6.4.25-12.jpg"
   },
   {
@@ -4894,7 +4894,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0543.webp",
+    "image": "./schemes_atlas/scheme_0543.webp",
     "originalFile": "6.4.25-13.jpg"
   },
   {
@@ -4903,7 +4903,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0544.webp",
+    "image": "./schemes_atlas/scheme_0544.webp",
     "originalFile": "6.4.25-14.jpg"
   },
   {
@@ -4912,7 +4912,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0545.webp",
+    "image": "./schemes_atlas/scheme_0545.webp",
     "originalFile": "6.4.25-15.jpg"
   },
   {
@@ -4921,7 +4921,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0546.webp",
+    "image": "./schemes_atlas/scheme_0546.webp",
     "originalFile": "6.4.25-16.jpg"
   },
   {
@@ -4930,7 +4930,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0547.webp",
+    "image": "./schemes_atlas/scheme_0547.webp",
     "originalFile": "6.4.25-17.jpg"
   },
   {
@@ -4939,7 +4939,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0548.webp",
+    "image": "./schemes_atlas/scheme_0548.webp",
     "originalFile": "6.4.25-18.jpg"
   },
   {
@@ -4948,7 +4948,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0549.webp",
+    "image": "./schemes_atlas/scheme_0549.webp",
     "originalFile": "6.4.25-19.jpg"
   },
   {
@@ -4957,7 +4957,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0550.webp",
+    "image": "./schemes_atlas/scheme_0550.webp",
     "originalFile": "6.4.25-2.jpg"
   },
   {
@@ -4966,7 +4966,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0551.webp",
+    "image": "./schemes_atlas/scheme_0551.webp",
     "originalFile": "6.4.25-20.jpg"
   },
   {
@@ -4975,7 +4975,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0552.webp",
+    "image": "./schemes_atlas/scheme_0552.webp",
     "originalFile": "6.4.25-21.jpg"
   },
   {
@@ -4984,7 +4984,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0553.webp",
+    "image": "./schemes_atlas/scheme_0553.webp",
     "originalFile": "6.4.25-22.jpg"
   },
   {
@@ -4993,7 +4993,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0554.webp",
+    "image": "./schemes_atlas/scheme_0554.webp",
     "originalFile": "6.4.25-23.jpg"
   },
   {
@@ -5002,7 +5002,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0555.webp",
+    "image": "./schemes_atlas/scheme_0555.webp",
     "originalFile": "6.4.25-24.jpg"
   },
   {
@@ -5011,7 +5011,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0556.webp",
+    "image": "./schemes_atlas/scheme_0556.webp",
     "originalFile": "6.4.25-3.jpg"
   },
   {
@@ -5020,7 +5020,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0557.webp",
+    "image": "./schemes_atlas/scheme_0557.webp",
     "originalFile": "6.4.25-4.jpg"
   },
   {
@@ -5029,7 +5029,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0558.webp",
+    "image": "./schemes_atlas/scheme_0558.webp",
     "originalFile": "6.4.25-5.jpg"
   },
   {
@@ -5038,7 +5038,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0559.webp",
+    "image": "./schemes_atlas/scheme_0559.webp",
     "originalFile": "6.4.25-6.jpg"
   },
   {
@@ -5047,7 +5047,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0560.webp",
+    "image": "./schemes_atlas/scheme_0560.webp",
     "originalFile": "6.4.25-7.jpg"
   },
   {
@@ -5056,7 +5056,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0561.webp",
+    "image": "./schemes_atlas/scheme_0561.webp",
     "originalFile": "6.4.25-8.jpg"
   },
   {
@@ -5065,7 +5065,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.25 Бортовая сетевая система",
-    "image": "/schemes_atlas/scheme_0562.webp",
+    "image": "./schemes_atlas/scheme_0562.webp",
     "originalFile": "6.4.25-9.jpg"
   },
   {
@@ -5074,7 +5074,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0563.webp",
+    "image": "./schemes_atlas/scheme_0563.webp",
     "originalFile": "6.4.26-1.jpg"
   },
   {
@@ -5083,7 +5083,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0564.webp",
+    "image": "./schemes_atlas/scheme_0564.webp",
     "originalFile": "6.4.26-10.jpg"
   },
   {
@@ -5092,7 +5092,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0565.webp",
+    "image": "./schemes_atlas/scheme_0565.webp",
     "originalFile": "6.4.26-11.jpg"
   },
   {
@@ -5101,7 +5101,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0566.webp",
+    "image": "./schemes_atlas/scheme_0566.webp",
     "originalFile": "6.4.26-12.jpg"
   },
   {
@@ -5110,7 +5110,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0567.webp",
+    "image": "./schemes_atlas/scheme_0567.webp",
     "originalFile": "6.4.26-13.jpg"
   },
   {
@@ -5119,7 +5119,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0568.webp",
+    "image": "./schemes_atlas/scheme_0568.webp",
     "originalFile": "6.4.26-2.jpg"
   },
   {
@@ -5128,7 +5128,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0569.webp",
+    "image": "./schemes_atlas/scheme_0569.webp",
     "originalFile": "6.4.26-3.jpg"
   },
   {
@@ -5137,7 +5137,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0570.webp",
+    "image": "./schemes_atlas/scheme_0570.webp",
     "originalFile": "6.4.26-4.jpg"
   },
   {
@@ -5146,7 +5146,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0571.webp",
+    "image": "./schemes_atlas/scheme_0571.webp",
     "originalFile": "6.4.26-5.jpg"
   },
   {
@@ -5155,7 +5155,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0572.webp",
+    "image": "./schemes_atlas/scheme_0572.webp",
     "originalFile": "6.4.26-6.jpg"
   },
   {
@@ -5164,7 +5164,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0573.webp",
+    "image": "./schemes_atlas/scheme_0573.webp",
     "originalFile": "6.4.26-7.jpg"
   },
   {
@@ -5173,7 +5173,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0574.webp",
+    "image": "./schemes_atlas/scheme_0574.webp",
     "originalFile": "6.4.26-8.jpg"
   },
   {
@@ -5182,7 +5182,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.26 Бесключевой доступ",
-    "image": "/schemes_atlas/scheme_0575.webp",
+    "image": "./schemes_atlas/scheme_0575.webp",
     "originalFile": "6.4.26-9.jpg"
   },
   {
@@ -5191,7 +5191,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.27 Круиз-контроль",
-    "image": "/schemes_atlas/scheme_0576.webp",
+    "image": "./schemes_atlas/scheme_0576.webp",
     "originalFile": "6.4.27-1.jpg"
   },
   {
@@ -5200,7 +5200,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.27 Круиз-контроль",
-    "image": "/schemes_atlas/scheme_0577.webp",
+    "image": "./schemes_atlas/scheme_0577.webp",
     "originalFile": "6.4.27-2.jpg"
   },
   {
@@ -5209,7 +5209,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.27 Круиз-контроль",
-    "image": "/schemes_atlas/scheme_0578.webp",
+    "image": "./schemes_atlas/scheme_0578.webp",
     "originalFile": "6.4.27-3.jpg"
   },
   {
@@ -5218,7 +5218,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.27 Круиз-контроль",
-    "image": "/schemes_atlas/scheme_0579.webp",
+    "image": "./schemes_atlas/scheme_0579.webp",
     "originalFile": "6.4.27-4.jpg"
   },
   {
@@ -5227,7 +5227,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "safety_chassis",
     "categoryTitle": "Шасси, тормоза и ассистенты ADAS",
     "section": "6.4.27 Круиз-контроль",
-    "image": "/schemes_atlas/scheme_0580.webp",
+    "image": "./schemes_atlas/scheme_0580.webp",
     "originalFile": "6.4.27-5.jpg"
   },
   {
@@ -5236,7 +5236,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.28 Сидения- обогрев и электропривод",
-    "image": "/schemes_atlas/scheme_0581.webp",
+    "image": "./schemes_atlas/scheme_0581.webp",
     "originalFile": "6.4.28-1.jpg"
   },
   {
@@ -5245,7 +5245,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.28 Сидения- обогрев и электропривод",
-    "image": "/schemes_atlas/scheme_0582.webp",
+    "image": "./schemes_atlas/scheme_0582.webp",
     "originalFile": "6.4.28-10.jpg"
   },
   {
@@ -5254,7 +5254,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.28 Сидения- обогрев и электропривод",
-    "image": "/schemes_atlas/scheme_0583.webp",
+    "image": "./schemes_atlas/scheme_0583.webp",
     "originalFile": "6.4.28-11.jpg"
   },
   {
@@ -5263,7 +5263,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.28 Сидения- обогрев и электропривод",
-    "image": "/schemes_atlas/scheme_0584.webp",
+    "image": "./schemes_atlas/scheme_0584.webp",
     "originalFile": "6.4.28-2.jpg"
   },
   {
@@ -5272,7 +5272,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.28 Сидения- обогрев и электропривод",
-    "image": "/schemes_atlas/scheme_0585.webp",
+    "image": "./schemes_atlas/scheme_0585.webp",
     "originalFile": "6.4.28-3.jpg"
   },
   {
@@ -5281,7 +5281,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.28 Сидения- обогрев и электропривод",
-    "image": "/schemes_atlas/scheme_0586.webp",
+    "image": "./schemes_atlas/scheme_0586.webp",
     "originalFile": "6.4.28-4.jpg"
   },
   {
@@ -5290,7 +5290,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.28 Сидения- обогрев и электропривод",
-    "image": "/schemes_atlas/scheme_0587.webp",
+    "image": "./schemes_atlas/scheme_0587.webp",
     "originalFile": "6.4.28-5.jpg"
   },
   {
@@ -5299,7 +5299,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.28 Сидения- обогрев и электропривод",
-    "image": "/schemes_atlas/scheme_0588.webp",
+    "image": "./schemes_atlas/scheme_0588.webp",
     "originalFile": "6.4.28-6.jpg"
   },
   {
@@ -5308,7 +5308,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.28 Сидения- обогрев и электропривод",
-    "image": "/schemes_atlas/scheme_0589.webp",
+    "image": "./schemes_atlas/scheme_0589.webp",
     "originalFile": "6.4.28-7.jpg"
   },
   {
@@ -5317,7 +5317,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.28 Сидения- обогрев и электропривод",
-    "image": "/schemes_atlas/scheme_0590.webp",
+    "image": "./schemes_atlas/scheme_0590.webp",
     "originalFile": "6.4.28-8.jpg"
   },
   {
@@ -5326,7 +5326,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "climate_comfort",
     "categoryTitle": "Климат-контроль и подогревы",
     "section": "6.4.28 Сидения- обогрев и электропривод",
-    "image": "/schemes_atlas/scheme_0591.webp",
+    "image": "./schemes_atlas/scheme_0591.webp",
     "originalFile": "6.4.28-9.jpg"
   },
   {
@@ -5335,7 +5335,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.29 Дверь багажника с электроприводом",
-    "image": "/schemes_atlas/scheme_0592.webp",
+    "image": "./schemes_atlas/scheme_0592.webp",
     "originalFile": "6.4.29-1.jpg"
   },
   {
@@ -5344,7 +5344,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.29 Дверь багажника с электроприводом",
-    "image": "/schemes_atlas/scheme_0593.webp",
+    "image": "./schemes_atlas/scheme_0593.webp",
     "originalFile": "6.4.29-10.jpg"
   },
   {
@@ -5353,7 +5353,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.29 Дверь багажника с электроприводом",
-    "image": "/schemes_atlas/scheme_0594.webp",
+    "image": "./schemes_atlas/scheme_0594.webp",
     "originalFile": "6.4.29-2.jpg"
   },
   {
@@ -5362,7 +5362,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.29 Дверь багажника с электроприводом",
-    "image": "/schemes_atlas/scheme_0595.webp",
+    "image": "./schemes_atlas/scheme_0595.webp",
     "originalFile": "6.4.29-3.jpg"
   },
   {
@@ -5371,7 +5371,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.29 Дверь багажника с электроприводом",
-    "image": "/schemes_atlas/scheme_0596.webp",
+    "image": "./schemes_atlas/scheme_0596.webp",
     "originalFile": "6.4.29-4.jpg"
   },
   {
@@ -5380,7 +5380,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.29 Дверь багажника с электроприводом",
-    "image": "/schemes_atlas/scheme_0597.webp",
+    "image": "./schemes_atlas/scheme_0597.webp",
     "originalFile": "6.4.29-5.jpg"
   },
   {
@@ -5389,7 +5389,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.29 Дверь багажника с электроприводом",
-    "image": "/schemes_atlas/scheme_0598.webp",
+    "image": "./schemes_atlas/scheme_0598.webp",
     "originalFile": "6.4.29-6.jpg"
   },
   {
@@ -5398,7 +5398,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.29 Дверь багажника с электроприводом",
-    "image": "/schemes_atlas/scheme_0599.webp",
+    "image": "./schemes_atlas/scheme_0599.webp",
     "originalFile": "6.4.29-7.jpg"
   },
   {
@@ -5407,7 +5407,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.29 Дверь багажника с электроприводом",
-    "image": "/schemes_atlas/scheme_0600.webp",
+    "image": "./schemes_atlas/scheme_0600.webp",
     "originalFile": "6.4.29-8.jpg"
   },
   {
@@ -5416,7 +5416,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "lighting_body",
     "categoryTitle": "Освещение и кузовная электрика",
     "section": "6.4.29 Дверь багажника с электроприводом",
-    "image": "/schemes_atlas/scheme_0601.webp",
+    "image": "./schemes_atlas/scheme_0601.webp",
     "originalFile": "6.4.29-9.jpg"
   },
   {
@@ -5425,7 +5425,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.3 Система охлаждения",
-    "image": "/schemes_atlas/scheme_0602.webp",
+    "image": "./schemes_atlas/scheme_0602.webp",
     "originalFile": "6.4.3-1.jpg"
   },
   {
@@ -5434,7 +5434,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.3 Система охлаждения",
-    "image": "/schemes_atlas/scheme_0603.webp",
+    "image": "./schemes_atlas/scheme_0603.webp",
     "originalFile": "6.4.3-2.jpg"
   },
   {
@@ -5443,7 +5443,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.3 Система охлаждения",
-    "image": "/schemes_atlas/scheme_0604.webp",
+    "image": "./schemes_atlas/scheme_0604.webp",
     "originalFile": "6.4.3-3.jpg"
   },
   {
@@ -5452,7 +5452,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.3 Система охлаждения",
-    "image": "/schemes_atlas/scheme_0605.webp",
+    "image": "./schemes_atlas/scheme_0605.webp",
     "originalFile": "6.4.3-4.jpg"
   },
   {
@@ -5461,7 +5461,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.3 Система охлаждения",
-    "image": "/schemes_atlas/scheme_0606.webp",
+    "image": "./schemes_atlas/scheme_0606.webp",
     "originalFile": "6.4.3-5.jpg"
   },
   {
@@ -5470,7 +5470,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.3 Система охлаждения",
-    "image": "/schemes_atlas/scheme_0607.webp",
+    "image": "./schemes_atlas/scheme_0607.webp",
     "originalFile": "6.4.3-6.jpg"
   },
   {
@@ -5479,7 +5479,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.3 Система охлаждения",
-    "image": "/schemes_atlas/scheme_0608.webp",
+    "image": "./schemes_atlas/scheme_0608.webp",
     "originalFile": "6.4.3-7.jpg"
   },
   {
@@ -5488,7 +5488,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.30 Система контроля полосы движения",
-    "image": "/schemes_atlas/scheme_0609.webp",
+    "image": "./schemes_atlas/scheme_0609.webp",
     "originalFile": "6.4.30-1.jpg"
   },
   {
@@ -5497,7 +5497,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.30 Система контроля полосы движения",
-    "image": "/schemes_atlas/scheme_0610.webp",
+    "image": "./schemes_atlas/scheme_0610.webp",
     "originalFile": "6.4.30-2.jpg"
   },
   {
@@ -5506,7 +5506,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.30 Система контроля полосы движения",
-    "image": "/schemes_atlas/scheme_0611.webp",
+    "image": "./schemes_atlas/scheme_0611.webp",
     "originalFile": "6.4.30-3.jpg"
   },
   {
@@ -5515,7 +5515,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.30 Система контроля полосы движения",
-    "image": "/schemes_atlas/scheme_0612.webp",
+    "image": "./schemes_atlas/scheme_0612.webp",
     "originalFile": "6.4.30-4.jpg"
   },
   {
@@ -5524,7 +5524,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.30 Система контроля полосы движения",
-    "image": "/schemes_atlas/scheme_0613.webp",
+    "image": "./schemes_atlas/scheme_0613.webp",
     "originalFile": "6.4.30-5.jpg"
   },
   {
@@ -5533,7 +5533,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.4 Топливная система",
-    "image": "/schemes_atlas/scheme_0614.webp",
+    "image": "./schemes_atlas/scheme_0614.webp",
     "originalFile": "6.4.4-1.jpg"
   },
   {
@@ -5542,7 +5542,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.4 Топливная система",
-    "image": "/schemes_atlas/scheme_0615.webp",
+    "image": "./schemes_atlas/scheme_0615.webp",
     "originalFile": "6.4.4-2.jpg"
   },
   {
@@ -5551,7 +5551,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.4 Топливная система",
-    "image": "/schemes_atlas/scheme_0616.webp",
+    "image": "./schemes_atlas/scheme_0616.webp",
     "originalFile": "6.4.4-3.jpg"
   },
   {
@@ -5560,7 +5560,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.4 Топливная система",
-    "image": "/schemes_atlas/scheme_0617.webp",
+    "image": "./schemes_atlas/scheme_0617.webp",
     "originalFile": "6.4.4-4.jpg"
   },
   {
@@ -5569,7 +5569,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.4 Топливная система",
-    "image": "/schemes_atlas/scheme_0618.webp",
+    "image": "./schemes_atlas/scheme_0618.webp",
     "originalFile": "6.4.4-5.jpg"
   },
   {
@@ -5578,7 +5578,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.4 Топливная система",
-    "image": "/schemes_atlas/scheme_0619.webp",
+    "image": "./schemes_atlas/scheme_0619.webp",
     "originalFile": "6.4.4-6.jpg"
   },
   {
@@ -5587,7 +5587,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.5 Система зажигания",
-    "image": "/schemes_atlas/scheme_0620.webp",
+    "image": "./schemes_atlas/scheme_0620.webp",
     "originalFile": "6.4.5-1.jpg"
   },
   {
@@ -5596,7 +5596,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.5 Система зажигания",
-    "image": "/schemes_atlas/scheme_0621.webp",
+    "image": "./schemes_atlas/scheme_0621.webp",
     "originalFile": "6.4.5-2.jpg"
   },
   {
@@ -5605,7 +5605,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.5 Система зажигания",
-    "image": "/schemes_atlas/scheme_0622.webp",
+    "image": "./schemes_atlas/scheme_0622.webp",
     "originalFile": "6.4.5-3.jpg"
   },
   {
@@ -5614,7 +5614,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.5 Система зажигания",
-    "image": "/schemes_atlas/scheme_0623.webp",
+    "image": "./schemes_atlas/scheme_0623.webp",
     "originalFile": "6.4.5-4.jpg"
   },
   {
@@ -5623,7 +5623,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.5 Система зажигания",
-    "image": "/schemes_atlas/scheme_0624.webp",
+    "image": "./schemes_atlas/scheme_0624.webp",
     "originalFile": "6.4.5-5.jpg"
   },
   {
@@ -5632,7 +5632,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.6 Система запуска",
-    "image": "/schemes_atlas/scheme_0625.webp",
+    "image": "./schemes_atlas/scheme_0625.webp",
     "originalFile": "6.4.6-1.jpg"
   },
   {
@@ -5641,7 +5641,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.6 Система запуска",
-    "image": "/schemes_atlas/scheme_0626.webp",
+    "image": "./schemes_atlas/scheme_0626.webp",
     "originalFile": "6.4.6-2.jpg"
   },
   {
@@ -5650,7 +5650,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.6 Система запуска",
-    "image": "/schemes_atlas/scheme_0627.webp",
+    "image": "./schemes_atlas/scheme_0627.webp",
     "originalFile": "6.4.6-3.jpg"
   },
   {
@@ -5659,7 +5659,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.6 Система запуска",
-    "image": "/schemes_atlas/scheme_0628.webp",
+    "image": "./schemes_atlas/scheme_0628.webp",
     "originalFile": "6.4.6-4.jpg"
   },
   {
@@ -5668,7 +5668,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.6 Система запуска",
-    "image": "/schemes_atlas/scheme_0629.webp",
+    "image": "./schemes_atlas/scheme_0629.webp",
     "originalFile": "6.4.6-5.jpg"
   },
   {
@@ -5677,7 +5677,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.7 Система зарядки",
-    "image": "/schemes_atlas/scheme_0630.webp",
+    "image": "./schemes_atlas/scheme_0630.webp",
     "originalFile": "6.4.7-1.jpg"
   },
   {
@@ -5686,7 +5686,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.7 Система зарядки",
-    "image": "/schemes_atlas/scheme_0631.webp",
+    "image": "./schemes_atlas/scheme_0631.webp",
     "originalFile": "6.4.7-2.jpg"
   },
   {
@@ -5695,7 +5695,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.7 Система зарядки",
-    "image": "/schemes_atlas/scheme_0632.webp",
+    "image": "./schemes_atlas/scheme_0632.webp",
     "originalFile": "6.4.7-3.jpg"
   },
   {
@@ -5704,7 +5704,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.7 Система зарядки",
-    "image": "/schemes_atlas/scheme_0633.webp",
+    "image": "./schemes_atlas/scheme_0633.webp",
     "originalFile": "6.4.7-4.jpg"
   },
   {
@@ -5713,7 +5713,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.7 Система зарядки",
-    "image": "/schemes_atlas/scheme_0634.webp",
+    "image": "./schemes_atlas/scheme_0634.webp",
     "originalFile": "6.4.7-5.jpg"
   },
   {
@@ -5722,7 +5722,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.7 Система зарядки",
-    "image": "/schemes_atlas/scheme_0635.webp",
+    "image": "./schemes_atlas/scheme_0635.webp",
     "originalFile": "6.4.7-6.jpg"
   },
   {
@@ -5731,7 +5731,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0636.webp",
+    "image": "./schemes_atlas/scheme_0636.webp",
     "originalFile": "6.4.8-1.jpg"
   },
   {
@@ -5740,7 +5740,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0637.webp",
+    "image": "./schemes_atlas/scheme_0637.webp",
     "originalFile": "6.4.8-10.jpg"
   },
   {
@@ -5749,7 +5749,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0638.webp",
+    "image": "./schemes_atlas/scheme_0638.webp",
     "originalFile": "6.4.8-11.jpg"
   },
   {
@@ -5758,7 +5758,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0639.webp",
+    "image": "./schemes_atlas/scheme_0639.webp",
     "originalFile": "6.4.8-12.jpg"
   },
   {
@@ -5767,7 +5767,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0640.webp",
+    "image": "./schemes_atlas/scheme_0640.webp",
     "originalFile": "6.4.8-13.jpg"
   },
   {
@@ -5776,7 +5776,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0641.webp",
+    "image": "./schemes_atlas/scheme_0641.webp",
     "originalFile": "6.4.8-14.jpg"
   },
   {
@@ -5785,7 +5785,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0642.webp",
+    "image": "./schemes_atlas/scheme_0642.webp",
     "originalFile": "6.4.8-15.jpg"
   },
   {
@@ -5794,7 +5794,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0643.webp",
+    "image": "./schemes_atlas/scheme_0643.webp",
     "originalFile": "6.4.8-16.jpg"
   },
   {
@@ -5803,7 +5803,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0644.webp",
+    "image": "./schemes_atlas/scheme_0644.webp",
     "originalFile": "6.4.8-17.jpg"
   },
   {
@@ -5812,7 +5812,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0645.webp",
+    "image": "./schemes_atlas/scheme_0645.webp",
     "originalFile": "6.4.8-18.jpg"
   },
   {
@@ -5821,7 +5821,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0646.webp",
+    "image": "./schemes_atlas/scheme_0646.webp",
     "originalFile": "6.4.8-19.jpg"
   },
   {
@@ -5830,7 +5830,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0647.webp",
+    "image": "./schemes_atlas/scheme_0647.webp",
     "originalFile": "6.4.8-2.jpg"
   },
   {
@@ -5839,7 +5839,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0648.webp",
+    "image": "./schemes_atlas/scheme_0648.webp",
     "originalFile": "6.4.8-20.jpg"
   },
   {
@@ -5848,7 +5848,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0649.webp",
+    "image": "./schemes_atlas/scheme_0649.webp",
     "originalFile": "6.4.8-21.jpg"
   },
   {
@@ -5857,7 +5857,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0650.webp",
+    "image": "./schemes_atlas/scheme_0650.webp",
     "originalFile": "6.4.8-22.jpg"
   },
   {
@@ -5866,7 +5866,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0651.webp",
+    "image": "./schemes_atlas/scheme_0651.webp",
     "originalFile": "6.4.8-23.jpg"
   },
   {
@@ -5875,7 +5875,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0652.webp",
+    "image": "./schemes_atlas/scheme_0652.webp",
     "originalFile": "6.4.8-3.jpg"
   },
   {
@@ -5884,7 +5884,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0653.webp",
+    "image": "./schemes_atlas/scheme_0653.webp",
     "originalFile": "6.4.8-4.jpg"
   },
   {
@@ -5893,7 +5893,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0654.webp",
+    "image": "./schemes_atlas/scheme_0654.webp",
     "originalFile": "6.4.8-5.jpg"
   },
   {
@@ -5902,7 +5902,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0655.webp",
+    "image": "./schemes_atlas/scheme_0655.webp",
     "originalFile": "6.4.8-6.jpg"
   },
   {
@@ -5911,7 +5911,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0656.webp",
+    "image": "./schemes_atlas/scheme_0656.webp",
     "originalFile": "6.4.8-7.jpg"
   },
   {
@@ -5920,7 +5920,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0657.webp",
+    "image": "./schemes_atlas/scheme_0657.webp",
     "originalFile": "6.4.8-8.jpg"
   },
   {
@@ -5929,7 +5929,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.8 Система управления двигателем",
-    "image": "/schemes_atlas/scheme_0658.webp",
+    "image": "./schemes_atlas/scheme_0658.webp",
     "originalFile": "6.4.8-9.jpg"
   },
   {
@@ -5938,7 +5938,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0659.webp",
+    "image": "./schemes_atlas/scheme_0659.webp",
     "originalFile": "6.4.9-1.jpg"
   },
   {
@@ -5947,7 +5947,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0660.webp",
+    "image": "./schemes_atlas/scheme_0660.webp",
     "originalFile": "6.4.9-10.jpg"
   },
   {
@@ -5956,7 +5956,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0661.webp",
+    "image": "./schemes_atlas/scheme_0661.webp",
     "originalFile": "6.4.9-11.jpg"
   },
   {
@@ -5965,7 +5965,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0662.webp",
+    "image": "./schemes_atlas/scheme_0662.webp",
     "originalFile": "6.4.9-12.jpg"
   },
   {
@@ -5974,7 +5974,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0663.webp",
+    "image": "./schemes_atlas/scheme_0663.webp",
     "originalFile": "6.4.9-13.jpg"
   },
   {
@@ -5983,7 +5983,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0664.webp",
+    "image": "./schemes_atlas/scheme_0664.webp",
     "originalFile": "6.4.9-14.jpg"
   },
   {
@@ -5992,7 +5992,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0665.webp",
+    "image": "./schemes_atlas/scheme_0665.webp",
     "originalFile": "6.4.9-15.jpg"
   },
   {
@@ -6001,7 +6001,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0666.webp",
+    "image": "./schemes_atlas/scheme_0666.webp",
     "originalFile": "6.4.9-16.jpg"
   },
   {
@@ -6010,7 +6010,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0667.webp",
+    "image": "./schemes_atlas/scheme_0667.webp",
     "originalFile": "6.4.9-2.jpg"
   },
   {
@@ -6019,7 +6019,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0668.webp",
+    "image": "./schemes_atlas/scheme_0668.webp",
     "originalFile": "6.4.9-3.jpg"
   },
   {
@@ -6028,7 +6028,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0669.webp",
+    "image": "./schemes_atlas/scheme_0669.webp",
     "originalFile": "6.4.9-4.jpg"
   },
   {
@@ -6037,7 +6037,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0670.webp",
+    "image": "./schemes_atlas/scheme_0670.webp",
     "originalFile": "6.4.9-5.jpg"
   },
   {
@@ -6046,7 +6046,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0671.webp",
+    "image": "./schemes_atlas/scheme_0671.webp",
     "originalFile": "6.4.9-6.jpg"
   },
   {
@@ -6055,7 +6055,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0672.webp",
+    "image": "./schemes_atlas/scheme_0672.webp",
     "originalFile": "6.4.9-7.jpg"
   },
   {
@@ -6064,7 +6064,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0673.webp",
+    "image": "./schemes_atlas/scheme_0673.webp",
     "originalFile": "6.4.9-8.jpg"
   },
   {
@@ -6073,7 +6073,7 @@ export const SCHEMES_CATALOG: SchemeItem[] = [
     "category": "engine_transmission",
     "categoryTitle": "Двигатель и трансмиссия (7DCT)",
     "section": "6.4.9 Система управления КПП",
-    "image": "/schemes_atlas/scheme_0674.webp",
+    "image": "./schemes_atlas/scheme_0674.webp",
     "originalFile": "6.4.9-9.jpg"
   }
 ];
