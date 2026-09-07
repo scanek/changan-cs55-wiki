@@ -378,6 +378,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
           <button
             type="button"
             onClick={() => setSubTab('procedures')}
+            title="Сервисные калибровки и сбросы"
             className={`flex-shrink-0 lg:flex-shrink flex items-center justify-center space-x-1.5 px-2.5 lg:px-1 xl:px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-all whitespace-nowrap border ${
               subTab === 'procedures'
                 ? 'bg-brand-600 text-white shadow-md shadow-brand-600/20 border-brand-600'
@@ -385,7 +386,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             }`}
           >
             <Cpu className="w-4 h-4 text-emerald-500 flex-shrink-0" />
-            <span>Калибровки<span className="hidden xl:inline"> и сбросы</span></span>
+            <span>Калибровки</span>
             <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'procedures' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
               7
             </span>
