@@ -301,14 +301,14 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
     <div className="space-y-6">
       {/* Top Knowledge Sub-navigation Bar */}
       <div className="flex items-center justify-between flex-wrap gap-3 pb-2 border-b border-slate-200 dark:border-dark-750">
-        <div className="flex items-center space-x-1 sm:space-x-2 overflow-x-auto py-1 scrollbar-none">
+        <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 py-1">
           <button
             type="button"
             onClick={() => setSubTab('fuses')}
             className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${
               subTab === 'fuses'
                 ? 'bg-brand-500 text-white shadow-md shadow-brand-500/20'
-                : 'bg-slate-100 dark:bg-dark-850 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-dark-800'
+                : 'bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 shadow-sm'
             }`}
           >
             <Zap className="w-4 h-4" />
@@ -321,12 +321,12 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${
               subTab === 'atlas'
                 ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20'
-                : 'bg-slate-100 dark:bg-dark-850 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-dark-800'
+                : 'bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 shadow-sm'
             }`}
           >
             <Layers className="w-4 h-4" />
             <span>Атлас схем</span>
-            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-black/20 text-white font-mono">
+            <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${subTab === 'atlas' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
               674
             </span>
           </button>
@@ -337,12 +337,12 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${
               subTab === 'procedures'
                 ? 'bg-emerald-600 text-white shadow-md shadow-emerald-600/20'
-                : 'bg-slate-100 dark:bg-dark-850 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-dark-800'
+                : 'bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 shadow-sm'
             }`}
           >
             <Cpu className="w-4 h-4" />
             <span>Калибровки и сбросы</span>
-            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-black/20 text-white font-mono">
+            <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${subTab === 'procedures' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
               7
             </span>
           </button>
@@ -353,12 +353,12 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${
               subTab === 'manual'
                 ? 'bg-sky-600 text-white shadow-md shadow-sky-600/20'
-                : 'bg-slate-100 dark:bg-dark-850 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-dark-800'
+                : 'bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 shadow-sm'
             }`}
           >
             <FileText className="w-4 h-4" />
             <span>Мануал ТО</span>
-            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-black/20 text-white font-mono">
+            <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${subTab === 'manual' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
               1719 стр
             </span>
           </button>
@@ -369,12 +369,12 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${
               subTab === 'dtc'
                 ? 'bg-amber-500 text-white shadow-md shadow-amber-500/20'
-                : 'bg-slate-100 dark:bg-dark-850 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-dark-800'
+                : 'bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 shadow-sm'
             }`}
           >
             <AlertTriangle className="w-4 h-4" />
             <span>Сканер DTC</span>
-            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-black/20 text-white font-mono">
+            <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${subTab === 'dtc' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
               1391
             </span>
           </button>
@@ -385,7 +385,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${
               subTab === 'specs'
                 ? 'bg-cyan-500 text-white shadow-md shadow-cyan-500/20'
-                : 'bg-slate-100 dark:bg-dark-850 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-dark-800'
+                : 'bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 shadow-sm'
             }`}
           >
             <Droplets className="w-4 h-4" />
@@ -398,12 +398,12 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${
               subTab === 'glossary'
                 ? 'bg-purple-500 text-white shadow-md shadow-purple-500/20'
-                : 'bg-slate-100 dark:bg-dark-850 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-dark-800'
+                : 'bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 shadow-sm'
             }`}
           >
             <BookOpen className="w-4 h-4" />
             <span>Словарь</span>
-            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-black/20 text-white font-mono">
+            <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${subTab === 'glossary' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
               63
             </span>
           </button>
@@ -756,17 +756,17 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             renderBrandFallback('Атлас электросхем и распиновок')
           ) : (
             <div className="space-y-6">
-              <div className="bg-gradient-to-r from-indigo-900/90 via-slate-900/90 to-brand-900/90 text-white rounded-3xl p-5 sm:p-6 border border-indigo-500/30 shadow-xl space-y-4 relative overflow-hidden">
-                <div className="absolute top-0 right-0 -mr-10 -mt-10 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
+              <div className="bg-gradient-to-r from-indigo-600 via-indigo-700 to-brand-700 dark:from-indigo-900/90 dark:via-slate-900/90 dark:to-brand-900/90 text-white rounded-3xl p-5 sm:p-6 border border-indigo-400/30 dark:border-indigo-500/30 shadow-xl space-y-4 relative overflow-hidden">
+                <div className="absolute top-0 right-0 -mr-10 -mt-10 w-48 h-48 bg-white/10 dark:bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                   <div className="space-y-1">
                     <div className="flex items-center space-x-2">
-                      <Archive className="w-5 h-5 text-indigo-400" />
+                      <Archive className="w-5 h-5 text-indigo-200 dark:text-indigo-400" />
                       <h3 className="font-black text-base sm:text-lg">
                         Центр загрузки технической документации Changan
                       </h3>
                     </div>
-                    <p className="text-xs text-slate-300 max-w-2xl leading-relaxed">
+                    <p className="text-xs text-indigo-100 dark:text-slate-300 max-w-2xl leading-relaxed">
                       Официальные заводские материалы CS55 Plus / UNI-S доступны для сохранения на телефон или компьютер в оффлайн-формате.
                     </p>
                   </div>
@@ -775,7 +775,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                     <a
                       href="/downloads/CS55_Plus_Service_Manual.pdf"
                       download="CS55_Plus_Руководство_по_ТО_и_ремонту.pdf"
-                      className="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl bg-indigo-500 hover:bg-indigo-600 text-white text-xs font-bold transition shadow-md shadow-indigo-500/30"
+                      className="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl bg-white text-indigo-900 hover:bg-indigo-50 dark:bg-indigo-500 dark:hover:bg-indigo-600 dark:text-white text-xs font-bold transition shadow-md shadow-indigo-950/20"
                     >
                       <Download className="w-3.5 h-3.5" />
                       <span>Мануал ТО (PDF 32 MB)</span>
@@ -783,7 +783,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                     <a
                       href="/downloads/Changan_CS55_Plus_Wiring_Schemes.zip"
                       download="Changan_CS55_Plus_Электросхемы.zip"
-                      className="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold transition border border-white/20"
+                      className="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl bg-white/15 hover:bg-white/25 text-white text-xs font-bold transition border border-white/20"
                     >
                       <Archive className="w-3.5 h-3.5" />
                       <span>Архив схем (ZIP 50 MB)</span>
@@ -791,7 +791,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                     <a
                       href="/downloads/Changan_UNI-S_DTC_Codes.pdf"
                       download="Коды_ошибок_UNI-S_DTC.pdf"
-                      className="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold transition border border-white/20"
+                      className="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl bg-white/15 hover:bg-white/25 text-white text-xs font-bold transition border border-white/20"
                     >
                       <FileText className="w-3.5 h-3.5" />
                       <span>Коды DTC (PDF)</span>
@@ -826,32 +826,69 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                   )}
                 </div>
 
-                <div className="flex items-center space-x-1.5 overflow-x-auto py-1 scrollbar-none text-xs">
-                  {atlasCategories.map((cat) => {
-                    const isActive = selectedAtlasCat === cat.id;
-                    return (
-                      <button
-                        key={cat.id}
-                        type="button"
-                        onClick={() => {
-                          setSelectedAtlasCat(cat.id);
-                          setAtlasLimit(36);
-                        }}
-                        className={`px-3 py-1.5 rounded-xl font-bold transition whitespace-nowrap flex items-center space-x-1.5 ${
-                          isActive
-                            ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20'
-                            : 'bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 text-slate-600 dark:text-slate-400 hover:border-slate-300 dark:hover:border-dark-700'
-                        }`}
-                      >
-                        <span>{cat.title}</span>
-                        <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-                          isActive ? 'bg-white/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-500'
-                        }`}>
-                          {cat.count}
-                        </span>
-                      </button>
-                    );
-                  })}
+                {/* Категории атласа в 2 строки без горизонтальной прокрутки */}
+                <div className="space-y-2 text-xs">
+                  {/* Строка 1: Основные агрегаты и системы */}
+                  <div className="flex flex-wrap items-center gap-1.5">
+                    {atlasCategories.slice(0, 5).map((cat) => {
+                      const isActive = selectedAtlasCat === cat.id;
+                      return (
+                        <button
+                          key={cat.id}
+                          type="button"
+                          onClick={() => {
+                            setSelectedAtlasCat(cat.id);
+                            setAtlasLimit(36);
+                          }}
+                          className={`px-3 py-1.5 rounded-xl font-bold transition flex items-center space-x-1.5 ${
+                            isActive
+                              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20'
+                              : 'bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:border-indigo-300 dark:hover:border-dark-700 hover:bg-slate-50 dark:hover:bg-dark-800 shadow-sm'
+                          }`}
+                        >
+                          <span>{cat.title}</span>
+                          <span
+                            className={`text-[10px] px-1.5 py-0.5 rounded-full ${
+                              isActive ? 'bg-white/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'
+                            }`}
+                          >
+                            {cat.count}
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </div>
+
+                  {/* Строка 2: Мультимедиа, разъемы, масса и жгуты */}
+                  <div className="flex flex-wrap items-center gap-1.5">
+                    {atlasCategories.slice(5).map((cat) => {
+                      const isActive = selectedAtlasCat === cat.id;
+                      return (
+                        <button
+                          key={cat.id}
+                          type="button"
+                          onClick={() => {
+                            setSelectedAtlasCat(cat.id);
+                            setAtlasLimit(36);
+                          }}
+                          className={`px-3 py-1.5 rounded-xl font-bold transition flex items-center space-x-1.5 ${
+                            isActive
+                              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20'
+                              : 'bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:border-indigo-300 dark:hover:border-dark-700 hover:bg-slate-50 dark:hover:bg-dark-800 shadow-sm'
+                          }`}
+                        >
+                          <span>{cat.title}</span>
+                          <span
+                            className={`text-[10px] px-1.5 py-0.5 rounded-full ${
+                              isActive ? 'bg-white/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'
+                            }`}
+                          >
+                            {cat.count}
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
               </div>
 
@@ -1073,23 +1110,23 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             renderBrandFallback('Навигатор по Сервисному Мануалу')
           ) : (
             <div className="space-y-6">
-              <div className="bg-gradient-to-r from-sky-900/90 via-slate-900/90 to-brand-900/90 text-white rounded-3xl p-5 sm:p-6 border border-sky-500/30 shadow-xl space-y-4">
+              <div className="bg-gradient-to-r from-sky-600 via-sky-700 to-brand-700 dark:from-sky-900/90 dark:via-slate-900/90 dark:to-brand-900/90 text-white rounded-3xl p-5 sm:p-6 border border-sky-400/30 dark:border-sky-500/30 shadow-xl space-y-4">
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                   <div className="space-y-1">
                     <div className="flex items-center space-x-2">
-                      <BookOpen className="w-5 h-5 text-sky-400" />
+                      <BookOpen className="w-5 h-5 text-sky-200 dark:text-sky-400" />
                       <h3 className="font-black text-base sm:text-lg">
                         Интерактивный навигатор по сервисному руководству (1 719 страниц)
                       </h3>
                     </div>
-                    <p className="text-xs text-slate-300 max-w-2xl leading-relaxed">
+                    <p className="text-xs text-sky-100 dark:text-slate-300 max-w-2xl leading-relaxed">
                       Полный дилерский мануал CS55 Plus / UNI-S разбит по 11 главам. Нажмите на любой раздел, и мануал откроется в читалке браузера ровно на нужной странице.
                     </p>
                   </div>
                   <a
                     href="/downloads/CS55_Plus_Service_Manual.pdf"
                     download="CS55_Plus_Руководство_по_ТО_и_ремонту.pdf"
-                    className="inline-flex items-center space-x-1.5 px-4 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-600 text-white text-xs font-bold transition shadow-md shadow-sky-500/30 flex-shrink-0"
+                    className="inline-flex items-center space-x-1.5 px-4 py-2.5 rounded-xl bg-white text-sky-900 hover:bg-sky-50 dark:bg-sky-500 dark:hover:bg-sky-600 dark:text-white text-xs font-bold transition shadow-md shadow-sky-950/20 flex-shrink-0"
                   >
                     <Download className="w-4 h-4" />
                     <span>Скачать весь PDF (32 МБ)</span>
