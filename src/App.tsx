@@ -97,38 +97,40 @@ export const App: React.FC = () => {
 
       {/* Main Container */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-6">
-        {/* Hero Banner with Stats */}
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-600 via-brand-700 to-indigo-800 dark:from-slate-900 dark:via-dark-850 dark:to-slate-900 border border-brand-500/30 dark:border-slate-800 text-white p-6 sm:p-8 shadow-xl shadow-brand-500/5 dark:shadow-none">
-          <div className="absolute -right-16 -bottom-16 w-64 h-64 bg-white/10 dark:bg-brand-500/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="relative z-10 max-w-3xl space-y-3">
-            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white/15 dark:bg-brand-500/20 border border-white/20 dark:border-brand-500/30 text-white dark:text-brand-300 text-xs font-bold backdrop-blur-sm">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>База знаний для одноклубников Changan</span>
+        {/* Compact Hero Banner with Stats */}
+        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-brand-600 via-brand-700 to-indigo-800 dark:from-slate-900 dark:via-dark-850 dark:to-slate-900 border border-brand-500/30 dark:border-dark-750 text-white p-4 sm:p-5 shadow-lg shadow-brand-500/5 dark:shadow-none">
+          <div className="absolute -right-10 -bottom-10 w-44 h-44 bg-white/10 dark:bg-brand-500/10 rounded-full blur-2xl pointer-events-none" />
+          <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div className="space-y-1.5 max-w-xl">
+              <div className="inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded-full bg-white/15 dark:bg-brand-500/20 border border-white/20 dark:border-brand-500/30 text-white dark:text-brand-300 text-[11px] font-bold backdrop-blur-sm">
+                <Sparkles className="w-3 h-3" />
+                <span>Официальные сервисные данные Changan CS55 Plus & UNI-S</span>
+              </div>
+              <h1 className="text-xl sm:text-2xl font-black tracking-tight">
+                База знаний и сервисный справочник
+              </h1>
+              <p className="text-xs text-sky-100 dark:text-slate-300 leading-relaxed">
+                Схемы проводки, распиновка предохранителей, 1 391 код ошибок DTC, калибровки и сервисный мануал 1 719 стр.
+              </p>
             </div>
-            <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight">
-              Электронный справочник <span className="text-sky-200 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-brand-400 dark:to-sky-300">CS55 Plus & UNI</span>
-            </h1>
-            <p className="text-xs sm:text-sm text-sky-100 dark:text-slate-300 leading-relaxed max-w-2xl">
-              Собрали для вас все заводские данные в одном быстром интерактивном приложении: предохранители с подсветкой цепей, заводские электросхемы в векторе SVG, расшифровку 1 391 кода ошибок, скрытые сервисные функции и оглавление мануала.
-            </p>
 
-            {/* Key stats pills */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-3">
-              <div className="p-3 rounded-2xl bg-white/10 dark:bg-white/5 border border-white/20 dark:border-white/10 backdrop-blur-sm">
-                <div className="text-xl font-black text-white dark:text-brand-400">1 391</div>
-                <div className="text-[11px] text-sky-100 dark:text-slate-400">Кодов ошибок DTC</div>
+            {/* Key stats in a neat row */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 flex-shrink-0">
+              <div className="px-3 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center">
+                <div className="text-base sm:text-lg font-black text-white dark:text-brand-400">1 391</div>
+                <div className="text-[10px] text-sky-100 dark:text-slate-400">Кодов DTC</div>
               </div>
-              <div className="p-3 rounded-2xl bg-white/10 dark:bg-white/5 border border-white/20 dark:border-white/10 backdrop-blur-sm">
-                <div className="text-xl font-black text-emerald-300 dark:text-emerald-400">87+</div>
-                <div className="text-[11px] text-sky-100 dark:text-slate-400">Векторных электросхем</div>
+              <div className="px-3 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center">
+                <div className="text-base sm:text-lg font-black text-emerald-300 dark:text-emerald-400">674</div>
+                <div className="text-[10px] text-sky-100 dark:text-slate-400">Схемы WebP</div>
               </div>
-              <div className="p-3 rounded-2xl bg-white/10 dark:bg-white/5 border border-white/20 dark:border-white/10 backdrop-blur-sm">
-                <div className="text-xl font-black text-purple-200 dark:text-purple-400">1 719</div>
-                <div className="text-[11px] text-sky-100 dark:text-slate-400">Страниц мануала</div>
+              <div className="px-3 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center">
+                <div className="text-base sm:text-lg font-black text-purple-200 dark:text-purple-400">1 719</div>
+                <div className="text-[10px] text-sky-100 dark:text-slate-400">Стр. мануала</div>
               </div>
-              <div className="p-3 rounded-2xl bg-white/10 dark:bg-white/5 border border-white/20 dark:border-white/10 backdrop-blur-sm">
-                <div className="text-xl font-black text-amber-300 dark:text-amber-400">4 блока</div>
-                <div className="text-[11px] text-sky-100 dark:text-slate-400">Предохранителей</div>
+              <div className="px-3 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center">
+                <div className="text-base sm:text-lg font-black text-amber-300 dark:text-amber-400">4 блока</div>
+                <div className="text-[10px] text-sky-100 dark:text-slate-400">Предохранителей</div>
               </div>
             </div>
           </div>
