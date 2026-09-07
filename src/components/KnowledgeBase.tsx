@@ -31,7 +31,14 @@ import {
   ShieldAlert,
   ChevronRight,
   Clock,
-  Gauge
+  Gauge,
+  Volume2,
+  Sun,
+  Flame,
+  Sliders,
+  HelpCircle,
+  Monitor,
+  ArrowLeft
 } from 'lucide-react';
 import { FuseBox, FuseItem, SchemeItem } from '../types';
 import { getAssetUrl } from '../utils/assets';
@@ -41,10 +48,10 @@ import { CHANGAN_CS55_PLUS_SPECS } from '../data/vehicleSpecsData';
 import { SCHEMES_CATALOG } from '../data/schemesCatalogData';
 import { SERVICE_PROCEDURES, ServiceProcedure } from '../data/serviceProceduresData';
 import { MANUAL_SECTIONS, ManualSection } from '../data/manualNavigationData';
+import { ARTICLES_DATABASE, WikiArticle } from '../data/articles';
+import { ArticleContentRenderer } from './ArticleContentRenderer';
 
-
-
-type KnowledgeSubTab = 'fuses' | 'atlas' | 'procedures' | 'manual' | 'dtc' | 'specs' | 'glossary';
+type KnowledgeSubTab = 'fuses' | 'atlas' | 'procedures' | 'manual' | 'dtc' | 'specs' | 'glossary' | 'articles';
 
 export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange?: (tab: KnowledgeSubTab) => void }> = ({ initialTab, onTabChange }) => {
   const [subTab, setSubTabState] = useState<KnowledgeSubTab>(initialTab || 'fuses');
@@ -263,6 +270,42 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
     setTimeout(() => setCopiedCode(null), 2000);
   };
 
+  // ARTICLES & DIY STATE
+  const [selectedArticleCategory, setSelectedArticleCategory] = useState<string>('all');
+  const [articleSearchQuery, setArticleSearchQuery] = useState<string>('');
+  const [readingArticleId, setReadingArticleId] = useState<string | null>(null);
+
+  const articleCategories = [
+    { id: 'all', title: 'Все статьи', count: ARTICLES_DATABASE.length },
+    { id: 'headunit', title: '📱 Штатное ГУ и Android', count: ARTICLES_DATABASE.filter((a) => a.category === 'headunit').length },
+    { id: 'audio', title: '🎵 Автозвук и мультимедиа', count: ARTICLES_DATABASE.filter((a) => a.category === 'audio').length },
+    { id: 'optics', title: '💡 Оптика и свет', count: ARTICLES_DATABASE.filter((a) => a.category === 'optics').length },
+    { id: 'automation', title: '🔥 Автоматизация и комфорт', count: ARTICLES_DATABASE.filter((a) => a.category === 'automation').length },
+  ];
+
+  const filteredArticles = useMemo(() => {
+    let list = ARTICLES_DATABASE;
+    if (selectedArticleCategory !== 'all') {
+      list = list.filter((a) => a.category === selectedArticleCategory);
+    }
+    if (articleSearchQuery.trim()) {
+      const q = articleSearchQuery.toLowerCase().trim();
+      list = list.filter(
+        (a) =>
+          a.title.toLowerCase().includes(q) ||
+          a.excerpt.toLowerCase().includes(q) ||
+          a.tags.some((t) => t.toLowerCase().includes(q)) ||
+          a.content.toLowerCase().includes(q)
+      );
+    }
+    return list;
+  }, [selectedArticleCategory, articleSearchQuery]);
+
+  const activeArticle = useMemo(() => {
+    if (!readingArticleId) return null;
+    return ARTICLES_DATABASE.find((a) => a.id === readingArticleId) || null;
+  }, [readingArticleId]);
+
   const renderBrandFallback = (featureTitle: string) => (
     <div className="bg-gradient-to-br from-slate-50 to-brand-50/30 dark:from-dark-850 dark:to-dark-800 border border-slate-200 dark:border-dark-750 rounded-2xl p-6 text-center space-y-4 shadow-sm">
       <div className="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center mx-auto">
@@ -301,7 +344,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
     <div className="space-y-6">
       {/* Top Knowledge Sub-navigation Bar */}
       <div className="flex items-center justify-between flex-wrap gap-3 pb-2 border-b border-slate-200 dark:border-dark-750">
-        <div className="flex lg:grid lg:grid-cols-7 items-center lg:items-stretch gap-1.5 sm:gap-2 py-1 w-full overflow-x-auto lg:overflow-visible scrollbar-none">
+        <div className="flex lg:grid lg:grid-cols-4 xl:grid-cols-8 items-center lg:items-stretch gap-1.5 sm:gap-2 py-1 w-full overflow-x-auto lg:overflow-visible scrollbar-none">
           <button
             type="button"
             onClick={() => setSubTab('fuses')}
@@ -405,6 +448,22 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             <span>Словарь</span>
             <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'glossary' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
               63
+            </span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => { setSubTab('articles'); setReadingArticleId(null); }}
+            className={`flex-shrink-0 lg:flex-shrink flex items-center justify-center space-x-1.5 px-2.5 lg:px-1 xl:px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-all whitespace-nowrap border ${
+              subTab === 'articles'
+                ? 'bg-brand-600 text-white shadow-md shadow-brand-600/20 border-brand-600'
+                : 'bg-white dark:bg-dark-850 border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-dark-800 hover:border-slate-300 dark:hover:border-dark-700 shadow-sm'
+            }`}
+          >
+            <Sparkles className="w-4 h-4 text-amber-500 flex-shrink-0" />
+            <span>Статьи и DIY</span>
+            <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'articles' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
+              9
             </span>
           </button>
         </div>
@@ -1590,6 +1649,236 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
               </div>
             ))}
           </div>
+        </div>
+      )}
+
+      {/* ========================================================================= */}
+      {/* ARTICLES & DIY TECHNICAL GUIDES SECTION */}
+      {/* ========================================================================= */}
+      {subTab === 'articles' && (
+        <div className="space-y-6 animate-fadeIn">
+          {/* If reading single article */}
+          {activeArticle ? (
+            <div className="space-y-6">
+              {/* Back Bar */}
+              <div className="flex flex-wrap items-center justify-between gap-3 bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 p-4 rounded-2xl shadow-sm">
+                <button
+                  type="button"
+                  onClick={() => setReadingArticleId(null)}
+                  className="inline-flex items-center space-x-2 text-xs font-bold text-slate-600 dark:text-slate-400 hover:text-brand-600 dark:hover:text-brand-400 px-3 py-2 rounded-xl bg-slate-100 dark:bg-dark-800 transition"
+                >
+                  <ArrowLeft className="w-4 h-4" />
+                  <span>Все статьи и доработки</span>
+                </button>
+
+                <div className="flex items-center space-x-2">
+                  <a
+                    href={activeArticle.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center space-x-1.5 text-xs font-bold px-3 py-2 rounded-xl bg-brand-50 dark:bg-brand-950/40 text-brand-600 dark:text-brand-400 hover:bg-brand-100 dark:hover:bg-brand-900/40 border border-brand-200 dark:border-brand-800 transition"
+                  >
+                    <span>Оригинал на GD Projects</span>
+                    <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                </div>
+              </div>
+
+              {/* Article Header Card */}
+              <div className="bg-gradient-to-br from-white via-slate-50 to-brand-50/20 dark:from-dark-850 dark:via-dark-850 dark:to-brand-950/20 border border-slate-200 dark:border-dark-750 rounded-2xl p-6 shadow-sm space-y-4">
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="text-xs font-bold px-2.5 py-1 rounded-lg bg-brand-500/10 text-brand-600 dark:text-brand-400 border border-brand-500/20">
+                    {activeArticle.categoryTitle}
+                  </span>
+                  {activeArticle.readTime && (
+                    <span className="text-xs font-mono text-slate-500 dark:text-slate-400 px-2 py-0.5 rounded-lg bg-slate-100 dark:bg-dark-800">
+                      ⏱ {activeArticle.readTime}
+                    </span>
+                  )}
+                  {activeArticle.date && (
+                    <span className="text-xs text-slate-400 dark:text-slate-500">
+                      {activeArticle.date}
+                    </span>
+                  )}
+                </div>
+
+                <h1 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white leading-tight">
+                  {activeArticle.title}
+                </h1>
+
+                <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                  {activeArticle.excerpt}
+                </p>
+
+                <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-200/80 dark:border-dark-750 text-xs">
+                  <div className="flex items-center space-x-2 text-slate-500 dark:text-slate-400">
+                    <span>Автор: <strong className="text-slate-800 dark:text-slate-200 font-semibold">{activeArticle.author || 'Gdenich (GD Projects)'}</strong></span>
+                  </div>
+
+                  <div className="flex flex-wrap items-center gap-1.5">
+                    {activeArticle.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="px-2 py-0.5 rounded-md bg-slate-100 dark:bg-dark-800 text-[11px] text-slate-600 dark:text-slate-400"
+                      >
+                        #{tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* Article Markdown & Code Body */}
+              <div className="bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 rounded-2xl p-6 sm:p-8 shadow-sm">
+                <ArticleContentRenderer content={activeArticle.content} />
+              </div>
+
+              {/* Footer navigation */}
+              <div className="flex justify-between items-center bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 p-4 rounded-2xl shadow-sm">
+                <button
+                  type="button"
+                  onClick={() => setReadingArticleId(null)}
+                  className="inline-flex items-center space-x-2 text-xs font-bold text-slate-600 dark:text-slate-400 hover:text-brand-600 dark:hover:text-brand-400 px-4 py-2 rounded-xl bg-slate-100 dark:bg-dark-800 transition"
+                >
+                  <ArrowLeft className="w-4 h-4" />
+                  <span>Вернуться к каталогу статей</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  className="inline-flex items-center space-x-1.5 text-xs font-bold text-brand-600 dark:text-brand-400 hover:underline px-3 py-2"
+                >
+                  <span>Наверх ↑</span>
+                </button>
+              </div>
+            </div>
+          ) : (
+            /* Catalog Grid View */
+            <div className="space-y-6">
+              {/* Filter & Search Header */}
+              <div className="bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 rounded-2xl p-4 sm:p-5 shadow-sm space-y-4">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                  <div>
+                    <h2 className="text-base sm:text-lg font-black text-slate-900 dark:text-white flex items-center space-x-2">
+                      <Sparkles className="w-5 h-5 text-amber-500" />
+                      <span>Технические статьи, доработки и DIY</span>
+                    </h2>
+                    <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+                      Практические инструкции, распиновки, скрипты и модернизация Changan CS55 Plus / UNI-S от лаборатории GD Projects
+                    </p>
+                  </div>
+                  <div className="text-xs font-mono font-bold text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-dark-800 px-3 py-1.5 rounded-xl self-start sm:self-auto">
+                    Статей: {filteredArticles.length} из {ARTICLES_DATABASE.length}
+                  </div>
+                </div>
+
+                {/* Search Bar */}
+                <div className="relative">
+                  <input
+                    type="text"
+                    value={articleSearchQuery}
+                    onChange={(e) => setArticleSearchQuery(e.target.value)}
+                    placeholder="Поиск по статьям (название, текст, теги, команды)..."
+                    className="w-full bg-slate-50 dark:bg-dark-800 border border-slate-200 dark:border-dark-700 rounded-xl pl-9 pr-8 py-2 text-xs text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-brand-500"
+                  />
+                  <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
+                  {articleSearchQuery && (
+                    <button
+                      type="button"
+                      onClick={() => setArticleSearchQuery('')}
+                      className="absolute right-2.5 top-2 text-slate-400 hover:text-slate-600 dark:hover:text-white p-0.5"
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  )}
+                </div>
+
+                {/* Category Pills */}
+                <div className="flex flex-wrap gap-2 pt-1 border-t border-slate-100 dark:border-dark-800">
+                  {articleCategories.map((cat) => {
+                    const isActive = selectedArticleCategory === cat.id;
+                    return (
+                      <button
+                        key={cat.id}
+                        type="button"
+                        onClick={() => setSelectedArticleCategory(cat.id)}
+                        className={`inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition border ${
+                          isActive
+                            ? 'bg-brand-600 text-white border-brand-600 shadow-sm'
+                            : 'bg-slate-50 dark:bg-dark-800 border-slate-200 dark:border-dark-750 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-dark-750'
+                        }`}
+                      >
+                        <span>{cat.title}</span>
+                        <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono ${isActive ? 'bg-black/20 text-white' : 'bg-slate-200 dark:bg-dark-700 text-slate-600 dark:text-slate-400'}`}>
+                          {cat.count}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Articles Grid */}
+              {filteredArticles.length === 0 ? (
+                <div className="text-center py-12 bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 rounded-2xl">
+                  <Sparkles className="w-8 h-8 text-slate-400 mx-auto mb-2 opacity-50" />
+                  <p className="text-sm font-bold text-slate-700 dark:text-slate-300">Статей по данному запросу не найдено</p>
+                  <p className="text-xs text-slate-400 mt-1">Попробуйте изменить поисковую фразу или категорию</p>
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {filteredArticles.map((art) => (
+                    <div
+                      key={art.id}
+                      onClick={() => { setReadingArticleId(art.id); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                      className="group cursor-pointer bg-white dark:bg-dark-850 border border-slate-200 dark:border-dark-750 hover:border-brand-500/50 rounded-2xl p-5 shadow-sm hover:shadow-md transition flex flex-col justify-between"
+                    >
+                      <div className="space-y-3">
+                        <div className="flex items-center justify-between gap-2">
+                          <span className="text-[11px] font-bold px-2 py-0.5 rounded-md bg-brand-50 dark:bg-brand-950/40 text-brand-600 dark:text-brand-400 border border-brand-200 dark:border-brand-800">
+                            {art.categoryTitle}
+                          </span>
+                          {art.readTime && (
+                            <span className="text-[11px] font-mono text-slate-400">
+                              ⏱ {art.readTime}
+                            </span>
+                          )}
+                        </div>
+
+                        <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition leading-snug line-clamp-2">
+                          {art.title}
+                        </h3>
+
+                        <p className="text-xs text-slate-600 dark:text-slate-400 line-clamp-3 leading-relaxed">
+                          {art.excerpt}
+                        </p>
+                      </div>
+
+                      <div className="pt-4 mt-4 border-t border-slate-100 dark:border-dark-800 flex items-center justify-between text-xs">
+                        <div className="flex flex-wrap gap-1">
+                          {art.tags.slice(0, 2).map((t) => (
+                            <span key={t} className="text-[10px] px-1.5 py-0.5 rounded bg-slate-100 dark:bg-dark-800 text-slate-500">
+                              #{t}
+                            </span>
+                          ))}
+                          {art.tags.length > 2 && (
+                            <span className="text-[10px] text-slate-400 self-center">
+                              +{art.tags.length - 2}
+                            </span>
+                          )}
+                        </div>
+
+                        <span className="text-brand-600 dark:text-brand-400 font-bold group-hover:translate-x-1 transition-transform inline-flex items-center space-x-1">
+                          <span>Читать</span>
+                          <span>→</span>
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
         </div>
       )}
 
