@@ -278,6 +278,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
 
   const articleCategories = [
     { id: 'all', title: 'Все статьи', count: ARTICLES_DATABASE.length },
+    { id: 'transmission', title: '🔧 Трансмиссия и ТО', count: ARTICLES_DATABASE.filter((a) => a.category === 'transmission').length },
     { id: 'electrical', title: '⚡ Электрика и АКБ', count: ARTICLES_DATABASE.filter((a) => a.category === 'electrical').length },
     { id: 'headunit', title: '📱 Штатное ГУ и Android', count: ARTICLES_DATABASE.filter((a) => a.category === 'headunit').length },
     { id: 'audio', title: '🎵 Автозвук и мультимедиа', count: ARTICLES_DATABASE.filter((a) => a.category === 'audio').length },
@@ -1681,7 +1682,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                     rel="noopener noreferrer"
                     className="inline-flex items-center space-x-1.5 text-xs font-bold px-3 py-2 rounded-xl bg-brand-50 dark:bg-brand-950/40 text-brand-600 dark:text-brand-400 hover:bg-brand-100 dark:hover:bg-brand-900/40 border border-brand-200 dark:border-brand-800 transition"
                   >
-                    <span>Оригинал на GD Projects</span>
+                    <span>{activeArticle.sourceUrl.includes('drive2') ? 'Оригинал на DRIVE2' : activeArticle.sourceUrl.includes('github') ? 'Мануал CS55 Wiki' : 'Оригинал статьи'}</span>
                     <ExternalLink className="w-3.5 h-3.5" />
                   </a>
                 </div>
@@ -1721,7 +1722,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
 
                 <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-200/80 dark:border-dark-750 text-xs">
                   <div className="flex items-center space-x-2 text-slate-500 dark:text-slate-400">
-                    <span>Автор: <strong className="text-slate-800 dark:text-slate-200 font-semibold">{activeArticle.author || 'Gdenich (GD Projects)'}</strong></span>
+                    <span>Автор: <strong className="text-slate-800 dark:text-slate-200 font-semibold">{activeArticle.author || 'Сообщество Changan CS55 Plus'}</strong></span>
                   </div>
 
                   <div className="flex flex-wrap items-center gap-1.5">
@@ -1773,7 +1774,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                       <span>Технические статьи, доработки и DIY</span>
                     </h2>
                     <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-                      Практические инструкции, распиновки, скрипты и модернизация Changan CS55 Plus / UNI-S от лаборатории GD Projects
+                      Практические инструкции, распиновки, мануалы по ТО и модернизация Changan CS55 Plus / UNI-S от сообщества владельцев и лаборатории GD Projects
                     </p>
                   </div>
                   <div className="text-xs font-mono font-bold text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-dark-800 px-3 py-1.5 rounded-xl self-start sm:self-auto">
