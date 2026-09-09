@@ -372,7 +372,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             <Layers className="w-4 h-4 text-indigo-500 flex-shrink-0" />
             <span>Атлас схем</span>
             <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'atlas' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
-              674
+              {SCHEMES_CATALOG.length}
             </span>
           </button>
 
@@ -389,7 +389,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             <Cpu className="w-4 h-4 text-emerald-500 flex-shrink-0" />
             <span>Калибровки</span>
             <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'procedures' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
-              7
+              {SERVICE_PROCEDURES.length}
             </span>
           </button>
 
@@ -421,7 +421,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             <AlertTriangle className="w-4 h-4 text-amber-500 flex-shrink-0" />
             <span>Сканер DTC</span>
             <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'dtc' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
-              1391
+              {DTC_CODES_DATABASE.length}
             </span>
           </button>
 
@@ -450,7 +450,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             <BookOpen className="w-4 h-4 text-purple-500 flex-shrink-0" />
             <span>Словарь</span>
             <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'glossary' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
-              63
+              {SYSTEM_GLOSSARY.length}
             </span>
           </button>
 
@@ -466,7 +466,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             <Sparkles className="w-4 h-4 text-amber-500 flex-shrink-0" />
             <span>Статьи и DIY</span>
             <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono flex-shrink-0 ${subTab === 'articles' ? 'bg-black/20 text-white' : 'bg-slate-100 dark:bg-dark-750 text-slate-600 dark:text-slate-400'}`}>
-              9
+              {ARTICLES_DATABASE.length}
             </span>
           </button>
         </div>

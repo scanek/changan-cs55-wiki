@@ -20,6 +20,10 @@ import {
   Heart
 } from 'lucide-react';
 import { KnowledgeBase } from './components/KnowledgeBase';
+import { DTC_CODES_DATABASE } from './data/dtcCodesData';
+import { SCHEMES_CATALOG } from './data/schemesCatalogData';
+import { SERVICE_PROCEDURES } from './data/serviceProceduresData';
+import { ARTICLES_DATABASE } from './data/articles';
 
 export const App: React.FC = () => {
   const [theme, setTheme] = useState<'dark' | 'light'>(() => {
@@ -110,27 +114,31 @@ export const App: React.FC = () => {
                 База знаний и сервисный справочник
               </h1>
               <p className="text-xs text-sky-100 dark:text-slate-300 leading-relaxed">
-                Схемы проводки, распиновка предохранителей, 1 391 код DTC, калибровки, сервисный мануал 1 719 стр. и технические статьи GD Projects.
+                Схемы проводки, распиновка предохранителей, {DTC_CODES_DATABASE.length.toLocaleString('ru-RU')} кодов DTC, {SERVICE_PROCEDURES.length} сервисных калибровок, мануал 1 719 стр. и {ARTICLES_DATABASE.length} практических статей.
               </p>
             </div>
 
             {/* Key stats in a neat row */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 flex-shrink-0">
-              <div className="px-3 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center">
-                <div className="text-base sm:text-lg font-black text-white dark:text-brand-400">1 391</div>
+            <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 flex-shrink-0">
+              <div className="px-2.5 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center">
+                <div className="text-base sm:text-lg font-black text-white dark:text-brand-400">{DTC_CODES_DATABASE.length.toLocaleString('ru-RU')}</div>
                 <div className="text-[10px] text-sky-100 dark:text-slate-400">Кодов DTC</div>
               </div>
-              <div className="px-3 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center">
-                <div className="text-base sm:text-lg font-black text-emerald-300 dark:text-emerald-400">674</div>
-                <div className="text-[10px] text-sky-100 dark:text-slate-400">Схемы WebP</div>
+              <div className="px-2.5 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center">
+                <div className="text-base sm:text-lg font-black text-emerald-300 dark:text-emerald-400">{SCHEMES_CATALOG.length}</div>
+                <div className="text-[10px] text-sky-100 dark:text-slate-400">Схем WebP</div>
               </div>
-              <div className="px-3 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center">
+              <div className="px-2.5 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center">
+                <div className="text-base sm:text-lg font-black text-amber-300 dark:text-amber-400">{SERVICE_PROCEDURES.length}</div>
+                <div className="text-[10px] text-sky-100 dark:text-slate-400">Калибровок</div>
+              </div>
+              <div className="px-2.5 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center">
+                <div className="text-base sm:text-lg font-black text-rose-300 dark:text-rose-400">{ARTICLES_DATABASE.length}</div>
+                <div className="text-[10px] text-sky-100 dark:text-slate-400">Статей & DIY</div>
+              </div>
+              <div className="px-2.5 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center col-span-2 sm:col-span-1">
                 <div className="text-base sm:text-lg font-black text-purple-200 dark:text-purple-400">1 719</div>
                 <div className="text-[10px] text-sky-100 dark:text-slate-400">Стр. мануала</div>
-              </div>
-              <div className="px-3 py-2 rounded-xl bg-white/10 dark:bg-white/5 border border-white/15 dark:border-white/10 backdrop-blur-sm text-center">
-                <div className="text-base sm:text-lg font-black text-amber-300 dark:text-amber-400">4 блока</div>
-                <div className="text-[10px] text-sky-100 dark:text-slate-400">Предохранителей</div>
               </div>
             </div>
           </div>
