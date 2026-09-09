@@ -278,6 +278,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
 
   const articleCategories = [
     { id: 'all', title: 'Все статьи', count: ARTICLES_DATABASE.length },
+    { id: 'electrical', title: '⚡ Электрика и АКБ', count: ARTICLES_DATABASE.filter((a) => a.category === 'electrical').length },
     { id: 'headunit', title: '📱 Штатное ГУ и Android', count: ARTICLES_DATABASE.filter((a) => a.category === 'headunit').length },
     { id: 'audio', title: '🎵 Автозвук и мультимедиа', count: ARTICLES_DATABASE.filter((a) => a.category === 'audio').length },
     { id: 'optics', title: '💡 Оптика и свет', count: ARTICLES_DATABASE.filter((a) => a.category === 'optics').length },

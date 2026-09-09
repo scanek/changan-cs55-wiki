@@ -220,7 +220,54 @@ export const ArticleContentRenderer: React.FC<ArticleContentRendererProps> = ({ 
           );
         }
 
-        // 6. Unordered List
+        // 6. Markdown Table (| Header | Header |)
+        if (trimmed.startsWith('|') && trimmed.includes('\n|')) {
+          const lines = trimmed.split('\n').map((l) => l.trim()).filter((l) => l.startsWith('|'));
+          if (lines.length >= 2) {
+            const headerLine = lines[0];
+            const isSeparator = (l: string) => /^\|[\s\-:|]+\|$/.test(l);
+            const dataLines = lines.slice(1).filter((l) => !isSeparator(l));
+
+            const parseCells = (row: string) =>
+              row
+                .split('|')
+                .slice(1, -1)
+                .map((c) => c.trim());
+            const headers = parseCells(headerLine);
+
+            return (
+              <div key={idx} className="my-4 overflow-x-auto rounded-2xl border border-slate-200 dark:border-dark-750 shadow-sm">
+                <table className="w-full text-left border-collapse text-xs sm:text-sm">
+                  <thead>
+                    <tr className="bg-slate-100 dark:bg-dark-800 border-b border-slate-200 dark:border-dark-700 text-slate-900 dark:text-white font-bold">
+                      {headers.map((h, hIdx) => (
+                        <th key={hIdx} className="px-3.5 py-2.5 whitespace-nowrap">
+                          {renderInline(h)}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100 dark:divide-dark-750 bg-white dark:bg-dark-850">
+                    {dataLines.map((row, rIdx) => {
+                      const cells = parseCells(row);
+                      return (
+                        <tr key={rIdx} className="hover:bg-slate-50 dark:hover:bg-dark-800/50 transition-colors">
+                          {cells.map((c, cIdx) => (
+                            <td key={cIdx} className="px-3.5 py-2.5 text-slate-700 dark:text-slate-300">
+                              {renderInline(c)}
+                            </td>
+                          ))}
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            );
+          }
+        }
+
+        // 7. Unordered List
         if (trimmed.startsWith('* ') || trimmed.startsWith('- ')) {
           const items = trimmed.split(/\n/).filter((l) => l.trim().startsWith('* ') || l.trim().startsWith('- '));
           return (
