@@ -1510,7 +1510,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
             renderBrandFallback('Заправочные объемы и регламент ТО')
           ) : (
             <div className="space-y-6">
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5">
                 {CHANGAN_CS55_PLUS_SPECS.map((cat) => {
                   const isActive = cat.id === activeSpecCategory;
                   return (
@@ -1538,6 +1538,7 @@ export const KnowledgeBase: React.FC<{ initialTab?: KnowledgeSubTab; onTabChange
                           {cat.id === 'fluids' && <Droplets className="w-4 h-4" />}
                           {cat.id === 'torques' && <Wrench className="w-4 h-4" />}
                           {cat.id === 'wheels' && <Disc className="w-4 h-4" />}
+                          {cat.id === 'alignment' && <Compass className="w-4 h-4" />}
                           {cat.id === 'consumables_guide' && <CheckCircle2 className="w-4 h-4" />}
                         </span>
                         <span className="text-[11px] font-bold text-slate-400">
